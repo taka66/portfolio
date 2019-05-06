@@ -1,7 +1,6 @@
 <template>
-  <section class="container">
-    <Header class="header" />
-    <div class="content">
+  <section>
+    <div>
       <h1 class="title">
         <p>UI / UX Engineer</p>
         <span>TAKAHIRO FUJII</span>
@@ -96,51 +95,14 @@
         gentrify.
       </p>
     </div>
-    <Footer class="footer" />
   </section>
 </template>
 
 <script>
-import Header from '~/components/organisms/Header.vue'
-import Footer from '~/components/organisms/Footer.vue'
-export default {
-  components: {
-    Header,
-    Footer
-  }
-}
+export default {}
 </script>
 
 <style lang="scss">
-.container {
-  // min-height: 100vh;
-  height: 100vh;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-image: url('../../assets/logo-neon.png');
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.header {
-  height: 50px;
-  width: 100%;
-  background-color: #dcdcdc;
-}
-
-.content {
-  overflow-y: auto;
-}
-
-.footer {
-  height: 50px;
-  width: 100%;
-  background-color: #dcdcdc;
-}
-
 .title {
   font-family: 'PT Sans', 'Quicksand', 'Source Sans Pro', -apple-system,
     BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* 1 */

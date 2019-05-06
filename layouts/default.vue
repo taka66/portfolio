@@ -1,10 +1,23 @@
 <template>
-  <div>
-    <nuxt />
+  <div class="container">
+    <Header class="header" />
+    <nuxt class="content" />
+    <Footer class="footer" />
   </div>
 </template>
 
-<style>
+<script>
+import Header from '~/components/organisms/Header.vue'
+import Footer from '~/components/organisms/Footer.vue'
+export default {
+  components: {
+    Header,
+    Footer
+  }
+}
+</script>
+
+<style lang="scss">
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -22,6 +35,35 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.container {
+  // min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url('../assets/logo-neon.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #dcdcdc;
+}
+
+.content {
+  overflow-y: auto;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background-color: #dcdcdc;
 }
 
 .button--green {
