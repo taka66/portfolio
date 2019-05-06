@@ -2,12 +2,28 @@
   <div class="header-container">
     <div class="header-title">
       <img class="header-logo" src="~/assets/logo.png" />
-      <p class="header-name">takahirofujii.com</p>
+      <p class="header-name">
+        <NuxtLink class="header-link" :to="$i18n.path('')" exact>
+          takahirofujii.com
+        </NuxtLink>
+      </p>
     </div>
     <ul class="header-menu">
-      <li>{{ $t('header.about') }}</li>
-      <li>{{ $t('header.works') }}</li>
-      <li>Articles</li>
+      <li>
+        <NuxtLink class="header-link" :to="$i18n.path('about')" exact>
+          {{ $t('header.about') }}
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink class="header-link" :to="$i18n.path('works')" exact>
+          {{ $t('header.works') }}
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink class="header-link" :to="$i18n.path('articles')" exact>
+          {{ $t('header.articles') }}
+        </NuxtLink>
+      </li>
     </ul>
   </div>
 </template>
@@ -34,6 +50,22 @@ export default {}
 .header-name {
   padding-left: 10px;
 }
+.header-link {
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+.header-link:link {
+  color: #c0c6c9; //Haiao
+}
+.header-link:visited {
+  color: #c0c6c9; //Haiao
+}
+.header-link:hover {
+  color: #38a1db; //Tsuyukusa
+  transform: rotate(5deg);
+}
+
 .header-menu {
   margin: 0;
   padding: 0;

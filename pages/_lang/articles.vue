@@ -1,7 +1,7 @@
 <template>
   <section>
     <div>
-      test
+      article
     </div>
   </section>
 </template>

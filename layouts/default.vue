@@ -53,7 +53,7 @@ html {
 .header {
   height: 50px;
   width: 100%;
-  background-color: #dcdcdc;
+  // background-color: #dcdcdc;
 }
 
 .content {
@@ -63,7 +63,7 @@ html {
 .footer {
   height: 50px;
   width: 100%;
-  background-color: #dcdcdc;
+  // background-color: #dcdcdc;
 }
 
 .button--green {

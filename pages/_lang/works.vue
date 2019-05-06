@@ -1,7 +1,7 @@
 <template>
   <section>
     <div>
-      test
+      Works
     </div>
   </section>
 </template>
