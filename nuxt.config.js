@@ -57,6 +57,19 @@ export default {
           exclude: /(node_modules)/
         })
       }
+      config.module.rules.push({
+        test: /\.md$/,
+        exclude: /(node_modules|bower_components)/,
+        use: [
+          'vue-loader',
+          {
+            loader: 'markdown-to-vue-loader',
+            options: {
+              exportSource: true
+            }
+          }
+        ]
+      })
     }
   }
 }

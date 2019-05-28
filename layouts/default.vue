@@ -43,7 +43,6 @@ html {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  align-items: center;
   text-align: center;
   background-image: url('../assets/logo-neon.png');
   background-repeat: no-repeat;
@@ -53,17 +52,18 @@ html {
 .header {
   height: 50px;
   width: 100%;
-  // background-color: #dcdcdc;
+  background-color: #dcdcdc;
 }
 
 .content {
   overflow-y: auto;
+  // width: 100%;
 }
 
 .footer {
   height: 50px;
   width: 100%;
-  // background-color: #dcdcdc;
+  background-color: #dcdcdc;
 }
 
 .button--green {

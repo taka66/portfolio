@@ -1,9 +1,8 @@
 <template>
-  <section>
-    <div>
-      Works
-    </div>
-  </section>
+  <div class="markdown">
+    test
+    <!-- <div v-html="compiledMarkdownText" /> -->
+  </div>
 </template>
 
 <script>
