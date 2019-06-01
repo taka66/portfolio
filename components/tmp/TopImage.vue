@@ -19,7 +19,7 @@ export default {}
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  height: 50%;
+  height: 80%;
   color: #fffffc;
 }
 
