@@ -5,7 +5,7 @@
       UI / UX エンジニア 兼 エンジニアリングマネージャ<br />
       <br />
       オンライン旅行予約システム(楽天トラベル)の開発に従事。<br />
-      エンジニアリングマネージャとして、次世代のシステム開発に挑戦している。<br />
+      エンジニアリングマネージャとして、サービス/組織開発に携わっている。<br />
       <br />
       大学卒業後、楽天に入社。楽天トラベルの開発に配属。<br />
       国際業務チームにて、海外ホテルの予約システムや管理画面、経理システム、インバウンドサイト、外部システム連携等の開発、立ち上げに参画。<br />
@@ -22,9 +22,10 @@
         <div class="row-left">
           <a
             class="link"
+            target="_brank"
             href="https://corp.rakuten.co.jp/careers/interview/takahiro/"
           >
-            <span class="cell">Rakuten</span>
+            <span class="company cell">Rakuten</span>
           </a>
           <span class="cell">XXX Group</span>
         </div>
@@ -35,7 +36,7 @@
       </div>
       <div class="row">
         <div class="row-left">
-          <span class="cell">Rakuten</span>
+          <span class="company cell">Rakuten</span>
           <span class="cell">UI Service Development Group</span>
         </div>
         <div class="row-right">
@@ -45,7 +46,7 @@
       </div>
       <div class="row">
         <div class="row-left">
-          <span class="cell">Rakuten</span>
+          <span class="company cell">Rakuten</span>
         </div>
         <div class="row-right">
           <span class="cell">Engineer </span>
@@ -54,7 +55,7 @@
       </div>
       <div class="row">
         <div class="row-left">
-          <span class="cell">Ishijima Lab</span>
+          <span class="company cell">Ishijima Lab</span>
         </div>
         <div class="row-right">
           <span class="cell">Lab member</span>
@@ -64,7 +65,7 @@
       <div class="row">
         <div class="row-left">
           <a class="link" href="https://goodpatch.com/blog/designers-gym/">
-            <span class="cell">Designers Lab(Good Patch)</span>
+            <span class="company cell">Designers Lab(Good Patch)</span>
           </a>
         </div>
         <div class="row-right">
@@ -75,7 +76,7 @@
       <div class="row">
         <div class="row-left">
           <a class="link" href="https://koikijs.github.io/">
-            <span class="cell">Koiki</span>
+            <span class="company cell">Koiki</span>
           </a>
         </div>
         <div class="row-right">
@@ -85,11 +86,41 @@
       </div>
       <div class="row">
         <div class="row-left">
-          <span class="cell">Tokyo University Of Science</span>
+          <span class="company cell">Tokyo University Of Science</span>
         </div>
         <div class="row-right">
           <span class="cell">Mathematical information science</span>
           <span class="cell">2007 - 2010</span>
+        </div>
+      </div>
+    </div>
+    <div class="bio">
+      <h3>賞歴</h3>
+      <div class="row">
+        <div class="row-left">
+          <span class="company cell">Rakuten</span>
+        </div>
+        <div class="row-right">
+          <span class="cell">Rakuten Travel MVP Award</span>
+          <span class="cell">2014/11</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left">
+          <span class="company cell">Rakuten</span>
+        </div>
+        <div class="row-right">
+          <span class="cell">Rakuten Travel MVP Award</span>
+          <span class="cell">2016/05</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left">
+          <span class="company cell">Rakuten</span>
+        </div>
+        <div class="row-right">
+          <span class="cell">Rakuten Travel MVP Award</span>
+          <span class="cell">2018/01</span>
         </div>
       </div>
     </div>
@@ -119,15 +150,15 @@ export default {
 .link {
   color: #373c38;
 }
+.company {
+  font-weight: bold;
+}
 .cell {
   text-align: left;
   padding-right: 20px;
 }
 .row {
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding: 20px 0px;
   margin: 0 auto;
   width: 80%;
   display: flex;
@@ -138,6 +169,8 @@ export default {
 .row-left {
   min-width: 50%;
   text-align: left;
+  display: flex;
+  justify-content: space-between;
 }
 .row-right {
   min-width: 50%;
@@ -146,6 +179,11 @@ export default {
 }
 @media (max-width: 768px) {
   .row {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+  }
+  .row-left {
     flex-direction: column;
     align-items: start;
     justify-content: start;
