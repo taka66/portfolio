@@ -102,7 +102,16 @@
         </div>
         <div class="row-right">
           <span class="cell">Rakuten Travel MVP Award</span>
-          <span class="cell">2014/11</span>
+          <span class="cell">2018/01</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left">
+          <span class="company cell">Rakuten</span>
+        </div>
+        <div class="row-right">
+          <span class="cell">Rakuten Development Project Garnd Award * 2</span>
+          <span class="cell">2017</span>
         </div>
       </div>
       <div class="row">
@@ -119,8 +128,26 @@
           <span class="company cell">Rakuten</span>
         </div>
         <div class="row-right">
+          <span class="cell">Rakuten Development Project Grand Award</span>
+          <span class="cell">2016</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left">
+          <span class="company cell">Rakuten</span>
+        </div>
+        <div class="row-right">
+          <span class="cell">Rakuten Development Project Grand Award</span>
+          <span class="cell">2015</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left">
+          <span class="company cell">Rakuten</span>
+        </div>
+        <div class="row-right">
           <span class="cell">Rakuten Travel MVP Award</span>
-          <span class="cell">2018/01</span>
+          <span class="cell">2014/11</span>
         </div>
       </div>
     </div>
