@@ -3,7 +3,9 @@
     <div class="bio">
       <h3>主な発表・公演</h3>
       <div class="flex">
-        <img class="thumbnail" src="~/assets/test.jpg" />
+        <a href="https://goodpatch.com/blog/designers-gym/">
+          <img class="thumbnail" src="~/assets/test.jpg" />
+        </a>
         <img class="thumbnail" src="~/assets/test.jpg" />
         <img class="thumbnail" src="~/assets/test.jpg" />
         <img class="thumbnail" src="~/assets/test.jpg" />
@@ -72,5 +74,9 @@ export default {}
 .thumbnail {
   max-width: 50%;
   height: auto;
+}
+a:hover .thumbnail {
+  opacity: 0.7;
+  transition-duration: 0.3s;
 }
 </style>
