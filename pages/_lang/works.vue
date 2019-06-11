@@ -5,6 +5,8 @@
       <div class="flex">
         <img class="thumbnail" src="~/assets/test.jpg" />
         <img class="thumbnail" src="~/assets/test.jpg" />
+        <img class="thumbnail" src="~/assets/test.jpg" />
+        <img class="thumbnail" src="~/assets/test.jpg" />
       </div>
 
       <div class="row">
@@ -64,6 +66,8 @@ export default {}
 <style lang="scss">
 .flex {
   display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 .thumbnail {
   max-width: 50%;
