@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="about">
     <TopImage />
     <p class="about-description">
       UI / UX エンジニア 兼 エンジニアリングマネージャ<br />

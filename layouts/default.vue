@@ -1,8 +1,10 @@
 <template>
   <div class="container">
     <Header class="header" />
-    <nuxt class="content" />
-    <Footer class="footer" />
+    <div class="content">
+      <nuxt />
+      <Footer class="footer" />
+    </div>
   </div>
 </template>
 
@@ -57,11 +59,10 @@ html {
 
 .content {
   overflow-y: auto;
-  // width: 100%;
 }
 
 .footer {
-  height: 50px;
+  height: 30px;
   width: 100%;
   // background-color: #dcdcdc;
 }

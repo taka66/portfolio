@@ -19,12 +19,13 @@ export default {}
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  height: 80%;
+  height: 400px;
   color: #fffffc;
 }
 
 .top-image-title {
   font-size: 60px;
   color: #fffffc;
+  margin-bottom: 20px;
 }
 </style>

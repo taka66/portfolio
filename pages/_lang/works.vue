@@ -142,4 +142,14 @@ a:hover .thumbnail {
   opacity: 0.7;
   transition-duration: 0.3s;
 }
+
+@media (max-width: 768px) {
+  .flex {
+    width: 100%;
+  }
+  .card {
+    padding: 20px 0px;
+    width: 100%;
+  }
+}
 </style>

@@ -1,12 +1,12 @@
 <template>
   <div class="header-container">
     <div class="header-title">
-      <img class="header-logo" src="~/assets/logo.png" />
-      <p class="header-name">
-        <NuxtLink class="header-link" :to="$i18n.path('')" exact>
+      <NuxtLink class="header-link" :to="$i18n.path('')" exact>
+        <img class="header-logo" src="~/assets/logo.png" />
+        <p class="header-name">
           takahirofujii.com
-        </NuxtLink>
-      </p>
+        </p>
+      </NuxtLink>
     </div>
     <ul class="header-menu">
       <li>
@@ -45,14 +45,14 @@ export default {}
 }
 .header-title {
   display: flex;
-  align-items: center;
 }
 .header-name {
   padding-left: 10px;
+  margin: 5px 0px;
 }
 .header-link {
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   transition: 0.3s;
 }
 .header-link:link {
