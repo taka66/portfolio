@@ -148,7 +148,7 @@ a:hover .thumbnail {
     width: 100%;
   }
   .card {
-    padding: 20px 0px;
+    padding: 15px 0px;
     width: 100%;
   }
 }
