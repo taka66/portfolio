@@ -27,7 +27,7 @@
           >
             <span class="company cell">Rakuten</span>
           </a>
-          <span class="cell">XXX Group</span>
+          <span class="cell">Rakuten Travel Innovation Section</span>
         </div>
         <div class="row-right">
           <span class="cell">Engineering Manager / FrontEnd Engineer</span>

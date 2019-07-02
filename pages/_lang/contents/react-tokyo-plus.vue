@@ -1,11 +1,17 @@
 <template>
   <div class="test">
+    <Card name="test" />
     react meetup tokyo
   </div>
 </template>
 
 <script>
-export default {}
+import Card from '~/components/organisms/Card.vue'
+export default {
+  components: {
+    Card
+  }
+}
 </script>
 
 <style lang="scss">
