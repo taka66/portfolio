@@ -3,110 +3,60 @@
     <div class="bio">
       <h3>主な発表・公演</h3>
       <div class="flex">
-        <div class="card">
-          <NuxtLink
-            class="thumbnail-link"
-            :to="$i18n.path('contents/react-tokyo-plus')"
-            exact
-          >
-            <img class="thumbnail" src="~/assets/test.jpg" />
-            <p>2019</p>
-            <p>React Tokyo Plus</p>
-            <p>
-              Large react product with 20+ FrontEnd Engineers in Rakuten Travel
-            </p>
-          </NuxtLink>
-        </div>
-        <div class="card">
-          <NuxtLink
-            class="thumbnail-link"
-            :to="$i18n.path('contents/travel-frontend-react')"
-            exact
-          >
-            <img class="thumbnail" src="~/assets/test.jpg" />
-            <p>2019</p>
-            <p>React Meetup</p>
-            <p>楽天トラベルのフロントエンドについて</p>
-          </NuxtLink>
-        </div>
-        <div class="card">
-          <NuxtLink
-            class="thumbnail-link"
-            :to="$i18n.path('contents/microservice-meetup')"
-            exact
-          >
-            <img class="thumbnail" src="~/assets/test.jpg" />
-            <p>2018</p>
-            <p>Microservice Meetup Vol.6</p>
-            <p>
-              FrontEndからみるmicroserviceとBackendからみるmicroservice
-            </p>
-          </NuxtLink>
-        </div>
-        <div class="card">
-          <NuxtLink
-            class="thumbnail-link"
-            :to="$i18n.path('contents/tokyo-university-of-science-class')"
-            exact
-          >
-            <img class="thumbnail" src="~/assets/test.jpg" />
-            <p>2017</p>
-            <p>東京理科大学 - 公演</p>
-            <p>
-              グローバルな環境におけるエンジニアのキャリア形成
-            </p>
-          </NuxtLink>
-        </div>
-        <div class="card">
-          <NuxtLink
-            class="thumbnail-link"
-            :to="$i18n.path('contents/tokyo-university-of-science-article')"
-            exact
-          >
-            <img class="thumbnail" src="~/assets/test.jpg" />
-            <p>2017</p>
-            <p>東京理科大学 - 寄稿(科学フォーラム)</p>
-            <p>
-              好きなことを仕事にする
-            </p>
-          </NuxtLink>
-        </div>
-        <div class="card">
-          <NuxtLink
-            class="thumbnail-link"
-            :to="$i18n.path('contents/travel-spring')"
-            exact
-          >
-            <img class="thumbnail" src="~/assets/test.jpg" />
-            <p>2016</p>
-            <p>Spring Day 2016</p>
-            <p>
-              楽天トラベルとSpring
-            </p>
-          </NuxtLink>
-        </div>
-        <div class="card">
-          <NuxtLink
-            class="thumbnail-link"
-            :to="$i18n.path('contents/jsug-spring-rest-docs')"
-            exact
-          >
-            <img class="thumbnail" src="~/assets/test.jpg" />
-            <p>2015</p>
-            <p>JSUG(Japan Spring User Group)</p>
-            <p>
-              Spring Rest
-              Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)
-            </p>
-          </NuxtLink>
-        </div>
+        <Card
+          year="2019"
+          name="react tokyo plus"
+          link="contents/react-tokyo-plus"
+          description="Large react product with 20+ FrontEnd Engineers in Rakuten Travel"
+        />
+        <Card
+          year="2019"
+          name="react meetup"
+          link="contents/travel-frontend-react"
+          description="楽天トラベルのフロントエンドについて"
+        />
+        <Card
+          year="2018"
+          name="Microservice Meetup Vol.6"
+          link="contents/microservice-meetup"
+          description="FrontEndからみるmicroserviceとBackendからみるmicroservice"
+        />
+        <Card
+          year="2017"
+          name="東京理科大学 - 公演"
+          link="contents/tokyo-university-of-science-class"
+          description="グローバルな環境におけるエンジニアのキャリア形成"
+        />
+        <Card
+          year="2017"
+          name="東京理科大学 - 寄稿(科学フォーラム)"
+          link="contents/tokyo-university-of-science-article"
+          description="好きなことを仕事にする"
+        />
+        <Card
+          year="2016"
+          name="Spring Day 2016"
+          link="contents/travel-spring"
+          description="楽天トラベルとSpring"
+        />
+        <Card
+          year="2015"
+          name="JSUG(Japan Spring User Group)"
+          link="contents/jsug-spring-rest-docs"
+          description="Spring Rest Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {}
+import Card from '~/components/organisms/Card.vue'
+export default {
+  components: {
+    Card
+  }
+}
 </script>
 
 <style lang="scss">
