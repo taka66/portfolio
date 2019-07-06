@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <NuxtLink class="thumbnail-link" :to="$i18n.path(link)" exact>
-      <img class="thumbnail" src="~/assets/test.jpg" />
+      <img class="thumbnail" :src="thumbnail" />
       <p>{{ year }}</p>
       <p>{{ name }}</p>
       <p>
@@ -17,7 +17,11 @@ export default {
     year: String,
     name: String,
     link: String,
-    description: String
+    description: String,
+    thumbnail: {
+      type: String,
+      default: 'img/test.jpg'
+    }
   }
 }
 </script>
