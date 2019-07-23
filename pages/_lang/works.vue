@@ -8,42 +8,49 @@
           name="react tokyo plus"
           link="contents/react-tokyo-plus"
           description="Large react product with 20+ FrontEnd Engineers in Rakuten Travel"
+          thumbnail="/works/react-tokyo-plus.jpg"
         />
         <Card
           year="2019"
           name="react meetup"
           link="contents/travel-frontend-react"
           description="楽天トラベルのフロントエンドについて"
+          thumbnail="/works/travel-frontend-react.jpg"
         />
         <Card
           year="2018"
           name="Microservice Meetup Vol.6"
           link="contents/microservice-meetup"
           description="FrontEndからみるmicroserviceとBackendからみるmicroservice"
+          thumbnail="/works/microservice-meetup.jpg"
         />
         <Card
           year="2017"
           name="東京理科大学 - 公演"
           link="contents/tokyo-university-of-science-class"
           description="グローバルな環境におけるエンジニアのキャリア形成"
+          thumbnail="/works/tokyo-university-of-science-class.jpg"
         />
         <Card
           year="2017"
           name="東京理科大学 - 寄稿(科学フォーラム)"
           link="contents/tokyo-university-of-science-article"
           description="好きなことを仕事にする"
+          thumbnail="/works/tokyo-university-of-science-article.jpg"
         />
         <Card
           year="2016"
           name="Spring Day 2016"
           link="contents/travel-spring"
           description="楽天トラベルとSpring"
+          thumbnail="/works/travel-spring.jpg"
         />
         <Card
           year="2015"
           name="JSUG(Japan Spring User Group)"
           link="contents/jsug-spring-rest-docs"
           description="Spring Rest Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)"
+          thumbnail="/works/jsug-spring-rest-docs.jpg"
         />
       </div>
     </div>
