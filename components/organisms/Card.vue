@@ -1,11 +1,11 @@
 <template>
   <div class="card">
-    <NuxtLink class="thumbnail-link" :to="$i18n.path(link)" exact>
-      <img class="thumbnail" :src="thumbnail" />
+    <NuxtLink class="card-thumbnail-link" :to="$i18n.path(link)" exact>
+      <img class="card-thumbnail" :src="thumbnail" />
       <p>{{ year }}</p>
       <p>{{ name }}</p>
-      <p>
-        {{ description }}
+      <p class="card-title">
+        {{ title }}
       </p>
     </NuxtLink>
   </div>
@@ -17,7 +17,7 @@ export default {
     year: String,
     name: String,
     link: String,
-    description: String,
+    title: String,
     thumbnail: {
       type: String,
       default: 'img/test.jpg'
@@ -36,19 +36,26 @@ export default {
   font-size: 14px;
 }
 .card a,
-.thumbnail-link {
+.card-thumbnail-link {
   text-decoration: none;
   color: #373c38;
 }
 .card a:hover,
-.thumbnail-link:hover {
+.card-thumbnail-link:hover {
   text-decoration: none;
   color: #38a1db; //Tsuyukusa
 }
-.thumbnail {
+
+.card-title {
+  padding-top: 4px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-thumbnail {
   width: 100%;
 }
-a:hover .thumbnail {
+a:hover .card-thumbnail {
   opacity: 0.7;
   transition-duration: 0.3s;
 }
@@ -57,6 +64,9 @@ a:hover .thumbnail {
   .card {
     padding: 15px 0px;
     width: 100%;
+  }
+  .card-thumbnail {
+    margin-bottom: 10px;
   }
 }
 </style>
