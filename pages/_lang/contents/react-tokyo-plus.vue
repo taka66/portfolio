@@ -14,9 +14,11 @@
       タイトルにある通り、20人超のエンジニアでの、大規模なプロダクトの実装や課題、取り組みなどについて話をしました。<br />
       資料と同様に、英語での発表となります。<br />
       3部構成となっていて、
-      <li>1部 - プロジェクトが始まる前の基盤、フレームワーク周りの話</li>
-      <li>2部 - プロジェクト通じての振り返りや課題</li>
-      <li>3部 - 振り返りを経ての現在の取り組み</li>
+      <ul>
+        <li>1部 - プロジェクトが始まる前の基盤、フレームワーク周りの話</li>
+        <li>2部 - プロジェクト通じての振り返りや課題</li>
+        <li>3部 - 振り返りを経ての現在の取り組み</li>
+      </ul>
       私は2部を担当しました。
       <br />
       日本の会社の中では、20名以上の規模で、reactを利用したアプリを実装している組織は少ないので、
@@ -48,6 +50,52 @@ export default {
     font-weight: bold;
     font-size: 32px;
     margin-top: 8px;
+  }
+  a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  }
+
+  a:hover,
+  a:focus {
+    outline: none;
+  }
+  a::before,
+  a::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    content: '';
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+    transform: translateX(-50%) translateY(-50%) scale(0.2);
+  }
+
+  a::after {
+    width: 90px;
+    height: 90px;
+    border-width: 6px;
+    transform: translateX(-50%) translateY(-50%) scale(0.8);
+  }
+
+  a:hover::before,
+  a:hover::after,
+  a:focus::before,
+  a:focus::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  ul {
+    margin: 16px;
   }
 }
 .rtp-thumbnail {
