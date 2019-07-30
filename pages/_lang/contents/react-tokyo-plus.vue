@@ -1,7 +1,7 @@
 <template>
   <div class="rtp">
     <img class="rtp-thumbnail" src="/works/react-tokyo-plus.jpg" />
-    <p>reat tokyo plus</p>
+    <p class="rtp-subtitle">reat tokyo plus</p>
     <h1>Large react product with 20+ FrontEnd Engineers in Rakuten Travel</h1>
 
     <div class="rtp-description">
@@ -41,10 +41,23 @@ export default {
 <style lang="scss">
 .rtp {
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 24px;
+  }
+}
+.rtp-subtitle {
+  font-weight: bold;
+  margin-top: 16px;
 }
 .rtp-description {
-  line-height: 30px;
+  line-height: 32px;
   text-align: left;
-  padding: 10px;
+  margin: 48px;
+  max-width: 960px;
 }
 </style>
