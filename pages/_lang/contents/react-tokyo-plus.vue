@@ -47,8 +47,11 @@ export default {
   h1 {
     font-weight: bold;
     font-size: 32px;
-    margin: 24px;
+    margin-top: 8px;
   }
+}
+.rtp-thumbnail {
+  width: 100%;
 }
 .rtp-subtitle {
   font-weight: bold;

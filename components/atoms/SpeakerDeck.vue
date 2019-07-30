@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="speakerdeck">
     <iframe
       id="talk_frame_525244"
-      class="speackerdeck"
       :src="`https://speakerdeck.com/player/${id}`"
       width="710"
       height="399"
@@ -11,6 +10,10 @@
       allowfullscreen="allowfullscreen"
       mozallowfullscreen="true"
       webkitallowfullscreen="true"
+      border="0"
+      padding="0"
+      margin="0"
+      background="transparent"
     ></iframe>
   </div>
 </template>
@@ -29,5 +32,12 @@ export default {
   padding: 0;
   margin: 0;
   background: transparent;
+  max-width: 90%;
+}
+
+@media (max-width: 768px) {
+  .speakerdeck iframe {
+    max-width: 90%;
+  }
 }
 </style>
