@@ -111,4 +111,10 @@ export default {
   margin: 48px;
   max-width: 960px;
 }
+
+@media (max-width: 768px) {
+  .rtp-description {
+    width: 90%;
+  }
+}
 </style>
