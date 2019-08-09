@@ -1,6 +1,14 @@
 <template>
   <div class="card">
-    <NuxtLink class="card-thumbnail-link" :to="$i18n.path(link)" exact>
+    <div v-if="isDisabled">
+      <img class="card-thumbnail" :src="thumbnail" />
+      <p>{{ year }}</p>
+      <p>{{ name }}</p>
+      <p class="card-title">
+        {{ title }}
+      </p>
+    </div>
+    <NuxtLink v-else class="card-thumbnail-link" :to="$i18n.path(link)" exact>
       <img class="card-thumbnail" :src="thumbnail" />
       <p>{{ year }}</p>
       <p>{{ name }}</p>
@@ -18,6 +26,10 @@ export default {
     name: String,
     link: String,
     title: String,
+    isDisabled: {
+      type: Boolean,
+      default: false
+    },
     thumbnail: {
       type: String,
       default: 'img/test.jpg'
