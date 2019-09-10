@@ -65,12 +65,12 @@
       <div class="row">
         <div class="row-left">
           <a class="link" href="https://goodpatch.com/blog/designers-gym/">
-            <span class="company cell">Designers Lab(Good Patch)</span>
+            <span class="company cell">Designers Gym(Good Patch)</span>
           </a>
         </div>
         <div class="row-right">
-          <span class="cell">Lab Member</span>
-          <span class="cell">2019/01 -</span>
+          <span class="cell">Gym Member</span>
+          <span class="cell">2019/01 - 2019/09</span>
         </div>
       </div>
       <div class="row">
