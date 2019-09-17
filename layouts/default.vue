@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <Sns />
     <Header class="header" />
     <div class="content">
       <nuxt class="nuxt" />
@@ -9,10 +10,12 @@
 </template>
 
 <script>
+import Sns from '~/components/atoms/Sns.vue'
 import Header from '~/components/organisms/Header.vue'
 import Footer from '~/components/organisms/Footer.vue'
 export default {
   components: {
+    Sns,
     Header,
     Footer
   }
@@ -104,5 +107,8 @@ html {
 .page-leave-active {
   opacity: 0;
   transform-origin: 50% 50%;
+}
+.fb-share-button {
+  margin: 10px;
 }
 </style>

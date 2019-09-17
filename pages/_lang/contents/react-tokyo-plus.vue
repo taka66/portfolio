@@ -6,6 +6,7 @@
 
     <div class="rtp-description">
       <a
+        class="rtp-link"
         target="_blank"
         href="https://www.meetup.com/ja-JP/ReactJS-Tokyo/events/262199021/"
         >react tokyo plus</a
@@ -28,6 +29,19 @@
       全体像を把握することができると思います。 <br />
     </div>
     <SpeakerDeck id="fa85299fba1242df8060f1f0e3651e8a" />
+    <div
+      class="fb-share-button"
+      data-href="https://takahirofujii.dev/contents/react-tokyo-plus"
+      data-layout="button_count"
+      data-size="large"
+    >
+      <a
+        target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftakahirofujii.dev%2Fcontents%2Freact-tokyo-plus&amp;src=sdkpreparse"
+        class="fb-xfbml-parse-ignore"
+        >Share</a
+      >
+    </div>
   </div>
 </template>
 
@@ -51,7 +65,7 @@ export default {
     font-size: 32px;
     margin-top: 8px;
   }
-  a {
+  .rtp-link {
     position: relative;
     display: inline-block;
     outline: none;
@@ -61,12 +75,12 @@ export default {
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
   }
 
-  a:hover,
-  a:focus {
+  .rtp-link:hover,
+  .rtp-link:focus {
     outline: none;
   }
-  a::before,
-  a::after {
+  .rtp-link::before,
+  .rtp-link::after {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -80,17 +94,17 @@ export default {
     transform: translateX(-50%) translateY(-50%) scale(0.2);
   }
 
-  a::after {
+  .rtp-link::after {
     width: 90px;
     height: 90px;
     border-width: 6px;
     transform: translateX(-50%) translateY(-50%) scale(0.8);
   }
 
-  a:hover::before,
-  a:hover::after,
-  a:focus::before,
-  a:focus::after {
+  .rtp-link:hover::before,
+  .rtp-link:hover::after,
+  .rtp-link:focus::before,
+  .rtp-link:focus::after {
     opacity: 1;
     transform: translateX(-50%) translateY(-50%) scale(1);
   }

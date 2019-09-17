@@ -1,11 +1,12 @@
 <template>
-  <div class="rtp">
-    <img class="rtp-thumbnail" src="/works/travel-frontend-react.jpg" />
-    <p class="rtp-subtitle">react meetup #7</p>
+  <div class="tfr">
+    <img class="tfr-thumbnail" src="/works/travel-frontend-react.jpg" />
+    <p class="tfr-subtitle">react meetup #7</p>
     <h1>楽天トラベルのフロントエンドについて</h1>
 
-    <div class="rtp-description">
+    <div class="tfr-description">
       <a
+        class="tfr-link"
         target="_blank"
         href="https://reactjs-meetup.connpass.com/event/130682/"
         >react meetup #7</a
@@ -21,6 +22,19 @@
       <br />
     </div>
     <SpeakerDeck id="e9f8b2820c1642b78293ddf3182f3e72" />
+    <div
+      class="fb-share-button"
+      data-href="https://takahirofujii.dev/contents/travel-frontend-react"
+      data-layout="button_count"
+      data-size="large"
+    >
+      <a
+        target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftakahirofujii.dev%2Fcontents%2Ftravel-frontend-react&amp;src=sdkpreparse"
+        class="fb-xfbml-parse-ignore"
+        >Share</a
+      >
+    </div>
   </div>
 </template>
 
@@ -34,7 +48,7 @@ export default {
 </script>
 
 <style lang="scss">
-.rtp {
+.tfr {
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -44,7 +58,7 @@ export default {
     font-size: 32px;
     margin-top: 8px;
   }
-  a {
+  .tfr-link {
     position: relative;
     display: inline-block;
     outline: none;
@@ -54,12 +68,12 @@ export default {
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
   }
 
-  a:hover,
-  a:focus {
+  .tfr-link:hover,
+  .tfr-link:focus {
     outline: none;
   }
-  a::before,
-  a::after {
+  .tfr-link::before,
+  .tfr-link::after {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -73,17 +87,17 @@ export default {
     transform: translateX(-50%) translateY(-50%) scale(0.2);
   }
 
-  a::after {
+  .tfr-link::after {
     width: 90px;
     height: 90px;
     border-width: 6px;
     transform: translateX(-50%) translateY(-50%) scale(0.8);
   }
 
-  a:hover::before,
-  a:hover::after,
-  a:focus::before,
-  a:focus::after {
+  .tfr-link:hover::before,
+  .tfr-link:hover::after,
+  .tfr-link:focus::before,
+  .tfr-link:focus::after {
     opacity: 1;
     transform: translateX(-50%) translateY(-50%) scale(1);
   }
@@ -91,14 +105,15 @@ export default {
     margin: 16px;
   }
 }
-.rtp-thumbnail {
+
+.tfr-thumbnail {
   width: 100%;
 }
-.rtp-subtitle {
+.tfr-subtitle {
   font-weight: bold;
   margin-top: 16px;
 }
-.rtp-description {
+.tfr-description {
   line-height: 32px;
   text-align: left;
   margin: 48px;
@@ -106,7 +121,7 @@ export default {
 }
 
 @media (max-width: 768px) {
-  .rtp-description {
+  .tfr-description {
     width: 90%;
   }
 }
