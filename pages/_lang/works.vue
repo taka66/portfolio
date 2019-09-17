@@ -16,7 +16,6 @@
           link="contents/travel-frontend-react"
           title="楽天トラベルのフロントエンドについて"
           thumbnail="/works/travel-frontend-react.jpg"
-          isDisabled
         />
         <Card
           year="2018"

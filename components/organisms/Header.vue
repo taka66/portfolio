@@ -19,11 +19,6 @@
           {{ $t('header.works') }}
         </NuxtLink>
       </li>
-      <li>
-        <NuxtLink class="header-link" :to="$i18n.path('articles')" exact>
-          {{ $t('header.articles') }}
-        </NuxtLink>
-      </li>
     </ul>
   </div>
 </template>
