@@ -6,5 +6,6 @@
       "use": "@nuxtjs/now-builder",
       "config": {}
     }
-  ]
+  ],
+  "alias": "takahirofujii.dev"
 }
