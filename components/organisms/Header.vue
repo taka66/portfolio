@@ -4,7 +4,7 @@
       <NuxtLink class="header-link" :to="$i18n.path('')" exact>
         <img class="header-logo" src="~/assets/logo.png" />
         <p class="header-name">
-          takahirofujii.com
+          takahirofujii.dev
         </p>
       </NuxtLink>
     </div>
