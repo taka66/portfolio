@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div v-if="isDisabled">
+    <div v-if="disabled">
       <img class="card-thumbnail" :src="thumbnail" />
       <p>{{ year }}</p>
       <p>{{ name }}</p>
@@ -26,7 +26,7 @@ export default {
     name: String,
     link: String,
     title: String,
-    isDisabled: {
+    disabled: {
       type: Boolean,
       default: false
     },

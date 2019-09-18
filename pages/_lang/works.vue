@@ -23,7 +23,7 @@
           link="contents/microservice-meetup"
           title="FrontEndからみるmicroserviceとBackendからみるmicroservice"
           thumbnail="/works/microservice-meetup.jpg"
-          isDisabled
+          disabled
         />
         <Card
           year="2017"
@@ -31,7 +31,7 @@
           link="contents/tokyo-university-of-science-class"
           title="グローバルな環境におけるエンジニアのキャリア形成"
           thumbnail="/works/tokyo-university-of-science-class.jpg"
-          isDisabled
+          disabled
         />
         <Card
           year="2017"
@@ -39,7 +39,7 @@
           link="contents/tokyo-university-of-science-article"
           title="好きなことを仕事にする"
           thumbnail="/works/tokyo-university-of-science-article.jpg"
-          isDisabled
+          disabled
         />
         <Card
           year="2016"
@@ -47,7 +47,7 @@
           link="contents/travel-spring"
           description="楽天トラベルとSpring"
           thumbnail="/works/travel-spring.jpg"
-          isDisabled
+          disabled
         />
         <Card
           year="2015"
@@ -55,7 +55,7 @@
           link="contents/jsug-spring-rest-docs"
           description="Spring Rest Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)"
           thumbnail="/works/jsug-spring-rest-docs.jpg"
-          isDisabled
+          disabled
         />
       </div>
     </div>
