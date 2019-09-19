@@ -3,8 +3,11 @@
     <div>
       <h1 class="title">
         <p>UI / UX Engineer</p>
-        <span>TAKAHIRO FUJII</span>
-        <img class="profile" src="~/assets/me.png" alt="profile" />
+        <br />
+        <div class="icontext">
+          <span>TAKAHIRO FUJII</span>
+          <img class="profile" src="~/assets/me.png" alt="profile" />
+        </div>
       </h1>
     </div>
   </section>
@@ -27,7 +30,13 @@ export default {}
   letter-spacing: 1px;
 
   img {
-    width: 60px;
+    width: 80px;
+  }
+}
+
+.icontext {
+  span {
+    vertical-align: bottom;
   }
 }
 
