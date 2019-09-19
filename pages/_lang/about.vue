@@ -206,6 +206,9 @@ export default {
   justify-content: space-between;
 }
 @media (max-width: 768px) {
+  .about-description {
+    margin: 20px;
+  }
   .row {
     flex-direction: column;
     align-items: start;

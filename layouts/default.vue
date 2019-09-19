@@ -62,6 +62,7 @@ html {
 
 .content {
   overflow-y: auto;
+  height: inherit;
 }
 
 .footer {

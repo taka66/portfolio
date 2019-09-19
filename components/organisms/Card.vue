@@ -76,6 +76,9 @@ a:hover .card-thumbnail {
   .card {
     padding: 15px 0px;
     width: 100%;
+    p {
+      padding: 0px 15px;
+    }
   }
   .card-thumbnail {
     margin-bottom: 10px;

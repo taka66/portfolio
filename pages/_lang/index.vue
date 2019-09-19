@@ -51,4 +51,13 @@ export default {}
 .links {
   padding-top: 15px;
 }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    img {
+      width: 64px;
+    }
+  }
+}
 </style>
