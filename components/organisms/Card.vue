@@ -51,6 +51,7 @@ export default {
 .card-thumbnail-link {
   text-decoration: none;
   color: #373c38;
+  transition: all 0.3s;
 }
 .card a:hover,
 .card-thumbnail-link:hover {
@@ -66,6 +67,9 @@ export default {
 
 .card-thumbnail {
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 14px rgba(40, 55, 57, 0.3);
+  margin-bottom: 10px;
 }
 a:hover .card-thumbnail {
   opacity: 0.7;
@@ -74,14 +78,11 @@ a:hover .card-thumbnail {
 
 @media (max-width: 768px) {
   .card {
-    padding: 15px 0px;
+    padding: 15px 5px;
     width: 100%;
     p {
-      padding: 0px 15px;
+      padding: 5px 5px 0px 0px;
     }
-  }
-  .card-thumbnail {
-    margin-bottom: 10px;
   }
 }
 </style>

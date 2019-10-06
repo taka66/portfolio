@@ -110,7 +110,7 @@ a:hover .thumbnail {
     width: 100%;
   }
   .card {
-    padding: 15px 0px;
+    padding: 15px 5px;
     width: 100%;
   }
 }
