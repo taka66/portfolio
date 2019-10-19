@@ -3,8 +3,8 @@ export default function({ isHMR, app, store, route, params, error, redirect }) {
   // If middleware is called from hot module replacement, ignore it
   if (isHMR) return
 
-  console.log('params', params)
-  console.log('route.fullPath', route.fullPath)
+  // console.log('params', params)
+  // console.log('route.fullPath', route.fullPath)
   // Get locale from params
   const locale = params.lang || defaultLocale
   if (store.state.locales.indexOf(locale) === -1) {

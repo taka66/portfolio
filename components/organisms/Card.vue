@@ -22,10 +22,22 @@
 <script>
 export default {
   props: {
-    year: String,
-    name: String,
-    link: String,
-    title: String,
+    year: {
+      type: String,
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    link: {
+      type: String,
+      default: 'https://takahirofujii.dev'
+    },
+    title: {
+      type: String,
+      required: true
+    },
     disabled: {
       type: Boolean,
       default: false

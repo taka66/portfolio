@@ -165,7 +165,6 @@ export default {
 
 <style lang="scss">
 .about-description {
-  max-width: 960px;
   width: 80%;
   line-height: 32px;
   margin: 0 auto;
