@@ -207,7 +207,7 @@ export default {
 }
 @media (max-width: 768px) {
   .about-description {
-    margin: 20px;
+    margin: 20px auto;
   }
   .row {
     flex-direction: column;
