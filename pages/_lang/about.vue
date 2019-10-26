@@ -154,7 +154,7 @@
   </section>
 </template>
 
-<script>
+<script lang="ts">
 import TopImage from '~/components/tmp/TopImage.vue'
 export default {
   components: {

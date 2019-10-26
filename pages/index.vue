@@ -1,4 +1,4 @@
-<script>
-import Index from '~/pages/_lang/index'
+<script lang="ts">
+import Index from './_lang/index.vue'
 export default Index
 </script>

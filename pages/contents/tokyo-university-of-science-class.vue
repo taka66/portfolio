@@ -1,4 +1,4 @@
-<script>
-import TUSClass from '~/pages/_lang/contents/tokyo-university-of-science-class'
+<script lang="ts">
+import TUSClass from '../_lang/contents/tokyo-university-of-science-class.vue'
 export default TUSClass
 </script>

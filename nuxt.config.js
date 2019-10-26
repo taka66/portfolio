@@ -41,6 +41,11 @@ export default {
   modules: ['@nuxtjs/pwa'],
 
   /*
+   ** Build modules
+   */
+  buildModules: ['@nuxt/typescript-build'],
+
+  /*
    ** Build configuration
    */
   build: {

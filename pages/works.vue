@@ -1,4 +1,4 @@
-<script>
-import Works from '~/pages/_lang/works'
+<script lang="ts">
+import Works from './_lang/works.vue'
 export default Works
 </script>

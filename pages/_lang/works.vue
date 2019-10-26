@@ -45,7 +45,7 @@
           year="2016"
           name="Spring Day 2016"
           link="contents/travel-spring"
-          description="楽天トラベルとSpring"
+          title="楽天トラベルとSpring"
           thumbnail="/works/travel-spring.jpg"
           disabled
         />
@@ -53,7 +53,7 @@
           year="2015"
           name="JSUG(Japan Spring User Group)"
           link="contents/jsug-spring-rest-docs"
-          description="Spring Rest Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)"
+          title="Spring Rest Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)"
           thumbnail="/works/jsug-spring-rest-docs.jpg"
           disabled
         />
