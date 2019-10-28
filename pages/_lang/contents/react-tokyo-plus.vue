@@ -36,16 +36,9 @@
     <div
       class="fb-share-button"
       data-href="https://takahirofujii.dev/contents/react-tokyo-plus"
-      data-layout="button_count"
+      data-layout="button"
       data-size="large"
-    >
-      <a
-        target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftakahirofujii.dev%2Fcontents%2Freact-tokyo-plus&amp;src=sdkpreparse"
-        class="fb-xfbml-parse-ignore"
-        >Share</a
-      >
-    </div>
+    ></div>
   </div>
 </template>
 

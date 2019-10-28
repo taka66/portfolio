@@ -100,6 +100,10 @@ html {
   background-color: #35495e;
 }
 
+.fb-share-button {
+  margin: 10px;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition: all 0.25s ease-out;
