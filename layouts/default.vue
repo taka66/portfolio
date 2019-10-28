@@ -109,7 +109,4 @@ html {
   opacity: 0;
   transform-origin: 50% 50%;
 }
-.fb-share-button {
-  margin: 10px;
-}
 </style>

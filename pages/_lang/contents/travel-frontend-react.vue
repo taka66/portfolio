@@ -49,7 +49,6 @@ export default {
 
 <style lang="scss">
 .tfr {
-  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
