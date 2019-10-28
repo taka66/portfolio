@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Sns from '~/components/atoms/Sns.vue'
 import Header from '~/components/organisms/Header.vue'
 import Footer from '~/components/organisms/Footer.vue'

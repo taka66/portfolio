@@ -154,51 +154,42 @@
   </section>
 </template>
 
-<script lang="ts">
+<script>
 import TopImage from '~/components/tmp/TopImage.vue'
-// type Meta = {
-//   title: string
-//   description: string
-//   type: string
-//   url: string
-//   image?: string
-// }
 export default {
-  // TODO: fix type description issue.
-  // meta: Meta;
-  // data() {
-  //   return {
-  //     meta: {
-  //       title: 'About me',
-  //       description: 'About me',
-  //       type: 'article',
-  //       url: 'https://takahirofujii.dev/about',
-  //       image: 'https://example.com/img/ogp/test.jpg'
-  //     }
-  //   }
-  // },
-  // head() {
-  //   return {
-  //     title: this.meta.title,
-  //     meta: [
-  //       {
-  //         hid: 'description',
-  //         name: 'description',
-  //         content: this.meta.description
-  //       },
-  //       { hid: 'og:type', property: 'og:type', content: this.meta.type },
-  //       { hid: 'og:title', property: 'og:title', content: this.meta.title },
-  //       {
-  //         hid: 'og:description',
-  //         property: 'og:description',
-  //         content: this.meta.description
-  //       },
-  //       { hid: 'og:url', property: 'og:url', content: this.meta.url }
-  //     ]
-  //   }
-  // },
   components: {
     TopImage
+  },
+  data() {
+    return {
+      meta: {
+        title: 'About me',
+        description: 'About me',
+        type: 'article',
+        url: 'https://takahirofujii.dev/about',
+        image: 'https://example.com/img/ogp/test.jpg'
+      }
+    }
+  },
+  head() {
+    return {
+      title: this.meta.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.meta.description
+        },
+        { hid: 'og:type', property: 'og:type', content: this.meta.type },
+        { hid: 'og:title', property: 'og:title', content: this.meta.title },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: this.meta.description
+        },
+        { hid: 'og:url', property: 'og:url', content: this.meta.url }
+      ]
+    }
   }
 }
 </script>

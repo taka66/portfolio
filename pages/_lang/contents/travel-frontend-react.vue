@@ -38,7 +38,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import SpeakerDeck from '~/components/atoms/SpeakerDeck.vue'
 export default {
   components: {
