@@ -1,8 +1,12 @@
 import pkg from './package'
 
+const baseUrl = process.env.BASE_URL || 'https://takahirofujii.dev'
+
 export default {
   mode: 'universal',
-
+  env: {
+    baseUrl: baseUrl
+  },
   /*
    ** Headers of the page
    */
@@ -22,7 +26,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://takahirofujii.dev'
+        content: baseUrl
       },
       { hid: 'og:title', property: 'og:title', content: 'takahirofujii.dev' },
       {
@@ -33,7 +37,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://takahirofujii.dev/ogp/common.png'
+        content: `${baseUrl}/ogp/common.png`
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
