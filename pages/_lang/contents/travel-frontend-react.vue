@@ -1,6 +1,6 @@
 <template>
   <div class="tfr">
-    <img class="tfr-thumbnail" src="/works/travel-frontend-react.jpg" />
+    <img class="tfr-thumbnail" src="/works/travel-frontend-react.png" />
     <p class="tfr-subtitle">react meetup #7</p>
     <h1>楽天トラベルのフロントエンドについて</h1>
 

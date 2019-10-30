@@ -8,21 +8,21 @@
           name="react tokyo plus"
           link="contents/react-tokyo-plus"
           title="Large react product with 20+ FrontEnd Engineers in Rakuten Travel"
-          thumbnail="/works/react-tokyo-plus.jpg"
+          thumbnail="/works/react-tokyo-plus.png"
         />
         <Card
           year="2019"
           name="react meetup"
           link="contents/travel-frontend-react"
           title="楽天トラベルのフロントエンドについて"
-          thumbnail="/works/travel-frontend-react.jpg"
+          thumbnail="/works/travel-frontend-react.png"
         />
         <Card
           year="2018"
           name="Microservice Meetup Vol.6"
           link="contents/microservice-meetup"
           title="FrontEndからみるmicroserviceとBackendからみるmicroservice"
-          thumbnail="/works/microservice-meetup.jpg"
+          thumbnail="/works/microservice-meetup.png"
           disabled
         />
         <Card
@@ -38,7 +38,7 @@
           name="東京理科大学 - 寄稿(科学フォーラム)"
           link="contents/tokyo-university-of-science-article"
           title="好きなことを仕事にする"
-          thumbnail="/works/tokyo-university-of-science-article.jpg"
+          thumbnail="/works/tokyo-university-of-science-article.png"
           disabled
         />
         <Card
@@ -46,7 +46,7 @@
           name="Spring Day 2016"
           link="contents/travel-spring"
           title="楽天トラベルとSpring"
-          thumbnail="/works/travel-spring.jpg"
+          thumbnail="/works/travel-spring.png"
           disabled
         />
         <Card
@@ -54,7 +54,7 @@
           name="JSUG(Japan Spring User Group)"
           link="contents/jsug-spring-rest-docs"
           title="Spring Rest Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)"
-          thumbnail="/works/jsug-spring-rest-docs.jpg"
+          thumbnail="/works/jsug-spring-rest-docs.png"
           disabled
         />
       </div>
@@ -98,23 +98,6 @@ export default {
   padding: 10px;
   width: 50%;
   font-size: 14px;
-}
-.card a,
-.thumbnail-link {
-  text-decoration: none;
-  color: #373c38;
-}
-.card a:hover,
-.thumbnail-link:hover {
-  text-decoration: none;
-  color: #38a1db; //Tsuyukusa
-}
-.thumbnail {
-  width: 100%;
-}
-a:hover .thumbnail {
-  opacity: 0.7;
-  transition-duration: 0.3s;
 }
 
 @media (max-width: 768px) {

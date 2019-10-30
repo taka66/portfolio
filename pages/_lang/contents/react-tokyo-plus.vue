@@ -1,6 +1,6 @@
 <template>
   <div class="rtp">
-    <img class="rtp-thumbnail" src="/works/react-tokyo-plus.jpg" />
+    <img class="rtp-thumbnail" src="/works/react-tokyo-plus.png" />
     <p class="rtp-subtitle">reat tokyo plus</p>
     <h1>Large react product with 20+ FrontEnd Engineers in Rakuten Travel</h1>
 

@@ -61,12 +61,14 @@ export default {
 }
 .card a,
 .card-thumbnail-link {
+  opacity: 0.7;
   text-decoration: none;
   color: #373c38;
   transition: all 0.3s;
 }
 .card a:hover,
 .card-thumbnail-link:hover {
+  opacity: 1;
   text-decoration: none;
   color: #38a1db; //Tsuyukusa
 }
@@ -84,7 +86,6 @@ export default {
   margin-bottom: 10px;
 }
 a:hover .card-thumbnail {
-  opacity: 0.7;
   transition-duration: 0.3s;
 }
 
