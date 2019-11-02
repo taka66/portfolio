@@ -1,6 +1,8 @@
 <template>
   <div class="tfr">
-    <img class="tfr-thumbnail" src="/works/travel-frontend-react.png" />
+    <div class="tfr-background">
+      <img class="tfr-thumbnail" src="/works/travel-frontend-react.png" />
+    </div>
     <p class="tfr-subtitle">react meetup #7</p>
     <h1>楽天トラベルのフロントエンドについて</h1>
 
@@ -48,7 +50,7 @@ export default {
   h1 {
     font-weight: bold;
     font-size: 32px;
-    margin-top: 8px;
+    margin: 8px;
   }
   .tfr-link {
     position: relative;
@@ -97,9 +99,14 @@ export default {
     margin: 16px;
   }
 }
+.tfr-background {
+  width: 100%;
+  background: #9986ae;
+}
 
 .tfr-thumbnail {
   width: 100%;
+  max-width: 720px;
 }
 .tfr-subtitle {
   font-weight: bold;

@@ -1,6 +1,8 @@
 <template>
   <div class="rtp">
-    <img class="rtp-thumbnail" src="/works/react-tokyo-plus.png" />
+    <div class="rtp-background">
+      <img class="rtp-thumbnail" src="/works/react-tokyo-plus.png" />
+    </div>
     <p class="rtp-subtitle">reat tokyo plus</p>
     <h1>Large react product with 20+ FrontEnd Engineers in Rakuten Travel</h1>
 
@@ -59,7 +61,7 @@ export default {
   h1 {
     font-weight: bold;
     font-size: 32px;
-    margin-top: 8px;
+    margin: 8px;
   }
   .rtp-link {
     position: relative;
@@ -108,8 +110,13 @@ export default {
     margin: 16px;
   }
 }
+.rtp-background {
+  width: 100%;
+  background: #003689;
+}
 .rtp-thumbnail {
   width: 100%;
+  max-width: 720px;
 }
 .rtp-subtitle {
   font-weight: bold;
