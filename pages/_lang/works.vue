@@ -74,7 +74,7 @@ export default {
     return {
       meta: {
         title: 'Works',
-        description: 'Works bt takahiro fujii',
+        description: 'Works by takahiro fujii',
         type: 'article',
         url: 'https://takahirofujii.dev/works'
       }

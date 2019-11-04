@@ -35,9 +35,22 @@
 
 <script>
 import SpeakerDeck from '~/components/atoms/SpeakerDeck.vue'
+import Meta from '~/components/mixins/meta'
 export default {
   components: {
     SpeakerDeck
+  },
+  mixins: [Meta],
+  data() {
+    return {
+      meta: {
+        title: 'About Rakuten Travel FrontEnd',
+        description:
+          'Presentation at react meetup #7. Topic is how Rakuten Travel use React and related technologies',
+        type: 'article',
+        url: 'https://takahirofujii.dev/contents/travel-frontend-react'
+      }
+    }
   }
 }
 </script>

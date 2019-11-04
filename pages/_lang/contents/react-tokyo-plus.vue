@@ -45,10 +45,23 @@
 </template>
 
 <script>
+import Meta from '~/components/mixins/meta'
 import SpeakerDeck from '~/components/atoms/SpeakerDeck.vue'
 export default {
   components: {
     SpeakerDeck
+  },
+  mixins: [Meta],
+  data() {
+    return {
+      meta: {
+        title: 'Large react product with 20+ FrontEnd Engineers',
+        description:
+          'Presentation at react tokyo plus. title is Large react product with 20+ FrontEnd Engineers in Rakuten Travel.',
+        type: 'article',
+        url: 'https://takahirofujii.dev/contents/react-tokyo-plus'
+      }
+    }
   }
 }
 </script>
