@@ -50,7 +50,7 @@ export default {
   h1 {
     font-weight: bold;
     font-size: 32px;
-    margin: 8px;
+    padding: 10px;
   }
   .tfr-link {
     position: relative;

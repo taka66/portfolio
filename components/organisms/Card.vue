@@ -91,7 +91,7 @@ a:hover .card-thumbnail {
 
 @media (max-width: 768px) {
   .card {
-    padding: 15px 5px;
+    padding: 15px 10px;
     width: 100%;
     p {
       padding: 5px 5px 0px 0px;
