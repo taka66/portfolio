@@ -49,7 +49,7 @@ export default {
   loading: { color: '#fff' },
 
   router: {
-    middleware: 'i18n'
+    middleware: ['i18n', 'pages']
   },
 
   /*

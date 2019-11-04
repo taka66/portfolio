@@ -1,6 +1,7 @@
 export const state = () => ({
   locales: ['en', 'ja'],
-  locale: 'en'
+  locale: 'en',
+  page: 'index'
 })
 
 export const mutations = {
@@ -8,5 +9,9 @@ export const mutations = {
     if (state.locales.indexOf(locale) !== -1) {
       state.locale = locale
     }
+  },
+  UPDATE_PAGE(state, pageName) {
+    state.page = pageName
+    console.log('pageName', pageName)
   }
 }

@@ -24,7 +24,11 @@
 </template>
 
 <script>
-export default {}
+import { mapState } from 'vuex'
+
+export default {
+  computed: mapState(['page'])
+}
 </script>
 
 <style lang="scss">
