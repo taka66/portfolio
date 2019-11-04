@@ -1,7 +1,12 @@
 <template>
   <div class="header-container">
     <div class="header-title">
-      <NuxtLink class="header-link" :to="$i18n.path('')" exact>
+      <NuxtLink
+        class="header-link"
+        :class="{ active: page === 'index' }"
+        :to="$i18n.path('')"
+        exact
+      >
         <img class="header-logo" src="~/assets/logo.png" />
         <p class="header-name">
           takahirofujii.dev
@@ -10,12 +15,22 @@
     </div>
     <ul class="header-menu">
       <li>
-        <NuxtLink class="header-link" :to="$i18n.path('about')" exact>
+        <NuxtLink
+          class="header-link"
+          :class="{ active: page === 'about' }"
+          :to="$i18n.path('about')"
+          exact
+        >
           {{ $t('header.about') }}
         </NuxtLink>
       </li>
       <li>
-        <NuxtLink class="header-link" :to="$i18n.path('works')" exact>
+        <NuxtLink
+          class="header-link"
+          :class="{ active: page === 'works' }"
+          :to="$i18n.path('works')"
+          exact
+        >
           {{ $t('header.works') }}
         </NuxtLink>
       </li>
@@ -53,16 +68,25 @@ export default {
   text-decoration: none;
   display: flex;
   transition: 0.3s;
-}
-.header-link:link {
-  color: #c0c6c9; //Haiao
-}
-.header-link:visited {
-  color: #c0c6c9; //Haiao
-}
-.header-link:hover {
-  color: #38a1db; //Tsuyukusa
-  transform: rotate(5deg);
+  &:link {
+    color: #c0c6c9; //Haiao
+    outline: none;
+    &.active {
+      color: #38a1db; //Tsuyukusa
+      transform: rotate(5deg);
+    }
+  }
+  &:visited {
+    color: #c0c6c9; //Haiao
+    &.active {
+      color: #38a1db; //Tsuyukusa
+      transform: rotate(5deg);
+    }
+  }
+  &:hover {
+    color: #38a1db; //Tsuyukusa
+    transform: rotate(5deg);
+  }
 }
 
 .header-menu {
