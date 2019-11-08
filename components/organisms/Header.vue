@@ -73,14 +73,12 @@ export default {
     outline: none;
     &.active {
       color: #38a1db; //Tsuyukusa
-      transform: rotate(5deg);
     }
   }
   &:visited {
     color: #c0c6c9; //Haiao
     &.active {
       color: #38a1db; //Tsuyukusa
-      transform: rotate(5deg);
     }
   }
   &:hover {
