@@ -28,4 +28,10 @@ export default {}
   color: #fffffc;
   margin-bottom: 20px;
 }
+
+@media (min-width: 1024px) {
+  .top-image {
+    height: 600px;
+  }
+}
 </style>
