@@ -98,6 +98,7 @@ export default {
   padding: 10px;
   width: 50%;
   font-size: 14px;
+  transition: 0.3s ease;
 }
 
 @media (max-width: 768px) {

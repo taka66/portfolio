@@ -31,7 +31,7 @@
         </div>
         <div class="row-right">
           <span class="cell">Engineering Manager / FrontEnd Engineer</span>
-          <span class="cell">2019/06 -</span>
+          <span class="cell">2019/06 - 2019/12</span>
         </div>
       </div>
       <div class="row">
@@ -41,7 +41,7 @@
         </div>
         <div class="row-right">
           <span class="cell">Engineering Manager / FrontEnd Engineer </span>
-          <span class="cell">2019/01 -</span>
+          <span class="cell">2019/01 - 2019/12</span>
         </div>
       </div>
       <div class="row">
@@ -50,7 +50,7 @@
         </div>
         <div class="row-right">
           <span class="cell">Engineer </span>
-          <span class="cell">2010/04 -</span>
+          <span class="cell">2010/04 - 2019/12</span>
         </div>
       </div>
       <div class="row">
