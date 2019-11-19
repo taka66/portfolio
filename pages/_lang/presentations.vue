@@ -73,10 +73,10 @@ export default {
   data() {
     return {
       meta: {
-        title: 'Works',
-        description: 'Works by takahiro fujii',
+        title: 'Presentations',
+        description: 'Presentations by takahiro fujii',
         type: 'article',
-        url: 'https://takahirofujii.dev/works'
+        url: 'https://takahirofujii.dev/presentations'
       }
     }
   }

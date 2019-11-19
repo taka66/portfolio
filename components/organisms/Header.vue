@@ -27,11 +27,11 @@
       <li>
         <NuxtLink
           class="header-link"
-          :class="{ active: page === 'works' }"
-          :to="$i18n.path('works')"
+          :class="{ active: page === 'presentations' }"
+          :to="$i18n.path('presentations')"
           exact
         >
-          {{ $t('header.works') }}
+          {{ $t('header.presentations') }}
         </NuxtLink>
       </li>
     </ul>
