@@ -3,17 +3,17 @@
     <div v-if="disabled">
       <img class="card-thumbnail" :src="thumbnail" />
       <p>{{ year }}</p>
-      <p>{{ name }}</p>
+      <p>{{ $t(name) }}</p>
       <p class="card-title">
-        {{ title }}
+        {{ $t(title) }}
       </p>
     </div>
     <NuxtLink v-else class="card-thumbnail-link" :to="$i18n.path(link)" exact>
       <img class="card-thumbnail" :src="thumbnail" />
       <p>{{ year }}</p>
-      <p>{{ name }}</p>
+      <p>{{ $t(name) }}</p>
       <p class="card-title">
-        {{ title }}
+        {{ $t(title) }}
       </p>
     </NuxtLink>
   </div>

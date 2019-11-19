@@ -3,5 +3,34 @@
     "about": "About",
     "presentations": "Presentations",
     "articles": "Articles"
+  },
+  "about": {
+    "techstack": "Teck Stack",
+    "biography": "Biography",
+    "awards": "Awards",
+    "description-title": "Engineering Manager",
+    "description-overview": "Taka is mainly developing online travel agency(OTA) system at Rakuten Travel. As an engineering manager, contributing service and organization development.",
+    "description-main": "After graduated, Taka joined Rakuten and assigned Rakuten Travel Development. At international service development group, Taka developed hotel reservation system, extranet(provider system), accounting, inbound websystem as well. Working as Full-Stack engineer in while, but after 2017, Taka became Engineering Manager for UI/UX and FrontEnd fields. Then as Engineering Manager for UI Development Group (Web, iOS, Android), Taka contributed service, organization development. As freelance or in private, Taka is also doing product design, UI/UX design as well. Hobby is playing basketball and traveling. Favorites are coffee and alchol and Japanese food"
+  },
+  "presentations": {
+    "title": "Major presentations and performance",
+    "name": {
+      "react-tokyo-plus": "react tokyo plus",
+      "travel-frontend-react": "react meetup",
+      "microservice-meetup": "Microservice Meetup Vol.6",
+      "tus-class": "Tokyo University Of Science - Class",
+      "tus-article": "Tokyo University Of Science - Article(Science Forum)",
+      "travel-spring": "Spring Day 2016",
+      "jsug-spring-rest-docs": "JSUG(Japan Spring User Group)"
+    },
+    "titles": {
+      "react-tokyo-plus": "Large react product with 20+ FrontEnd Engineers in Rakuten Travel",
+      "travel-frontend-react": "About Rakuten Travel FrontEnd",
+      "microservice-meetup": "Microservices from Backend/FrontEnd point of view",
+      "tus-class": "Career development at international/global environment",
+      "tus-article": "Favorite thing is your work",
+      "travel-spring": "About Rakuten Travel and Spring Framework",
+      "jsug-spring-rest-docs": "Spring Rest Docs"
+    }
   }
 }
