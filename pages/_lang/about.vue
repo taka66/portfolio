@@ -17,6 +17,55 @@
       趣味はバスケと偶にする海外旅行。 好きなものはコーヒー、お酒、和食。
     </p>
     <div class="bio">
+      <h3>Tech Stack</h3>
+      <div class="row">
+        <div class="row-left-s">
+          <span class="company cell">Language</span>
+        </div>
+        <div class="row-right">
+          <span class="cell"
+            >Javasctipt, Node.js, Java, HTML, CSS(Less, Sass), SQL</span
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left-s">
+          <span class="company cell">Frameworks, Liblalies</span>
+        </div>
+        <div class="row-right">
+          <span class="cell">React, Redux, Spring Boot</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left-s">
+          <span class="company cell">Testing</span>
+        </div>
+        <div class="row-right">
+          <span class="cell"
+            >React Testing Library, Jest, Enzyme, JUnit, Cypress, Selenium</span
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left-s">
+          <span class="company cell">Middleware</span>
+        </div>
+        <div class="row-right">
+          <span class="cell"
+            >Apache Tomcat, Oracle, mysql, mongoDB, redis, hazelcast</span
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left-s">
+          <span class="company cell">CI</span>
+        </div>
+        <div class="row-right">
+          <span class="cell">Jenkins, Ansible</span>
+        </div>
+      </div>
+    </div>
+    <div class="bio">
       <h3>略歴</h3>
       <div class="row">
         <div class="row-left">
@@ -214,6 +263,12 @@ export default {
 }
 .row-left {
   min-width: 50%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.row-left-s {
+  min-width: 20%;
   text-align: left;
   display: flex;
   justify-content: space-between;
