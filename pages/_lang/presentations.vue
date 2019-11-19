@@ -1,59 +1,59 @@
 <template>
   <section>
     <div class="bio">
-      <h3>主な発表・公演</h3>
+      <h3>{{ $t('presentations.title') }}</h3>
       <div class="flex">
         <Card
           year="2019"
-          name="react tokyo plus"
+          name="presentations.name.react-tokyo-plus"
           link="contents/react-tokyo-plus"
-          title="Large react product with 20+ FrontEnd Engineers in Rakuten Travel"
+          title="presentations.titles.react-tokyo-plus"
           thumbnail="/works/react-tokyo-plus.png"
         />
         <Card
           year="2019"
-          name="react meetup"
+          name="presentations.name.travel-frontend-react"
           link="contents/travel-frontend-react"
-          title="楽天トラベルのフロントエンドについて"
+          title="presentations.titles.travel-frontend-react"
           thumbnail="/works/travel-frontend-react.png"
         />
         <Card
           year="2018"
-          name="Microservice Meetup Vol.6"
+          name="presentations.name.microservice-meetup"
           link="contents/microservice-meetup"
-          title="FrontEndからみるmicroserviceとBackendからみるmicroservice"
+          title="presentations.titles.microservice-meetup"
           thumbnail="/works/microservice-meetup.png"
           disabled
         />
         <Card
           year="2017"
-          name="東京理科大学 - 公演"
+          name="presentations.name.tus-class"
           link="contents/tokyo-university-of-science-class"
-          title="グローバルな環境におけるエンジニアのキャリア形成"
+          title="presentations.titles.tus-class"
           thumbnail="/works/tokyo-university-of-science-class.jpg"
           disabled
         />
         <Card
           year="2017"
-          name="東京理科大学 - 寄稿(科学フォーラム)"
+          name="presentations.name.tus-article"
           link="contents/tokyo-university-of-science-article"
-          title="好きなことを仕事にする"
+          title="presentations.titles.tus-article"
           thumbnail="/works/tokyo-university-of-science-article.png"
           disabled
         />
         <Card
           year="2016"
-          name="Spring Day 2016"
+          name="presentations.name.travel-spring"
           link="contents/travel-spring"
-          title="楽天トラベルとSpring"
+          title="presentations.titles.travel-spring"
           thumbnail="/works/travel-spring.png"
           disabled
         />
         <Card
           year="2015"
-          name="JSUG(Japan Spring User Group)"
+          name="presentations.name.jsug-spring-rest-docs"
           link="contents/jsug-spring-rest-docs"
-          title="Spring Rest Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)"
+          title="presentations.titles.jsug-spring-rest-docs"
           thumbnail="/works/jsug-spring-rest-docs.png"
           disabled
         />

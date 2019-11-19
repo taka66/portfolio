@@ -2,27 +2,21 @@
   <section class="about">
     <TopImage />
     <p class="about-description">
-      UI / UX エンジニア 兼 エンジニアリングマネージャ<br />
+      {{ $t('about.description-title') }}
       <br />
-      オンライン旅行予約システム(楽天トラベル)の開発に従事。<br />
-      エンジニアリングマネージャとして、サービス/組織開発に携わっている。<br />
       <br />
-      大学卒業後、楽天に入社。楽天トラベルの開発に配属。<br />
-      国際業務チームにて、海外ホテルの予約システムや管理画面、経理システム、インバウンドサイト、外部システム連携等の開発、立ち上げに参画。<br />
-      フルスタックエンジニアとして従事していたが、
-      2017年以降UI/UXを専門領域としたエンジニア・エンジニアリングマネージャとなる。<br />
-      以降、楽天トラベルのWebフロントエンド、Android/iOSグループのエンジニアリングマネージャとして、
-      サービス/組織開発に携わっている。<br />
-      フリーランス・プライベートではプロダクトデザイン含めた企画・デザイン・開発を行う。<br />
-      趣味はバスケと偶にする海外旅行。 好きなものはコーヒー、お酒、和食。
+      {{ $t('about.description-overview') }}
+      <br />
+      <br />
+      {{ $t('about.description-main') }}
     </p>
     <div class="bio">
-      <h3>Tech Stack</h3>
+      <h3>{{ $t('about.techstack') }}</h3>
       <div class="row">
         <div class="row-left-s">
           <span class="company cell">Language</span>
         </div>
-        <div class="row-right">
+        <div class="row-right-l">
           <span class="cell"
             >Javasctipt, Node.js, Java, HTML, CSS(Less, Sass), SQL</span
           >
@@ -32,7 +26,7 @@
         <div class="row-left-s">
           <span class="company cell">Frameworks, Liblalies</span>
         </div>
-        <div class="row-right">
+        <div class="row-right-l">
           <span class="cell">React, Redux, Spring Boot</span>
         </div>
       </div>
@@ -40,7 +34,7 @@
         <div class="row-left-s">
           <span class="company cell">Testing</span>
         </div>
-        <div class="row-right">
+        <div class="row-right-l">
           <span class="cell"
             >React Testing Library, Jest, Enzyme, JUnit, Cypress, Selenium</span
           >
@@ -50,7 +44,7 @@
         <div class="row-left-s">
           <span class="company cell">Middleware</span>
         </div>
-        <div class="row-right">
+        <div class="row-right-l">
           <span class="cell"
             >Apache Tomcat, Oracle, mysql, mongoDB, redis, hazelcast</span
           >
@@ -60,13 +54,13 @@
         <div class="row-left-s">
           <span class="company cell">CI</span>
         </div>
-        <div class="row-right">
+        <div class="row-right-l">
           <span class="cell">Jenkins, Ansible</span>
         </div>
       </div>
     </div>
     <div class="bio">
-      <h3>略歴</h3>
+      <h3>{{ $t('about.biography') }}</h3>
       <div class="row">
         <div class="row-left">
           <a
@@ -144,7 +138,7 @@
       </div>
     </div>
     <div class="bio">
-      <h3>賞歴</h3>
+      <h3>{{ $t('about.awards') }}</h3>
       <div class="row">
         <div class="row-left">
           <span class="company cell">Rakuten</span>
@@ -268,13 +262,17 @@ export default {
   justify-content: space-between;
 }
 .row-left-s {
-  min-width: 20%;
   text-align: left;
   display: flex;
   justify-content: space-between;
 }
 .row-right {
   min-width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.row-right-l {
+  min-width: 55%;
   display: flex;
   justify-content: space-between;
 }
