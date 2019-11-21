@@ -32,5 +32,16 @@
       "travel-spring": "About Rakuten Travel and Spring Framework",
       "jsug-spring-rest-docs": "Spring Rest Docs"
     }
+  },
+  "react-tokyo-plus": {
+    "1": " is react meetup in Tokyo. This is a presentation in this meetup.",
+    "2": "I did presentation with colleagues at Mercari. As title, our theme is how to build large scale react application with big organization. And material and presentation language is English.",
+    "3": "This presentation is constructed with 3 chapters.",
+    "chapter1": "Chapter 1 - Fundermental Implementation and Framework",
+    "chapter2": "Chapter 2 - Retrospective of project and remaining issue",
+    "chapter3": "Chapter 3 - Current action",
+    "4": "I was in charge of chapter 2.",
+    "5": "At least in Japan, as of 2018, 2019, there are not so many company, projects with 20 over front-end enginners. That's why we think our case study might be valuable for other company members, and we chose this topic. I mainly talked UI components library development and how to change our organization based on development phase.",
+    "6": "Also I talked similar topic in different meetup and it's by Japanese."
   }
 }
