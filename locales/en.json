@@ -8,8 +8,8 @@
     "techstack": "Teck Stack",
     "biography": "Biography",
     "awards": "Awards",
-    "description-title": "Engineering Manager",
-    "description-overview": "Taka is mainly developing online travel agency(OTA) system at Rakuten Travel. As an engineering manager, contributing service and organization development.",
+    "description-title": "Engineering Manager / FrontEnd Engineer",
+    "description-overview": "Takahiro Fujii(Taka) is mainly developing online travel agency(OTA) system at Rakuten Travel. As an engineering manager, contributing service and organization development.",
     "description-main": "After graduated, Taka joined Rakuten and assigned Rakuten Travel Development. At international service development group, Taka developed hotel reservation system, extranet(provider system), accounting, inbound websystem as well. Working as Full-Stack engineer in while, but after 2017, Taka became Engineering Manager for UI/UX and FrontEnd fields. Then as Engineering Manager for UI Development Group (Web, iOS, Android), Taka contributed service, organization development. As freelance or in private, Taka is also doing product design, UI/UX design as well. Hobby is playing basketball and traveling. Favorites are coffee and alchol and Japanese food"
   },
   "presentations": {
@@ -43,5 +43,11 @@
     "4": "I was in charge of chapter 2.",
     "5": "At least in Japan, as of 2018, 2019, there are not so many company, projects with 20 over front-end enginners. That's why we think our case study might be valuable for other company members, and we chose this topic. I mainly talked UI components library development and how to change our organization based on development phase.",
     "6": "Also I talked similar topic in different meetup and it's by Japanese."
+  },
+  "travel-frontend-react": {
+    "title": "About Rakuten Travel FrontEnd",
+    "1": " is one of major react meetup in Tokyo. This is Lightning Talk in this meetup.",
+    "2": "I did presentation at Sansan.inc. As title, I shared overview of Rakuten Travel FrontEnd in 2019.",
+    "3": "Especially I shared Rakuten Travel FrontEnd situation after 2017. This is 1st time we shared about Rakuten Travel react.js usage in outside. This slide explain what kind of product Rakuten Travel is developing. Also what kind of framework, libraries we need to develop through development. I think especially KPI tracker is kind of unique, and interesting topic for you guys. ※ONLY JAPANESE SLIDE"
   }
 }
