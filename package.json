@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "portfolio website",
+  "description": "Takahiro Fujii is UI/UX Engineer also Engineering Manager. This website explains Takahiro Fujii's products, presentations, works, skills and so on.",
   "author": "Takahiro Fujii",
   "private": true,
   "scripts": {

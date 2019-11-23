@@ -8,7 +8,7 @@
     "techstack": "Teck Stack",
     "biography": "Biography",
     "awards": "Awards",
-    "description-title": "Engineering Manager / FrontEnd Engineer",
+    "description-title": "UI/UX Engineer / Engineering Manager",
     "description-overview": "Takahiro Fujii(Taka) is mainly developing online travel agency(OTA) system at Rakuten Travel. As an engineering manager, contributing service and organization development.",
     "description-main": "After graduated, Taka joined Rakuten and assigned Rakuten Travel Development. At international service development group, Taka developed hotel reservation system, extranet(provider system), accounting, inbound websystem as well. Working as Full-Stack engineer in while, but after 2017, Taka became Engineering Manager for UI/UX and FrontEnd fields. Then as Engineering Manager for UI Development Group (Web, iOS, Android), Taka contributed service, organization development. As freelance or in private, Taka is also doing product design, UI/UX design as well. Hobby is playing basketball and traveling. Favorites are coffee and alchol and Japanese food"
   },
@@ -29,8 +29,8 @@
       "microservice-meetup": "Microservices from Backend/FrontEnd point of view",
       "tus-class": "Career development at international/global environment",
       "tus-article": "Favorite thing is your work",
-      "travel-spring": "About Rakuten Travel and Spring Framework",
-      "jsug-spring-rest-docs": "Spring Rest Docs"
+      "travel-spring": "About Rakuten Travel and Spring Framework(SlideShare)",
+      "jsug-spring-rest-docs": "Spring Rest Docs(SlideShare)"
     }
   },
   "react-tokyo-plus": {

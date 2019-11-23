@@ -44,18 +44,18 @@
         <Card
           year="2016"
           name="presentations.name.travel-spring"
-          link="contents/travel-spring"
+          link="https://www.slideshare.net/rakutentech/springspring-day-2016"
           title="presentations.titles.travel-spring"
           thumbnail="/works/travel-spring.png"
-          disabled
+          outsidelink
         />
         <Card
           year="2015"
           name="presentations.name.jsug-spring-rest-docs"
-          link="contents/jsug-spring-rest-docs"
+          link="https://www.slideshare.net/241takahiro/spring-onewebdocument?qid=ffe79537-e28c-41f1-8e24-0bb9de20cf48"
           title="presentations.titles.jsug-spring-rest-docs"
           thumbnail="/works/jsug-spring-rest-docs.png"
-          disabled
+          outsidelink
         />
       </div>
     </div>

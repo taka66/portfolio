@@ -2,6 +2,8 @@
   <section class="about">
     <TopImage />
     <p class="about-description">
+      Takahiro Fujii
+      <br />
       {{ $t('about.description-title') }}
       <br />
       <br />
@@ -215,7 +217,8 @@ export default {
     return {
       meta: {
         title: 'About me',
-        description: 'About me',
+        description:
+          'About me. This page describe about Takahiro FUjii who works as UI/UX engineer, engineering manager.',
         type: 'article',
         url: 'https://takahirofujii.dev/about'
       }
