@@ -1,7 +1,12 @@
 <template>
   <div class="card">
     <div v-if="disabled">
-      <v-lazy-image class="card-thumbnail" :src="thumbnail" :alt="$t(title)" />
+      <v-lazy-image
+        class="card-thumbnail"
+        :src="thumbnail"
+        src-placeholder="https://takahirofujii.dev/loading.jpg"
+        :alt="$t(title)"
+      />
       <p>{{ year }}</p>
       <p>{{ $t(name) }}</p>
       <p class="card-title">
@@ -9,7 +14,12 @@
       </p>
     </div>
     <NuxtLink v-else class="card-thumbnail-link" :to="$i18n.path(link)" exact>
-      <v-lazy-image class="card-thumbnail" :src="thumbnail" :alt="$t(title)" />
+      <v-lazy-image
+        class="card-thumbnail"
+        :src="thumbnail"
+        src-placeholder="https://takahirofujii.dev/loading.jpg"
+        :alt="$t(title)"
+      />
       <p>{{ year }}</p>
       <p>{{ $t(name) }}</p>
       <p class="card-title">
@@ -52,13 +62,13 @@ export default {
 
 <style lang="scss">
 //https://blog.did0es.me/posts/2019-08-12-nuxt-lazy-image/
-// .v-lazy-image {
-//   opacity: 0;
-//   transition: opacity 0.4s;
-// }
-// .v-lazy-image-loaded {
-//   opacity: 1;
-// }
+.v-lazy-image {
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+.v-lazy-image-loaded {
+  opacity: 1;
+}
 
 .card {
   display: flex;
