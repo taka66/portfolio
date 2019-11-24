@@ -85,7 +85,14 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap'],
+
+  /*
+   **
+   */
+  sitemap: {
+    hostname: 'https://takahirofujii.dev'
+  },
 
   /*
    ** Build configuration
