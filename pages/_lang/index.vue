@@ -11,7 +11,7 @@
       </h1>
       <section>
         <div>
-          <h3>Outside Contents</h3>
+          <h3>Other activity, organization</h3>
           <div class="flex">
             <Card
               name="Intoroduce my favorite Tokyo places"
