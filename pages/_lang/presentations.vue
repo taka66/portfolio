@@ -23,7 +23,6 @@
           link="contents/microservice-meetup"
           title="presentations.titles.microservice-meetup"
           thumbnail="/works/microservice-meetup.png"
-          disabled
         />
         <Card
           year="2017"

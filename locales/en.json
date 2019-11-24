@@ -49,5 +49,15 @@
     "1": " is one of major react meetup in Tokyo. This is Lightning Talk in this meetup.",
     "2": "I did presentation at Sansan.inc. As title, I shared overview of Rakuten Travel FrontEnd in 2019.",
     "3": "Especially I shared Rakuten Travel FrontEnd situation after 2017. This is 1st time we shared about Rakuten Travel react.js usage in outside. This slide explain what kind of product Rakuten Travel is developing. Also what kind of framework, libraries we need to develop through development. I think especially KPI tracker is kind of unique, and interesting topic for you guys. ※ONLY JAPANESE SLIDE"
+  },
+  "microservice-meetup": {
+    "title": "Microservices from Backend/FrontEnd point of view",
+    "1": " is meetup for discussing/sharing about microservices and related topics.",
+    "2": "I did presentation at Finc.inc. I shared how to change application, component architecture from Monolith to Microservices. And share open issue and how we were trying to resolve issues.",
+    "3": "This presentation is consturcted with 3 phases as below.",
+    "phase1": "Chapter 1 - Developed many new service as monolithic architecture.",
+    "phase2": "Chapter 2 - Extract domain, resource, function as independent api and becoming microservice architecture",
+    "phase3": "Chapter 3 - Current approach. When developing FrontEnd application as SPA, how FrontEnd engineer think about microservice architecture.",
+    "4": "This presentation is not just explaining about microservice itself, explained how Rakuten Travel architecture was changing, and evaluated result architecture from microservice architecture point of view."
   }
 }

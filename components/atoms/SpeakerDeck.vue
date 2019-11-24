@@ -19,6 +19,7 @@
 </template>
 
 <script>
+// Able to get id via https://speakerdeck.com/oembed.json?url=
 export default {
   props: {
     id: {
