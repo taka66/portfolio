@@ -66,6 +66,7 @@ html {
 }
 
 .footer {
+  margin: 20px 0px 10px;
   height: 30px;
   width: 100%;
   // background-color: #dcdcdc;

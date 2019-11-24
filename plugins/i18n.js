@@ -12,7 +12,8 @@ export default ({ app, store }) => {
     messages: {
       en: require('~/locales/en.json'),
       ja: require('~/locales/ja.json')
-    }
+    },
+    silentTranslationWarn: true
   })
 
   app.i18n.path = link => {

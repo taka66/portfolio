@@ -8,7 +8,7 @@
         src-placeholder="loading.jpg"
         :alt="$t(title)"
       />
-      <p>{{ year }}</p>
+      <p v-if="year">{{ year }}</p>
       <p>{{ $t(name) }}</p>
       <p class="card-title">
         {{ $t(title) }}
@@ -52,7 +52,7 @@ export default {
   props: {
     year: {
       type: String,
-      required: true
+      default: ''
     },
     name: {
       type: String,
