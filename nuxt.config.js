@@ -91,7 +91,8 @@ export default {
    **
    */
   sitemap: {
-    hostname: 'https://takahirofujii.dev'
+    hostname: 'https://takahirofujii.dev',
+    generate: true
   },
 
   /*
