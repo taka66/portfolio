@@ -2,16 +2,16 @@
   <section>
     <div>
       <h1 class="title">
-        <p>UI / UX Engineer</p>
+        <p>{{ $t('index.role') }}</p>
         <br />
         <div class="icontext">
-          <span>TAKAHIRO FUJII</span>
+          <span>{{ $t('index.name') }}</span>
           <img class="profile" src="~/assets/me.png" alt="profile" />
         </div>
       </h1>
       <section>
         <div>
-          <h3>Other activity, organization</h3>
+          <h3>{{ $t('index.activity') }}</h3>
           <div class="flex">
             <Card
               name="Intoroduce my favorite Tokyo places"
