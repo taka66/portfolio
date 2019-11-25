@@ -88,11 +88,10 @@ export default {
   modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap'],
 
   /*
-   **
+   ** https://github.com/nuxt-community/sitemap-module
    */
   sitemap: {
     hostname: 'https://takahirofujii.dev',
-    generate: true,
     gzip: true
   },
 
