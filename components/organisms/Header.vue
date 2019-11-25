@@ -8,9 +8,6 @@
         exact
       >
         <img class="header-logo" src="~/assets/logo.png" />
-        <p class="header-name">
-          takahirofujii.dev
-        </p>
       </NuxtLink>
     </div>
     <ul class="header-menu">
@@ -82,10 +79,6 @@ export default {
 }
 .header-title {
   display: flex;
-}
-.header-name {
-  padding-left: 10px;
-  margin: 5px 0px;
 }
 .header-link {
   text-decoration: none;
