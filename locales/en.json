@@ -1,4 +1,8 @@
 {
+  "links": {
+    "japanese": "Japanese",
+    "english": "English"
+  },
   "header": {
     "about": "About",
     "presentations": "Presentations",

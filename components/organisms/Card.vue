@@ -5,7 +5,7 @@
       <v-lazy-image
         class="card-thumbnail"
         :src="thumbnail"
-        src-placeholder="loading.jpg"
+        src-placeholder="/loading.jpg"
         :alt="$t(title)"
       />
       <p v-if="year">{{ year }}</p>
@@ -20,7 +20,7 @@
         <v-lazy-image
           class="card-thumbnail"
           :src="thumbnail"
-          src-placeholder="loading.jpg"
+          src-placeholder="/loading.jpg"
           :alt="$t(title)"
         />
         <p>{{ year }}</p>
@@ -35,7 +35,7 @@
       <v-lazy-image
         class="card-thumbnail"
         :src="thumbnail"
-        src-placeholder="loading.jpg"
+        src-placeholder="/loading.jpg"
         :alt="$t(title)"
       />
       <p>{{ year }}</p>

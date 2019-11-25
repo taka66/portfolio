@@ -34,6 +34,29 @@
           {{ $t('header.presentations') }}
         </NuxtLink>
       </li>
+      <li>
+        |
+      </li>
+      <li>
+        <NuxtLink
+          :to="`/ja` + $route.fullPath"
+          class="header-link"
+          :class="{ active: $i18n.locale === 'ja' }"
+          exact
+        >
+          {{ $t('links.japanese') }}
+        </NuxtLink>
+      </li>
+      <li>
+        <NuxtLink
+          :to="$route.fullPath.replace(/^\/[^\/]+/, '')"
+          class="header-link"
+          :class="{ active: $i18n.locale === 'en' }"
+          exact
+        >
+          {{ $t('links.english') }}
+        </NuxtLink>
+      </li>
     </ul>
   </div>
 </template>
@@ -73,12 +96,14 @@ export default {
     outline: none;
     &.active {
       color: #38a1db; //Tsuyukusa
+      pointer-events: none;
     }
   }
   &:visited {
     color: #c0c6c9; //Haiao
     &.active {
       color: #38a1db; //Tsuyukusa
+      pointer-events: none;
     }
   }
   &:hover {
