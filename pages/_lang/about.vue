@@ -12,6 +12,9 @@
       <br />
       {{ $t('about.description-main') }}
     </p>
+    <a href="/resume.pdf">
+      <button class="btn">See resume(PDF)</button>
+    </a>
     <div class="bio">
       <h3>{{ $t('about.techstack') }}</h3>
       <div class="row">
@@ -248,6 +251,20 @@ export default {
 .cell {
   text-align: left;
   padding-right: 20px;
+}
+.btn {
+  background: none;
+  border: solid 1px #222;
+  cursor: pointer;
+  line-height: 1.5;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  margin-bottom: 70px;
+  &:hover {
+    border: solid 1px #38a1db;
+    color: #38a1db; //Tsuyukusa
+    transition: 0.3s all;
+  }
 }
 .row {
   padding: 20px 0px;
