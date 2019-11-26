@@ -18,7 +18,8 @@
           :to="$i18n.path('about')"
           exact
         >
-          {{ $t('header.about') }}
+          About
+          <!-- {{ $t('header.about') }} -->
         </NuxtLink>
       </li>
       <li>
