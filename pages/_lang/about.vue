@@ -72,7 +72,9 @@
         </div>
         <div class="row-right">
           <span class="cell">Engineering Manager / FrontEnd Engineer</span>
-          <span class="cell">2020/01 - </span>
+          <div class="cell">
+            <span class="cell-from">2020/01 -</span>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -88,7 +90,10 @@
         </div>
         <div class="row-right">
           <span class="cell">Engineering Manager / FrontEnd Engineer</span>
-          <span class="cell">2019/06 - 2019/12</span>
+          <div class="cell">
+            <span class="cell-from">2019/06 -</span>
+            <span class="cell-to">2019/12</span>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -98,7 +103,10 @@
         </div>
         <div class="row-right">
           <span class="cell">Engineering Manager / FrontEnd Engineer </span>
-          <span class="cell">2019/01 - 2019/12</span>
+          <div class="cell">
+            <span class="cell-from">2019/01 -</span>
+            <span class="cell-to">2019/12</span>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -298,13 +306,17 @@ export default {
   justify-content: space-between;
 }
 .row-right-l {
-  min-width: 55%;
+  width: 55%;
   display: flex;
   justify-content: space-between;
 }
 @media (max-width: 768px) {
   .about-description {
     margin: 20px auto;
+  }
+  .cell {
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   .btn {
     margin-bottom: 0px;
@@ -323,6 +335,9 @@ export default {
     flex-direction: column;
     align-items: start;
     justify-content: start;
+  }
+  .row-right-l {
+    width: 100%;
   }
 }
 </style>
