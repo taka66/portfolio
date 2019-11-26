@@ -10,7 +10,7 @@
   },
   "header": {
     "about": "About",
-    "presentations": "Presentations",
+    "works": "Works",
     "articles": "ブログ"
   },
   "about": {
@@ -40,6 +40,25 @@
       "tus-article": "好きなことを仕事にする",
       "travel-spring": "楽天トラベルとSpring(SlideShare)",
       "jsug-spring-rest-docs": "Spring Rest Docs(SpringOneを経験してよりよいWebサービスを作るために僕らが取り組むこと)(SlideShare)"
+    }
+  },
+  "design": {
+    "title": "Design Works",
+    "name": {
+      "nabnab": "Lineスタンプ",
+      "tokyoflower": "Logo",
+      "webhack": "Speaker Card",
+      "winx": "Basketball Uniform",
+      "business-card": "名刺",
+      "superpoints": "Basketball Uniform"
+    },
+    "titles": {
+      "nabnab": "Line Sticker for Web Engineer",
+      "tokyoflower": "東京笑花 Logo Deisgn",
+      "webhack": "Speaker Card Design",
+      "winx": "Original Basketball Uniform for club team",
+      "business-card": "Business Card Design",
+      "superpoints": "Original Basketball Uniform for company"
     }
   },
   "react-tokyo-plus": {

@@ -10,7 +10,7 @@
   },
   "header": {
     "about": "About",
-    "presentations": "Presentations",
+    "works": "Works",
     "articles": "Articles"
   },
   "about": {
@@ -40,6 +40,27 @@
       "tus-article": "Favorite thing is your work",
       "travel-spring": "About Rakuten Travel and Spring Framework(SlideShare)",
       "jsug-spring-rest-docs": "Spring Rest Docs(SlideShare)"
+    }
+  },
+  "design": {
+    "title": "Design Works",
+    "name": {
+      "nabnab": "Line Sticker",
+      "tokyoflower": "Logo",
+      "webhack": "Speaker Card",
+      "winx": "Basketball Uniform",
+      "business-card": "Business Card Design",
+      "nabnab-old": "Line Sticker",
+      "superpoints": "Basketball Uniform"
+    },
+    "titles": {
+      "nabnab": "Line Sticker for Web Engineer",
+      "tokyoflower": "Logo Design",
+      "webhack": "Speaker Card Design",
+      "winx": "Original Basketball Uniform for club team",
+      "business-card": "Business Card Design",
+      "nabnab-old": "Line Sticker",
+      "superpoints": "Original Basketball Uniform for company"
     }
   },
   "react-tokyo-plus": {

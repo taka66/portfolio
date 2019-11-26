@@ -63,21 +63,9 @@
 
 <script>
 import Card from '~/components/organisms/Card.vue'
-import Meta from '~/components/mixins/meta'
 export default {
   components: {
     Card
-  },
-  mixins: [Meta],
-  data() {
-    return {
-      meta: {
-        title: 'Presentations',
-        description: 'Presentations by takahiro fujii',
-        type: 'article',
-        url: 'https://takahirofujii.dev/presentations'
-      }
-    }
   }
 }
 </script>

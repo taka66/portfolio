@@ -25,12 +25,12 @@
         <NuxtLink
           class="header-link"
           :class="{
-            active: page === 'presentations' || page === 'lang-presentations'
+            active: page === 'works' || page === 'lang-works'
           }"
-          :to="$i18n.path('presentations')"
+          :to="$i18n.path('works')"
           exact
         >
-          {{ $t('header.presentations') }}
+          {{ $t('header.works') }}
         </NuxtLink>
       </li>
       <li>
@@ -44,8 +44,8 @@
           exact
         >
           <svg
-            :class="{ active: $i18n.locale === 'ja' }"
             id="layer_1"
+            :class="{ active: $i18n.locale === 'ja' }"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -81,8 +81,8 @@
           exact
         >
           <svg
-            :class="{ active: $i18n.locale === 'en' }"
             id="layer_2"
+            :class="{ active: $i18n.locale === 'en' }"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
