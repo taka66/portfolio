@@ -12,6 +12,6 @@ export const mutations = {
   },
   UPDATE_PAGE(state, pageName) {
     state.page = pageName
-    // console.log('pageName', pageName)
+    console.log('pageName', pageName)
   }
 }

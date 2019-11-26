@@ -24,7 +24,9 @@
       <li>
         <NuxtLink
           class="header-link"
-          :class="{ active: page === 'presentations' }"
+          :class="{
+            active: page === 'presentations' || page === 'lang-presentations'
+          }"
           :to="$i18n.path('presentations')"
           exact
         >
