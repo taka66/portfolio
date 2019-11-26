@@ -36,14 +36,17 @@
         </div>
       </section>
     </div>
+    <Sns link="https://takahirofujii.dev" />
   </section>
 </template>
 
 <script>
+import Sns from '~/components/atoms/Sns.vue'
 import Card from '~/components/organisms/Card.vue'
 export default {
   components: {
-    Card
+    Card,
+    Sns
   }
 }
 </script>

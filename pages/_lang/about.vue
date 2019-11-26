@@ -208,21 +208,18 @@
         </div>
       </div>
     </div>
-    <!-- <div
-      class="fb-share-button"
-      data-href="https://takahirofujii.dev/contents/about"
-      data-layout="button"
-      data-size="large"
-    ></div> -->
+    <Sns link="https://takahirofujii.dev/contents/about" />
   </section>
 </template>
 
 <script>
+import Sns from '~/components/atoms/Sns.vue'
 import TopImage from '~/components/tmp/TopImage.vue'
 import Meta from '~/components/mixins/meta'
 export default {
   components: {
-    TopImage
+    TopImage,
+    Sns
   },
   mixins: [Meta],
   data() {
