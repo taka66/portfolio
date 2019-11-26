@@ -10,31 +10,29 @@
         </div>
       </h1>
       <section>
-        <div>
-          <h3>{{ $t('index.activity') }}</h3>
-          <div class="flex">
-            <Card
-              name="Intoroduce my favorite Tokyo places"
-              link="https://takahirofujii.com/tokyo-as-a-local/"
-              title="Tokyo as a local(Tokyo as hometown)"
-              thumbnail="/products/tokyo-as-a-local.png"
-              outsidelink
-            />
-            <Card
-              name="Tech Blog(Mainly Japanese)"
-              link="http://takahiro-fujii.hatenablog.com/"
-              title="Desi-gineer"
-              thumbnail="/products/hatena-blog.png"
-              outsidelink
-            />
-            <Card
-              name="KOIKI"
-              link="https://koikijs.github.io/"
-              title="Co-Founder of creative organization"
-              thumbnail="/products/koiki.png"
-              outsidelink
-            />
-          </div>
+        <h3>{{ $t('index.activity') }}</h3>
+        <div class="flex">
+          <Card
+            name="Intoroduce my favorite Tokyo places"
+            link="https://takahirofujii.com/tokyo-as-a-local/"
+            title="Tokyo as a local(Tokyo as hometown)"
+            thumbnail="/products/tokyo-as-a-local.png"
+            outsidelink
+          />
+          <Card
+            name="Tech Blog(Mainly Japanese)"
+            link="http://takahiro-fujii.hatenablog.com/"
+            title="Desi-gineer"
+            thumbnail="/products/hatena-blog.png"
+            outsidelink
+          />
+          <Card
+            name="KOIKI"
+            link="https://koikijs.github.io/"
+            title="Co-Founder of creative organization"
+            thumbnail="/products/koiki.png"
+            outsidelink
+          />
         </div>
       </section>
     </div>

@@ -66,7 +66,7 @@ html {
 }
 
 .footer {
-  margin: 20px 0px 10px;
+  margin: 20px 0px 200px;
   height: 30px;
   width: 100%;
   // background-color: #dcdcdc;
