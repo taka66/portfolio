@@ -7,7 +7,11 @@
         :to="$i18n.path('')"
         exact
       >
-        <img class="header-logo" src="~/assets/logo.png" />
+        <img
+          class="header-logo"
+          src="~/assets/logo.png"
+          alt="logo of takahirofujii.dev"
+        />
       </NuxtLink>
     </div>
     <ul class="header-menu">
