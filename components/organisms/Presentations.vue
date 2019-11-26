@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bio">
+    <div>
       <h3>{{ $t('presentations.title') }}</h3>
       <div class="flex">
         <Card
@@ -72,7 +72,6 @@ export default {
 
 <style lang="scss">
 .flex {
-  width: 90%;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;

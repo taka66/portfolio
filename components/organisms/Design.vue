@@ -75,7 +75,6 @@ export default {
 
 <style lang="scss">
 .design-flex {
-  width: 90%;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
