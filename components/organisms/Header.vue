@@ -131,6 +131,7 @@ export default {
 .header-link {
   text-decoration: none;
   transition: 0.3s;
+  font-weight: bold;
   svg {
     width: 18px;
     fill: #c0c6c9; //Haiao
@@ -139,8 +140,8 @@ export default {
       pointer-events: none;
     }
     &:hover {
-      color: #38a1db; //Tsuyukusa
-      transform: rotate(5deg);
+      fill: #38a1db; //Tsuyukusa
+      transition: 0.3s;
     }
   }
   &:link {
@@ -160,7 +161,6 @@ export default {
   }
   &:hover {
     color: #38a1db; //Tsuyukusa
-    transform: rotate(5deg);
   }
 }
 
