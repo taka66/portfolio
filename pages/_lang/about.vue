@@ -300,6 +300,9 @@ export default {
   .about-description {
     margin: 20px auto;
   }
+  .btn {
+    margin-bottom: 0px;
+  }
   .row {
     flex-direction: column;
     align-items: start;
