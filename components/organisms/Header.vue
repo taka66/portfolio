@@ -18,8 +18,7 @@
           :to="$i18n.path('about')"
           exact
         >
-          About
-          <!-- {{ $t('header.about') }} -->
+          {{ $t('header.about') }}
         </NuxtLink>
       </li>
       <li>
@@ -125,12 +124,8 @@ export default {
   width: 30px;
   height: 30px;
 }
-.header-title {
-  display: flex;
-}
 .header-link {
   text-decoration: none;
-  display: flex;
   transition: 0.3s;
   svg {
     width: 18px;
