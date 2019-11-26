@@ -28,12 +28,12 @@
       <br />
     </div>
     <SpeakerDeck id="fa85299fba1242df8060f1f0e3651e8a" />
-    <div
+    <!-- <div
       class="fb-share-button"
       data-href="https://takahirofujii.dev/contents/react-tokyo-plus"
       data-layout="button"
       data-size="large"
-    ></div>
+    ></div> -->
   </div>
 </template>
 

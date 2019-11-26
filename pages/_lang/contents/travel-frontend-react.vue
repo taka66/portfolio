@@ -22,12 +22,12 @@
       <br />
     </div>
     <SpeakerDeck id="e9f8b2820c1642b78293ddf3182f3e72" />
-    <div
+    <!-- <div
       class="fb-share-button"
       data-href="https://takahirofujii.dev/contents/travel-frontend-react"
       data-layout="button"
       data-size="large"
-    ></div>
+    ></div> -->
   </div>
 </template>
 
