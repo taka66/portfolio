@@ -2,7 +2,7 @@
   <section class="about">
     <TopImage />
     <p class="about-description">
-      Takahiro Fujii
+      {{ $t('about.description-name') }}
       <br />
       {{ $t('about.description-title') }}
       <br />
