@@ -45,8 +45,8 @@
         >
           <svg
             :class="{ active: $i18n.locale === 'ja' }"
-            version="1.1"
             id="layer_1"
+            version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px"
@@ -82,8 +82,8 @@
         >
           <svg
             :class="{ active: $i18n.locale === 'en' }"
-            version="1.1"
             id="layer_2"
+            version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
             x="0px"
