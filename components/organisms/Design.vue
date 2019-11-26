@@ -19,14 +19,14 @@
           thumbnail="/design/tokyoflower.png"
           disabled
         />
-        <Card
+        <!-- <Card
           year="2019"
           name="design.name.webhack"
           link="webhack"
           title="design.titles.webhack"
           thumbnail="/design/webhack.png"
           disabled
-        />
+        /> -->
         <Card
           year="2019"
           name="design.name.winx"

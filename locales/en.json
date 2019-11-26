@@ -9,8 +9,8 @@
     "english": "EN"
   },
   "header": {
-    "about": "About",
-    "works": "Works",
+    "about": "About 🙋‍♂️",
+    "works": "Works 👨‍💻",
     "articles": "Articles"
   },
   "about": {
@@ -43,7 +43,7 @@
     }
   },
   "design": {
-    "title": "Design Works",
+    "title": "Part of Design Works",
     "name": {
       "nabnab": "Line Sticker",
       "tokyoflower": "Logo",
