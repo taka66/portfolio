@@ -66,7 +66,7 @@ html {
 }
 
 .footer {
-  margin: 20px 0px 200px;
+  margin: 20px 0px 10px;
   height: 30px;
   width: 100%;
   // background-color: #dcdcdc;
@@ -113,5 +113,10 @@ html {
 .page-leave-active {
   opacity: 0;
   transform-origin: 50% 50%;
+}
+@media (max-width: 768px) {
+  .footer {
+    margin: 20px 0px 200px;
+  }
 }
 </style>
