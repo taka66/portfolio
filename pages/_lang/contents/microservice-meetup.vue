@@ -42,12 +42,6 @@
         <h4>{{ $t('microservice-meetup.phase1') }}</h4>
       </section> -->
     </div>
-    <!-- <div
-      class="fb-share-button"
-      data-href="https://takahirofujii.dev/contents/microservice-meetup"
-      data-layout="button"
-      data-size="large"
-    ></div> -->
   </div>
 </template>
 
