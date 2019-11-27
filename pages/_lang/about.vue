@@ -73,7 +73,7 @@
         <div class="row-right">
           <span class="cell">Engineering Manager / FrontEnd Engineer</span>
           <div class="cell">
-            <span class="cell-from">2020/01 -</span>
+            <span class="cell-from">2020/01 - now</span>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@
         </div>
         <div class="row-right">
           <span class="cell">Lab member</span>
-          <span class="cell">2019 -</span>
+          <span class="cell">2019 - now</span>
         </div>
       </div>
       <div class="row">
@@ -146,7 +146,7 @@
         </div>
         <div class="row-right">
           <span class="cell">Co-Founder / Engineer / Designer</span>
-          <span class="cell">2013 -</span>
+          <span class="cell">2013 - now</span>
         </div>
       </div>
       <div class="row">
@@ -317,6 +317,9 @@ export default {
   .cell {
     padding-bottom: 10px;
     padding-top: 10px;
+  }
+  .link {
+    margin-bottom: 10px;
   }
   .btn {
     margin-bottom: 0px;
