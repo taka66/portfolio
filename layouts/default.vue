@@ -39,6 +39,11 @@ html {
   margin: 0;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .container {
   // min-height: 100vh;
   height: 100vh;
@@ -109,7 +114,7 @@ html {
 }
 @media (max-width: 768px) {
   .footer {
-    margin: 20px 0px 200px;
+    margin: 20px 0px 50px;
   }
 }
 </style>

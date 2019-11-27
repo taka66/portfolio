@@ -1,18 +1,22 @@
 <template>
   <div>
+    <h1 class="works-title">Works</h1>
     <Presentations />
     <Design />
+    <Sns link="https://takahirofujii.dev/contents/about" />
   </div>
 </template>
 
 <script>
+import Sns from '~/components/atoms/Sns.vue'
 import Design from '~/components/organisms/Design.vue'
 import Presentations from '~/components/organisms/Presentations.vue'
 import Meta from '~/components/mixins/meta'
 export default {
   components: {
     Design,
-    Presentations
+    Presentations,
+    Sns
   },
   mixins: [Meta],
   data() {
@@ -28,4 +32,8 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.works-title {
+  margin: 24px;
+}
+</style>

@@ -16,7 +16,7 @@
     </div>
     <!-- Outside Link -->
     <div v-else-if="outsidelink">
-      <a :href="link" target="_blank">
+      <a :href="link" target="_blank" rel="noopener">
         <v-lazy-image
           class="card-thumbnail"
           :src="thumbnail"
