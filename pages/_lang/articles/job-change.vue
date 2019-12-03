@@ -4,7 +4,7 @@
       <h1>退職エントリー</h1>
     </div>
     <div class="blog__header">
-      <NameCard date="1/Dec" />
+      <NameCard date="5/Dec" />
       <Share
         url="http://takahirofujii.dev/articles/job-change"
         text="退職エントリー UI/UX Engineer Takahiro Fujii's portfolio"
