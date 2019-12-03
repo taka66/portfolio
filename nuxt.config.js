@@ -49,7 +49,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: `${baseUrl}/ogp/common.png`
+        content: `${baseUrl}/ogp/ogp.png`
       },
       {
         name: 'twitter:card',

@@ -25,6 +25,10 @@
     <Paragraph text="job-change.introduction.1" />
     <List :texts="services" />
     <Paragraph text="job-change.introduction.2" />
+    <ExternalLink
+      link="https://corp.rakuten.co.jp/careers/interview/takahiro/"
+      text="Takahiro：キャリア採用｜楽天株式会社"
+    />
     <Separater />
     <div class="blog__h">
       <h2>英語</h2>
@@ -152,6 +156,7 @@
 </template>
 
 <script>
+import Meta from '~/components/mixins/meta'
 import ExternalLink from '~/components/atoms/ExternalLink.vue'
 import Share from '~/components/organisms/Share.vue'
 import List from '~/components/blogs/List.vue'
@@ -173,8 +178,15 @@ export default {
     ExternalImage,
     ExternalLink
   },
+  mixins: [Meta],
   data() {
     return {
+      meta: {
+        title: '退職エントリー',
+        description: '退職エントリー by takahiro fujii',
+        type: 'article',
+        url: 'https://takahirofujii.dev/articles/job-change'
+      },
       services: [
         'job-change.services.travel',
         'job-change.services.extranet',
