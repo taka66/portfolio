@@ -1,11 +1,12 @@
 <template>
   <div class="twitter">
     <a
+      class="twitter__link"
       :href="'https://twitter.com/intent/tweet?text=' + text + ' ' + url"
       target="_blank"
+      rel="noopener"
     >
       <svg
-        id="Logo_FIXED"
         data-name="Logo — FIXED"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 400 400"
@@ -38,7 +39,7 @@ export default {
 
 <style lang="scss">
 .twitter {
-  a {
+  .twitter__link {
     outline: none;
   }
   svg {

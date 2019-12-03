@@ -13,7 +13,7 @@
     <BlogTitleImage
       class="job_change__blog__title__image"
       uri="/articles/job-change"
-      backgroundColor="#29ABE2"
+      backgroundcolor="#29ABE2"
     />
     <Paragraph text="job-change.prologue.1" />
     <Paragraph text="job-change.prologue.2" />

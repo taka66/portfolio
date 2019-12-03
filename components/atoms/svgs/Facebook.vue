@@ -1,16 +1,17 @@
 <template>
   <div class="facebook">
     <a
+      class="facebook__link"
       :href="
         'https://www.facebook.com/v3.3/dialog/share?app_id=1125367704324611&href=' +
           url +
           '&display=page'
       "
       target="_blank"
+      rel="noopener"
     >
       <svg
         version="1.1"
-        id="Ebene_1"
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         x="0px"
@@ -50,7 +51,7 @@ export default {
 
 <style lang="scss">
 .facebook {
-  a {
+  .facebook__link {
     outline: none;
   }
   svg {

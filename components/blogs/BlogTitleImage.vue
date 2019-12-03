@@ -1,9 +1,8 @@
 <template>
-  <div class="blog__title__image" :style="{ background: backgroundColor }">
+  <div class="blog__title__image" :style="{ background: backgroundcolor }">
     <picture>
       <source
         class="blog__thumbnail"
-        :src="uri + '.webp'"
         :srcset="uri + '.webp'"
         type="image/webp"
       />
@@ -19,7 +18,7 @@ export default {
       type: String,
       default: '/test.png'
     },
-    backgroundColor: {
+    backgroundcolor: {
       type: String,
       default: '#ffffff'
     }
