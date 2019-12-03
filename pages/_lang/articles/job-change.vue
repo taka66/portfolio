@@ -153,8 +153,8 @@
     <Paragraph text="job-change.thanks.2" />
     <Paragraph text="job-change.thanks.3" />
     <Paragraph text="job-change.thanks.4" />
-    <InternalImage url="basketball.jpg" desc="ばすけ" />
     <Paragraph text="job-change.thanks.5" />
+    <Paragraph text="job-change.thanks.6" />
     <ExternalLink
       link="https://www.amazon.jp/hz/wishlist/ls/HDZ80D2ZXX34?ref_=wl_share"
       text="欲しいものリスト作ってみました。もしも気が向かれたら！"
