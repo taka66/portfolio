@@ -22,6 +22,7 @@
     <div class="blog__h">
       <h2>自己紹介</h2>
     </div>
+    <InternalImage url="intro.jpg" desc="ふじい" />
     <Paragraph text="job-change.introduction.1" />
     <List :texts="services" />
     <Paragraph text="job-change.introduction.2" />
@@ -45,12 +46,12 @@
     <Paragraph text="job-change.1-3year.2" />
     <Paragraph text="job-change.1-3year.3" />
     <Paragraph text="job-change.1-3year.4" />
-    <Paragraph text="job-change.1-3year.5" />
     <ExternalImage
       url="https://speakerd.s3.amazonaws.com/presentations/78961d6bdd1e464893bd356ea499a047/preview_slide_15.jpg?424749"
       link="https://speakerdeck.com/taka66/microservices-at-microservice-meetup-vol-dot-6?slide=16"
       desc="Microservices@microservice Meetup vol.6"
     />
+    <Paragraph text="job-change.1-3year.5" />
     <Paragraph text="job-change.1-3year.6" />
     <Paragraph text="job-change.1-3year.7" />
     <ExternalImage
@@ -61,6 +62,7 @@
     <Paragraph text="job-change.1-3year.8" />
     <Paragraph text="job-change.1-3year.9" />
     <Paragraph text="job-change.1-3year.10" />
+    <Paragraph text="job-change.1-3year.11" />
     <Separater />
     <div class="blog__h">
       <h2>4~6年目</h2>
@@ -106,8 +108,13 @@
       desc="よこみちさんとふじい(と見切れている大ボス)"
     />
     <Paragraph text="job-change.7-9year.5" />
+    <ExternalLink
+      link="https://www.infoq.com/articles/what-are-self-organising-teams/"
+      text="What Are Self-Organising Teams?"
+    />
     <Paragraph text="job-change.7-9year.6" />
     <Paragraph text="job-change.7-9year.7" />
+    <Paragraph text="job-change.7-9year.8" />
     <ExternalLink
       link="https://talent.rakuten.careers/jobs/front-end-engineer-travel-tid-9691"
       text="フロントエンドエンジニア（トラベルサービス）：TID - Rakutenのキャリア"
