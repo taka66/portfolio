@@ -81,8 +81,13 @@
       text="18年間プロダクトマネジメントを生業にして来た男を支える「5％の光」とは～楽天トラベル齊藤満氏の流儀【及川卓也のプロダクトマネジャー探訪"
     />
     <Paragraph text="job-change.4-6year.3" />
+    <ExternalLink
+      link="https://www.slideshare.net/rakutentech/rakuten-techconf2014-b6-rakuten-travel-architecture-and-development-process"
+      text="Rakuten Travel Architecture and Development Process"
+    />
     <Paragraph text="job-change.4-6year.4" />
     <Paragraph text="job-change.4-6year.5" />
+    <Paragraph text="job-change.4-6year.6" />
     <Separater />
     <div class="blog__h">
       <h2>7~9年目</h2>
@@ -145,7 +150,7 @@
     <Paragraph text="job-change.thanks.5" />
     <ExternalLink
       link="https://www.amazon.jp/hz/wishlist/ls/HDZ80D2ZXX34?ref_=wl_share"
-      text="欲しいものリスト作ってみました。ので、もしもよかったら。"
+      text="欲しいものリスト作ってみました。もしも気が向かれたら！"
     />
     <Separater />
     <Share
