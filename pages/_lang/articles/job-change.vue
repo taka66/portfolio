@@ -235,6 +235,7 @@ export default {
   text-align: left;
   margin-top: 24px;
   margin-left: 15%;
+  margin-right: 15%;
 }
 .job_change__blog__title__image {
   margin-top: 24px;
