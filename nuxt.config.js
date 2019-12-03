@@ -89,7 +89,16 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/sitemap'],
+  modules: [
+    '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: 'UA-153773529-1'
+      }
+    ]
+  ],
 
   /*
    ** https://github.com/nuxt-community/sitemap-module
