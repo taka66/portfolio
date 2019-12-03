@@ -36,17 +36,20 @@
         </div>
       </section>
     </div>
-    <Sns link="https://takahirofujii.dev" />
+    <Share
+      url="https://takahirofujii.dev"
+      text="takahirofujii.dev UI/UX Engineer Takahiro Fujii's portfolio"
+    />
   </section>
 </template>
 
 <script>
-import Sns from '~/components/atoms/Sns.vue'
+import Share from '~/components/organisms/Share.vue'
 import Card from '~/components/organisms/Card.vue'
 export default {
   components: {
     Card,
-    Sns
+    Share
   }
 }
 </script>

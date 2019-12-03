@@ -1,11 +1,15 @@
 import pkg from './package'
 
 const baseUrl = process.env.BASE_URL || 'https://takahirofujii.dev'
+const baseDir = process.env.BASE_DIR || '/'
 
 export default {
   mode: 'universal',
   env: {
     baseUrl: baseUrl
+  },
+  router: {
+    base: baseDir
   },
   /*
    ** Headers of the page

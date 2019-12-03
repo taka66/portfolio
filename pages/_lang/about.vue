@@ -81,7 +81,7 @@
         <div class="row-left">
           <a
             class="link"
-            target="_brank"
+            target="_blank"
             href="https://corp.rakuten.co.jp/careers/interview/takahiro/"
           >
             <span class="company cell">Rakuten</span>
@@ -216,18 +216,21 @@
         </div>
       </div>
     </div>
-    <Sns link="https://takahirofujii.dev/contents/about" />
+    <Share
+      url="https://takahirofujii.dev/about"
+      text="About me UI/UX Engineer Takahiro Fujii's portfolio"
+    />
   </section>
 </template>
 
 <script>
-import Sns from '~/components/atoms/Sns.vue'
+import Share from '~/components/organisms/Share.vue'
 import TopImage from '~/components/tmp/TopImage.vue'
 import Meta from '~/components/mixins/meta'
 export default {
   components: {
     TopImage,
-    Sns
+    Share
   },
   mixins: [Meta],
   data() {

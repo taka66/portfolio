@@ -3,12 +3,15 @@
     <h1 class="works-title">Works</h1>
     <Presentations />
     <Design />
-    <Sns link="https://takahirofujii.dev/contents/about" />
+    <Share
+      url="https://takahirofujii.dev/about"
+      text="Works UI/UX Engineer Takahiro Fujii's portfolio"
+    />
   </div>
 </template>
 
 <script>
-import Sns from '~/components/atoms/Sns.vue'
+import Share from '~/components/organisms/Share.vue'
 import Design from '~/components/organisms/Design.vue'
 import Presentations from '~/components/organisms/Presentations.vue'
 import Meta from '~/components/mixins/meta'
@@ -16,7 +19,7 @@ export default {
   components: {
     Design,
     Presentations,
-    Sns
+    Share
   },
   mixins: [Meta],
   data() {
