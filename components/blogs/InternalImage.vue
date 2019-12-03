@@ -6,11 +6,13 @@
         :srcset="domain + '/articles/' + removeExt(url) + '.webp'"
         type="image/webp"
         :alt="desc"
+        loading="lazy"
       />
       <img
         class="internal__image__thumbnail"
         :src="domain + '/articles/' + url"
         :alt="desc"
+        loading="lazy"
       />
     </picture>
     <span v-if="desc">{{ desc }}</span>

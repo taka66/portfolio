@@ -5,8 +5,14 @@
         class="blog__thumbnail"
         :srcset="uri + '.webp'"
         type="image/webp"
+        loading="lazy"
       />
-      <img class="blog__thumbnail" :src="uri + '.png'" alt="fallback" />
+      <img
+        class="blog__thumbnail"
+        :src="uri + '.png'"
+        alt="fallback"
+        loading="lazy"
+      />
     </picture>
   </div>
 </template>
