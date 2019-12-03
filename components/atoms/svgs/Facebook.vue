@@ -19,11 +19,6 @@
         style="enable-background:new 0 0 1024 1024;"
         xml:space="preserve"
       >
-        <style type="text/css">
-          .st1 {
-            fill: #ffffff;
-          }
-        </style>
         <g>
           <path
             class="st0"
@@ -68,6 +63,9 @@ export default {
     }
     .st0 {
       fill: #898f9c;
+    }
+    .st1 {
+      fill: #ffffff;
     }
   }
 }
