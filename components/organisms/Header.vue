@@ -38,6 +38,18 @@
         </NuxtLink>
       </li>
       <li>
+        <NuxtLink
+          class="header-link"
+          :class="{
+            active: page === 'blog' || page === 'lang-blog'
+          }"
+          :to="$i18n.path('blog')"
+          exact
+        >
+          {{ $t('header.blog') }}
+        </NuxtLink>
+      </li>
+      <li>
         |
       </li>
       <li>
@@ -133,7 +145,7 @@ export default {
   transition: 0.3s;
   font-weight: bold;
   svg {
-    width: 18px;
+    width: 20px;
     fill: #c0c6c9; //Haiao
     &.active {
       fill: #38a1db; //Tsuyukusa
@@ -167,10 +179,17 @@ export default {
 .header-menu {
   margin: 0;
   padding: 0;
+  font-size: 18px;
   list-style: none;
   display: flex;
   li {
     margin-left: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .header-logo {
+    width: 24px;
+    height: 24px;
   }
 }
 </style>
