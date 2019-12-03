@@ -105,7 +105,13 @@ export default {
    */
   sitemap: {
     hostname: 'https://takahirofujii.dev',
-    gzip: true
+    gzip: true,
+    exclude: [
+      '/contents/jsug-spring-rest-docs',
+      '/contents/tokyo-university-of-science-article',
+      '/contents/tokyo-university-of-science-class',
+      '/contents/travel-spring'
+    ]
   },
 
   /*
