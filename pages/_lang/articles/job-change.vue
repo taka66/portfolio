@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="blog__h">
-      <h1>退職エントリー</h1>
+      <h1>楽天株式会社を退職しました(退職エントリー)。</h1>
     </div>
     <div class="blog__header">
       <NameCard date="5/Dec" />
       <Share
         url="http://takahirofujii.dev/articles/job-change"
-        text="退職エントリー UI/UX Engineer Takahiro Fujii's portfolio"
+        text="楽天株式会社を退職しました。 UI/UX Engineer Takahiro Fujii's portfolio"
       />
     </div>
     <BlogTitleImage
@@ -161,8 +161,8 @@
     />
     <Separater />
     <Share
-      url="https://takahirofujii.dev/ja/articles/job-change"
-      text="退職エントリー UI/UX Engineer Takahiro Fujii's portfolio"
+      url="http://takahirofujii.dev/articles/job-change"
+      text="楽天株式会社を退職しました。 UI/UX Engineer Takahiro Fujii's portfolio"
     />
   </div>
 </template>
@@ -194,8 +194,9 @@ export default {
   data() {
     return {
       meta: {
-        title: '退職エントリー',
-        description: '退職エントリー by takahiro fujii',
+        title: '楽天株式会社を退職しました(退職エントリー)',
+        description:
+          '楽天株式会社を退職しました(退職エントリー) by takahiro fujii',
         type: 'article',
         url: 'https://takahirofujii.dev/articles/job-change'
       },
