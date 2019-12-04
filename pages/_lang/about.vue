@@ -233,6 +233,11 @@ export default {
     Share
   },
   mixins: [Meta],
+  computed: {
+    domain() {
+      return `${process.env.baseUrl}`
+    }
+  },
   data() {
     return {
       meta: {
