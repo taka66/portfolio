@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="blog__h">
-      <h1>楽天株式会社を退職しました(退職エントリー)。</h1>
+      <h1>楽天株式会社を退職しました(退職エントリー)</h1>
     </div>
     <div class="blog__header">
       <NameCard date="5/Dec" />
