@@ -7,11 +7,35 @@
         :to="$i18n.path('')"
         exact
       >
-        <img
+        <svg
           class="header-logo"
-          src="~/assets/logo.png"
-          alt="logo of takahirofujii.dev"
-        />
+          version="1.1"
+          id="logo"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 450 450"
+          style="enable-background:new 0 0 450 450;"
+          xml:space="preserve"
+        >
+          <g>
+            <circle class="logo__st0" cx="323.08" cy="95.12" r="66.04" />
+            <g>
+              <path
+                class="logo__st1"
+                d="M126.56,240.38l24.08-86.46h125.9l19.49,56.19l-33.94-12.15l-28.9,13.76l-36-13.76l-37.95,7.91l-9.63,33.02
+			l47.7-13.42l34.51,15.14l31.65-13.76l44.03,17.89l27.86-9.98l-40.25-111.11H130L96.75,240.38
+			C96.75,240.38,126.79,240.6,126.56,240.38z"
+              />
+              <polygon
+                class="logo__st2"
+                points="126.56,240.38 83.22,396.09 358.41,396.09 315.75,270.88 344.65,259.87 399,423.61 44,423.61 
+			96.75,240.38 		"
+              />
+            </g>
+          </g>
+        </svg>
       </NuxtLink>
     </div>
     <ul class="header-menu">
@@ -61,6 +85,7 @@
         >
           <svg
             id="layer_1"
+            class="lang-link"
             :class="{ active: $i18n.locale === 'ja' }"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -98,6 +123,7 @@
         >
           <svg
             id="layer_2"
+            class="lang-link"
             :class="{ active: $i18n.locale === 'en' }"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -137,14 +163,23 @@ export default {
   padding: 10px;
 }
 .header-logo {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
+  .logo__st0 {
+    fill: #d91d25;
+  }
+  .logo__st1 {
+    fill: #cccccc;
+  }
+  .logo__st2 {
+    fill: #0071bc;
+  }
 }
 .header-link {
   text-decoration: none;
   transition: 0.3s;
   font-weight: bold;
-  svg {
+  .lang-link {
     width: 20px;
     fill: #c0c6c9; //Haiao
     &.active {
@@ -184,6 +219,9 @@ export default {
   display: flex;
   li {
     margin-left: 10px;
+    a {
+      vertical-align: text-bottom;
+    }
   }
 }
 @media (max-width: 480px) {
