@@ -214,7 +214,8 @@ export default {
       points: [
         'job-change.job-change.points.1',
         'job-change.job-change.points.2',
-        'job-change.job-change.points.3'
+        'job-change.job-change.points.3',
+        'job-change.job-change.points.4'
       ],
       skills: [
         'job-change.skills.1',
