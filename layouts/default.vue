@@ -70,6 +70,7 @@ h2 {
 .content {
   overflow-y: auto;
   height: inherit;
+  -webkit-overflow-scrolling: touch;
 }
 
 .footer {
