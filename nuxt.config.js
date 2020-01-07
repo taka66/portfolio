@@ -9,7 +9,8 @@ export default {
     baseUrl: baseUrl
   },
   router: {
-    base: baseDir
+    base: baseDir,
+    middleware: ['i18n', 'pages']
   },
   /*
    ** Headers of the page
@@ -71,10 +72,6 @@ export default {
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
-
-  router: {
-    middleware: ['i18n', 'pages']
-  },
 
   /*
    ** Global CSS
