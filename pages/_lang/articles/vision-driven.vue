@@ -89,13 +89,18 @@
     </div>
     <Paragraph text="vision-driven.20" />
     <Paragraph text="vision-driven.21" />
+    <Paragraph text="vision-driven.22" />
+    <ExternalLink
+      link="https://conferences.oreilly.com/solid/solid2014/public/schedule/detail/34097"
+      text="Vision-Driven: Beyond Tangible Bits, Towards Radical Atoms"
+    />
     <Separater />
     <div class="blog__h">
       <h2>
         あとがき
       </h2>
     </div>
-    <Paragraph text="vision-driven.22" />
+    <Paragraph text="vision-driven.23" />
     <ExternalLink
       link="https://amzn.to/39N6Rps"
       text="ひとりの妄想で未来は変わる VISION DRIVEN INNOVATION"
