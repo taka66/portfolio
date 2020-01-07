@@ -49,6 +49,12 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0px;
+}
+
 .container {
   // min-height: 100vh;
   height: 100vh;

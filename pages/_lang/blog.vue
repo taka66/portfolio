@@ -10,6 +10,13 @@
           title="blogs.titles.job-change"
           thumbnail="/articles/job-change.png"
         />
+        <Card
+          year="2020"
+          name="blogs.10mins"
+          link="articles/vision-driven"
+          title="blogs.titles.vision-driven"
+          thumbnail="/articles/vision-driven.png"
+        />
       </div>
     </div>
   </section>

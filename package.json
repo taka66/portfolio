@@ -4,6 +4,9 @@
   "description": "Takahiro Fujii is UI/UX Engineer also Engineering Manager. This website explains Takahiro Fujii's products, presentations, works, skills and so on.",
   "author": "Takahiro Fujii",
   "private": true,
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "dev": "BASE_URL=http://localhost:3000 nuxt",
     "build": "nuxt build",
@@ -19,9 +22,9 @@
     "@nuxtjs/sitemap": "^2.0.1",
     "cross-env": "^5.2.1",
     "marked": "^0.7.0",
-    "nuxt": "^2.10.2",
+    "nuxt": "^2.11.0",
     "v-lazy-image": "^1.3.2",
-    "vue-i18n": "^8.15.1"
+    "vue-i18n": "^8.15.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
@@ -37,17 +40,17 @@
     "eslint-plugin-jest": "^22.21.0",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-nuxt": "^0.5.0",
-    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-vue": "^5.2.3",
     "jest": "^24.9.0",
     "markdown-to-vue-loader": "^1.0.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "4.12.0",
     "nodemon": "^1.19.4",
     "prettier": "^1.19.1",
     "sass-loader": "^7.3.1",
     "vue-jest": "^3.0.5",
-    "vue-loader": "^15.7.2"
+    "vue-loader": "^15.8.3"
   }
 }

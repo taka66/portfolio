@@ -1,6 +1,11 @@
 <template>
-  <div class="paragraph">
-    {{ $t(text) }}
+  <div>
+    <div v-if="nospace" class="paragraph__nospace">
+      {{ $t(text) }}
+    </div>
+    <div v-else class="paragraph">
+      {{ $t(text) }}
+    </div>
   </div>
 </template>
 
@@ -10,6 +15,10 @@ export default {
     text: {
       type: String,
       required: true
+    },
+    nospace: {
+      type: Boolean,
+      default: false
     }
   }
 }
@@ -22,10 +31,20 @@ export default {
   line-height: 1.58;
   text-align: left;
 }
+.paragraph__nospace {
+  margin: 0px 15% 0px;
+  font-size: 21px;
+  line-height: 1.58;
+  text-align: left;
+}
 @media (max-width: 768px) {
   .paragraph {
     font-size: 18px;
     margin: 48px 10% 0px;
+  }
+  .paragraph__nospace {
+    font-size: 18px;
+    margin: 0px 10% 0px;
   }
 }
 </style>
