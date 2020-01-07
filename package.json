@@ -4,9 +4,6 @@
   "description": "Takahiro Fujii is UI/UX Engineer also Engineering Manager. This website explains Takahiro Fujii's products, presentations, works, skills and so on.",
   "author": "Takahiro Fujii",
   "private": true,
-  "engines": {
-    "node": "12.x"
-  },
   "scripts": {
     "dev": "BASE_URL=http://localhost:3000 nuxt",
     "build": "nuxt build",
