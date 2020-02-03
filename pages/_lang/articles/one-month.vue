@@ -102,7 +102,7 @@
     />
     <Separater />
     <div class="blog__h">
-      <h2>7.QCD(qauality/cost/delivery)</h2>
+      <h2>7.QCD</h2>
     </div>
     <Paragraph text="one-month.qcd-1" />
     <SpeakerDeck id="df80a3e8925440008e727cb3b2763c61" />
