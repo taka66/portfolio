@@ -36,12 +36,12 @@ export default {
   padding: 0;
   margin: 0;
   background: transparent;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
   .speakerdeck iframe {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 </style>
