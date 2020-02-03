@@ -4,7 +4,7 @@
       <h1>転職して一ヶ月働いてみて(Rakuten -> WealthPark)</h1>
     </div>
     <div class="blog__header">
-      <NameCard date="3/Feb" />
+      <NameCard date="3/Feb" min="8" />
       <Share
         url="http://takahirofujii.dev/articles/one-month"
         text="転職して一ヶ月働いてみて(Rakuten -> WealthPark) UI/UX Engineer Takahiro Fujii's portfolio"
