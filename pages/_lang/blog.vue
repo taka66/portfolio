@@ -17,6 +17,13 @@
           title="blogs.titles.vision-driven"
           thumbnail="/articles/vision-driven.png"
         />
+        <Card
+          year="2020"
+          name="blogs.8mins"
+          link="articles/one-month"
+          title="blogs.titles.one-month"
+          thumbnail="/articles/one-month.png"
+        />
       </div>
     </div>
   </section>
