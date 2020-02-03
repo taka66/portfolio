@@ -31,7 +31,7 @@
     />
     <ExternalLink
       link="https://thebridge.jp/2019/05/wealthpark-interview"
-      text="https://thebridge.jp/2019/05/wealthpark-interview"
+      text="WealthPark が取り組むオルタナティブ資産投資とは"
     />
     <Paragraph text="one-month.4" />
     <Separater />
