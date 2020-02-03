@@ -105,7 +105,9 @@
       <h2>7.QCD</h2>
     </div>
     <Paragraph text="one-month.qcd-1" />
-    <SpeakerDeck id="df80a3e8925440008e727cb3b2763c61" />
+    <div class="margin__w">
+      <SpeakerDeck id="df80a3e8925440008e727cb3b2763c61" />
+    </div>
     <Paragraph text="one-month.qcd-2" />
     <Separater />
     <div class="blog__h">
@@ -193,6 +195,10 @@ export default {
   margin-top: 24px;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.margin__w {
+  margin-top: 48px;
 }
 @media (max-width: 768px) {
   .blog__h {
