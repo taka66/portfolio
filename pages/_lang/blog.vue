@@ -24,6 +24,13 @@
           title="blogs.titles.one-month"
           thumbnail="/articles/one-month.png"
         />
+        <Card
+          year="2020"
+          name="blogs.5mins"
+          link="articles/tutorial-document"
+          title="blogs.titles.tutorial-document"
+          thumbnail="/articles/tutorial-document.png"
+        />
       </div>
     </div>
   </section>
