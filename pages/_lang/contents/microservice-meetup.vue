@@ -66,6 +66,9 @@ export default {
         url: 'https://takahirofujii.dev/contents/travel-frontend-react'
       }
     }
+  },
+  mounted() {
+    document.getElementById('content').scrollTop = 0
   }
 }
 </script>

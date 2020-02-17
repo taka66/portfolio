@@ -50,6 +50,9 @@ export default {
   components: {
     Card,
     Share
+  },
+  mounted() {
+    document.getElementById('content').scrollTop = 0
   }
 }
 </script>

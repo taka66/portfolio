@@ -173,6 +173,10 @@ export default {
         'one-month.1mmonth.11'
       ]
     }
+  },
+  /* https://qiita.com/kei_0121/items/71735756556c29dc2d16 */
+  mounted() {
+    document.getElementById('content').scrollTop = 0
   }
 }
 </script>

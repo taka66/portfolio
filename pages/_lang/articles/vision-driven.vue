@@ -157,6 +157,10 @@ export default {
       topics: ['vision-driven.topics.1', 'vision-driven.topics.2'],
       personal: ['vision-driven.personal.1', 'vision-driven.personal.2']
     }
+  },
+  /* https://qiita.com/kei_0121/items/71735756556c29dc2d16 */
+  mounted() {
+    document.getElementById('content').scrollTop = 0
   }
 }
 </script>

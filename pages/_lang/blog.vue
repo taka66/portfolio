@@ -41,6 +41,9 @@ import Card from '~/components/organisms/Card.vue'
 export default {
   components: {
     Card
+  },
+  mounted() {
+    document.getElementById('content').scrollTop = 0
   }
 }
 </script>

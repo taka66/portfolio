@@ -31,6 +31,9 @@ export default {
         url: 'https://takahirofujii.dev/presentations'
       }
     }
+  },
+  mounted() {
+    document.getElementById('content').scrollTop = 0
   }
 }
 </script>
