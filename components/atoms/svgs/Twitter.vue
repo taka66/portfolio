@@ -1,8 +1,8 @@
 <template>
   <div class="twitter">
     <a
-      class="twitter__link"
       :href="'https://twitter.com/intent/tweet?text=' + text + ' ' + url"
+      class="twitter__link"
       target="_blank"
       rel="noopener"
     >

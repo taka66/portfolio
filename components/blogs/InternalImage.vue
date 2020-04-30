@@ -2,16 +2,16 @@
   <div class="internal__image">
     <picture>
       <source
-        class="internal__image__thumbnail"
         :srcset="domain + '/articles/' + removeExt(url) + '.webp'"
-        type="image/webp"
         :alt="desc"
+        class="internal__image__thumbnail"
+        type="image/webp"
         loading="lazy"
       />
       <img
-        class="internal__image__thumbnail"
         :src="domain + '/articles/' + url"
         :alt="desc"
+        class="internal__image__thumbnail"
         loading="lazy"
       />
     </picture>

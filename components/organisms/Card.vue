@@ -3,10 +3,10 @@
     <!-- No Link -->
     <div v-if="disabled">
       <v-lazy-image
-        class="card-thumbnail"
         :src="thumbnail"
-        src-placeholder="/loading.jpg"
         :alt="$t(title)"
+        class="card-thumbnail"
+        src-placeholder="/loading.jpg"
       />
       <p v-if="year">{{ year }}</p>
       <p>{{ $t(name) }}</p>
@@ -18,10 +18,10 @@
     <div v-else-if="outsidelink">
       <a :href="link" target="_blank" rel="noopener">
         <v-lazy-image
-          class="card-thumbnail"
           :src="thumbnail"
-          src-placeholder="/loading.jpg"
           :alt="$t(title)"
+          class="card-thumbnail"
+          src-placeholder="/loading.jpg"
         />
         <p>{{ year }}</p>
         <p>{{ $t(name) }}</p>
@@ -31,12 +31,12 @@
       </a>
     </div>
     <!-- Internal Link -->
-    <NuxtLink v-else class="card-thumbnail-link" :to="$i18n.path(link)" exact>
+    <NuxtLink v-else :to="$i18n.path(link)" class="card-thumbnail-link" exact>
       <v-lazy-image
-        class="card-thumbnail"
         :src="thumbnail"
-        src-placeholder="/loading.jpg"
         :alt="$t(title)"
+        class="card-thumbnail"
+        src-placeholder="/loading.jpg"
       />
       <p>{{ year }}</p>
       <p>{{ $t(name) }}</p>

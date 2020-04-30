@@ -2,8 +2,8 @@
   <div class="external__image">
     <v-lazy-image
       :src="url"
-      src-placeholder="/loading.jpg"
       :alt="desc"
+      src-placeholder="/loading.jpg"
       role="presentation"
     />
     <a :href="link" target="__blank">

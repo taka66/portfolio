@@ -1,12 +1,12 @@
 <template>
   <div class="facebook">
     <a
-      class="facebook__link"
       :href="
         'https://www.facebook.com/v3.3/dialog/share?app_id=1125367704324611&href=' +
           url +
           '&display=page'
       "
+      class="facebook__link"
       target="_blank"
       rel="noopener"
     >

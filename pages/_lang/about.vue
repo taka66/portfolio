@@ -71,21 +71,26 @@
           <span class="company cell">Wealth Park</span>
         </div>
         <div class="row-right">
-          <span class="cell">Engineering Manager / FrontEnd Engineer</span>
+          <span class="cell">Vice President of Engineering</span>
           <div class="cell">
-            <span class="cell-from">2020/01 - now</span>
+            <span class="cell-from">2020/04 -</span>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="row-left">
-          <a
-            class="link"
-            target="_blank"
-            href="https://corp.rakuten.co.jp/careers/interview/takahiro/"
-          >
-            <span class="company cell">Rakuten</span>
-          </a>
+          <span class="company cell">Wealth Park</span>
+        </div>
+        <div class="row-right">
+          <span class="cell">Engineering Manager / FrontEnd Engineer</span>
+          <div class="cell">
+            <span class="cell-from">2020/01 -</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-left">
+          <span class="company cell">Rakuten</span>
           <span class="cell">Rakuten Travel Innovation Section</span>
         </div>
         <div class="row-right">
@@ -124,7 +129,7 @@
         </div>
         <div class="row-right">
           <span class="cell">Lab member</span>
-          <span class="cell">2019 - now</span>
+          <span class="cell">2019</span>
         </div>
       </div>
       <div class="row">
@@ -334,7 +339,7 @@ export default {
     margin-bottom: 10px;
   }
   .btn {
-    margin-bottom: 0px;
+    margin-bottom: 24px;
   }
   .row {
     flex-direction: column;

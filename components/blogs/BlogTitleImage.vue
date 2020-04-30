@@ -1,15 +1,15 @@
 <template>
-  <div class="blog__title__image" :style="{ background: backgroundcolor }">
+  <div :style="{ background: backgroundcolor }" class="blog__title__image">
     <picture>
       <source
-        class="blog__thumbnail"
         :srcset="uri + '.webp'"
+        class="blog__thumbnail"
         type="image/webp"
         loading="lazy"
       />
       <img
-        class="blog__thumbnail"
         :src="uri + '.png'"
+        class="blog__thumbnail"
         alt="fallback"
         loading="lazy"
       />

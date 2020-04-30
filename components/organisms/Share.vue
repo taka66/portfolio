@@ -1,6 +1,6 @@
 <template>
   <div class="share">
-    <Twitter class="share__margin" :text="text" :url="url" />
+    <Twitter :text="text" :url="url" class="share__margin" />
     <Facebook :url="url" />
   </div>
 </template>

@@ -2,15 +2,15 @@
   <div class="header-container">
     <div class="header-title">
       <NuxtLink
-        class="header-link"
         :class="{ active: page === 'index' }"
         :to="$i18n.path('')"
+        class="header-link"
         exact
       >
         <svg
+          id="logo"
           class="header-logo"
           version="1.1"
-          id="logo"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px"
@@ -41,9 +41,9 @@
     <ul class="header-menu">
       <li>
         <NuxtLink
-          class="header-link"
           :class="{ active: page === 'about' || page === 'lang-about' }"
           :to="$i18n.path('about')"
+          class="header-link"
           exact
         >
           {{ $t('header.about') }}
@@ -51,11 +51,11 @@
       </li>
       <li>
         <NuxtLink
-          class="header-link"
           :class="{
             active: page === 'works' || page === 'lang-works'
           }"
           :to="$i18n.path('works')"
+          class="header-link"
           exact
         >
           {{ $t('header.works') }}
@@ -63,11 +63,11 @@
       </li>
       <li>
         <NuxtLink
-          class="header-link"
           :class="{
             active: page === 'blog' || page === 'lang-blog'
           }"
           :to="$i18n.path('blog')"
+          class="header-link"
           exact
         >
           {{ $t('header.blog') }}
@@ -79,14 +79,14 @@
       <li>
         <NuxtLink
           :to="`/ja` + $route.fullPath"
-          class="header-link"
           :class="{ active: $i18n.locale === 'ja' }"
+          class="header-link"
           exact
         >
           <svg
             id="layer_1"
-            class="lang-link"
             :class="{ active: $i18n.locale === 'ja' }"
+            class="lang-link"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -117,14 +117,14 @@
       <li>
         <NuxtLink
           :to="$route.fullPath.replace(/^\/[^\/]+/, '')"
-          class="header-link"
           :class="{ active: $i18n.locale === 'en' }"
+          class="header-link"
           exact
         >
           <svg
             id="layer_2"
-            class="lang-link"
             :class="{ active: $i18n.locale === 'en' }"
+            class="lang-link"
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink"

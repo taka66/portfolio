@@ -1,6 +1,6 @@
 <template>
   <div class="photo">
-    <v-lazy-image :src="url" src-placeholder="/loading.jpg" :alt="desc" />
+    <v-lazy-image :src="url" :alt="desc" src-placeholder="/loading.jpg" />
     <span v-if="desc">{{ desc }}</span>
   </div>
 </template>
