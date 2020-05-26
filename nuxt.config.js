@@ -81,12 +81,17 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/i18n.js', '~/plugins/v-lazy-image.js'],
+  plugins: [
+    '~/plugins/i18n.js',
+    // '~/plugins/vue-scrollto.js',
+    '~/plugins/v-lazy-image.js'
+  ],
 
   /*
    ** Nuxt.js modules
    */
   modules: [
+    ['vue-scrollto/nuxt', { duration: 300 }],
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
     [
