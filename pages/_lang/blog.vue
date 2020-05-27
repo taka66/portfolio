@@ -4,18 +4,18 @@
       <h1 class="blogs-title">{{ $t('blogs.title') }}</h1>
       <div class="flex">
         <Card
-          year="2019"
+          year="2020"
           name="blogs.10mins"
-          link="articles/job-change"
-          title="blogs.titles.job-change"
-          thumbnail="/articles/job-change.png"
+          link="articles/vpoe"
+          title="blogs.titles.vpoe"
+          thumbnail="/articles/vpoe.png"
         />
         <Card
           year="2020"
-          name="blogs.10mins"
-          link="articles/vision-driven"
-          title="blogs.titles.vision-driven"
-          thumbnail="/articles/vision-driven.png"
+          name="blogs.5mins"
+          link="articles/tutorial-document"
+          title="blogs.titles.tutorial-document"
+          thumbnail="/articles/tutorial-document.png"
         />
         <Card
           year="2020"
@@ -26,10 +26,17 @@
         />
         <Card
           year="2020"
-          name="blogs.5mins"
-          link="articles/tutorial-document"
-          title="blogs.titles.tutorial-document"
-          thumbnail="/articles/tutorial-document.png"
+          name="blogs.10mins"
+          link="articles/vision-driven"
+          title="blogs.titles.vision-driven"
+          thumbnail="/articles/vision-driven.png"
+        />
+        <Card
+          year="2019"
+          name="blogs.10mins"
+          link="articles/job-change"
+          title="blogs.titles.job-change"
+          thumbnail="/articles/job-change.png"
         />
       </div>
     </div>

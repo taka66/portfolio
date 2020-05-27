@@ -21,8 +21,8 @@ export default {
       default: ''
     },
     min: {
-      type: Number,
-      default: 10
+      type: String,
+      default: '10'
     }
   }
 }
