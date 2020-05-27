@@ -4,7 +4,7 @@
       <h1>VPoEになって、まず取り組んでいること</h1>
     </div>
     <div class="blog__header">
-      <NameCard date="7/Jan" />
+      <NameCard date="27/Mar" min="20" />
       <Share
         url="http://takahirofujii.dev/articles/vpoe"
         text="VPoEになって、まず取り組んでいること | UI/UX Engineer Takahiro Fujii's portfolio"
@@ -27,6 +27,10 @@
     <Paragraph text="vpoe.pro2.1" />
     <InternalImage url="organization.jpg" desc="大まかな組織図" />
     <Paragraph text="vpoe.pro2.2" />
+    <ExternalLink
+      link="http://takahirofujii.dev/articles/one-month"
+      text="以前の記事(転職して一ヶ月働いてみて)"
+    />
     <Paragraph text="vpoe.pro2.3" />
     <Quote message="vpoe.pro2.4" />
     <ExternalLink
@@ -50,6 +54,7 @@
     />
     <Paragraph text="vpoe.vidualize-mywork.4" />
     <Paragraph text="vpoe.vidualize-mywork.5" />
+    <InternalImage url="dailyreport.png" desc="dailyreport" />
     <Separater />
     <div class="blog__h">
       <h2>2.周りの仕事の可視化</h2>
@@ -81,7 +86,16 @@
     <Paragraph text="vpoe.process.4" nospace />
     <List :texts="board" />
     <Paragraph text="vpoe.process.5" />
-    <Paragraph text="vpoe.process.6" nospace />
+    <ExternalLink
+      link="https://www.atlassian.com/ja/agile/kanban/kanban-vs-scrum"
+      text="カンバン vs スクラム"
+    />
+    <ExternalImage
+      url="https://blog.trello.com/hs-fs/hubfs/scrum-kanban-ja.png?width=530&name=scrum-kanban-ja.png"
+      link="https://blog.trello.com/ja/kanban-method-to-make-teams-agile"
+      desc="カンバン方式の基礎: チームがより素早く効率的に働く方法"
+    />
+    <Paragraph text="vpoe.process.6" />
     <Paragraph text="vpoe.process.7" nospace />
     <Paragraph text="vpoe.process.8" />
     <Paragraph text="vpoe.process.9" nospace />
@@ -123,24 +137,30 @@
     <Paragraph text="vpoe.spotify.4-2.1" />
     <Paragraph text="vpoe.spotify.4-2.2" nospace />
     <Separater />
+    <Quote message="vpoe.spotify.4-2.3" />
+    <Quote message="vpoe.spotify.4-2.4" />
     <ExternalLink
       link="https://www.wantedly.com/companies/wealth-park/post_articles/232995"
       text="【WealthPark 社員インタビュー vol. 8】一人一人が自走するチームを作るのがリーダーの仕事。周囲を自然にモチベートするVP of Productのチームビルディング術"
     />
-    <Quote message="vpoe.spotify.4-2.3" />
-    <Quote message="vpoe.spotify.4-2.4" />
     <Separater />
     <Paragraph text="vpoe.spotify.4-2.5" />
     <Paragraph text="vpoe.spotify.4-2.6" />
     <ExternalImage
       url="https://res.infoq.com/articles/what-are-self-organising-teams/en/resources/AuthorityMatrix_figure1.png"
       link="https://www.infoq.com/jp/articles/what-are-self-organising-teams/"
-      desc="自己組織化チームとは何か？"
+      desc=""
     />
+    <Separater />
     <Quote message="vpoe.spotify.4-2.organization1" />
     <Quote message="vpoe.spotify.4-2.organization2" />
     <Quote message="vpoe.spotify.4-2.organization3" />
     <Quote message="vpoe.spotify.4-2.organization4" />
+    <ExternalLink
+      link="https://www.infoq.com/jp/articles/what-are-self-organising-teams/"
+      text="自己組織化チームとは何か？"
+    />
+    <Separater />
     <Paragraph text="vpoe.spotify.4-2.7" />
     <Paragraph text="vpoe.spotify.4-2.8" />
     <Paragraph text="vpoe.spotify.4-2.9" />
@@ -161,15 +181,20 @@
     </div>
 
     <Paragraph text="vpoe.chapter-lead.5-1.1" />
-    <Paragraph text="vpoe.chapter-lead.5-1.2" />
-    <Paragraph text="vpoe.chapter-lead.5-1.3" nospace />
+    <Paragraph text="vpoe.chapter-lead.5-1.2" bold />
+    <Paragraph text="vpoe.chapter-lead.5-1.3" nospace bold />
 
     <Paragraph text="vpoe.chapter-lead.5-1.4" />
     <Paragraph text="vpoe.chapter-lead.5-1.5" />
     <Quote message="vpoe.chapter-lead.5-1.6" />
+    <ExternalLink
+      link="https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf"
+      text="Scaling Agile @ Spotify(2012)"
+    />
     <Paragraph text="vpoe.chapter-lead.5-1.7" />
     <Paragraph text="vpoe.chapter-lead.5-1.8" />
-    <Paragraph text="vpoe.chapter-lead.5-1.9" />
+    <Paragraph text="vpoe.chapter-lead.5-1.9" bold />
+    <Paragraph text="vpoe.chapter-lead.5-1.10" nospace bold />
     <Separater />
     <div class="blog__h">
       <h3>
@@ -179,20 +204,33 @@
     <Paragraph text="vpoe.chapter-lead.5-2.1" />
     <Paragraph text="vpoe.chapter-lead.5-2.2" nospace />
     <Quote message="vpoe.chapter-lead.5-2.3" />
+    <ExternalLink
+      link="https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf"
+      text="Scaling Agile @ Spotify"
+    />
     <Paragraph text="vpoe.chapter-lead.5-2.4" />
     <Paragraph text="vpoe.chapter-lead.5-2.5" />
-    <Paragraph text="vpoe.chapter-lead.5-2.6" />
+    <Paragraph text="vpoe.chapter-lead.5-2.6" bold />
     <Paragraph text="vpoe.chapter-lead.5-2.7" />
-    <Paragraph text="vpoe.chapter-lead.5-2.8" />
+    <Paragraph text="vpoe.chapter-lead.5-2.8" nospace />
     <Paragraph text="vpoe.chapter-lead.5-2.9" />
-    <Paragraph text="vpoe.chapter-lead.5-2.10" />
+    <Paragraph text="vpoe.chapter-lead.5-2.10" nospace />
     <List :texts="patterns" />
+    <InternalImage
+      url="ratio.png"
+      desc="LeadershipとHands-onにかける比重(ここではManagementとDevelopmentとなっていますが)"
+    />
     <Paragraph text="vpoe.chapter-lead.5-2.11" />
-    <Paragraph text="vpoe.chapter-lead.5-2.12" />
-    <Paragraph text="vpoe.chapter-lead.5-2.13" />
+    <Paragraph text="vpoe.chapter-lead.5-2.12" bold />
+    <Paragraph text="vpoe.chapter-lead.5-2.13" nospace bold />
     <Paragraph text="vpoe.chapter-lead.5-2.14" />
+    <InternalImage
+      url="challenge.jpeg"
+      desc="WealthParkが考えるChapterLeadの1つのチャレンジ"
+    />
     <Paragraph text="vpoe.chapter-lead.5-2.15" />
-    <Paragraph text="vpoe.chapter-lead.5-2.16" />
+    <Paragraph text="vpoe.chapter-lead.5-2.16" bold />
+    <Paragraph text="vpoe.chapter-lead.5-2.17" nospace bold />
     <Separater />
     <div class="blog__h">
       <h3>
@@ -200,14 +238,41 @@
       </h3>
     </div>
     <Paragraph text="vpoe.chapter-lead.5-3.1" />
-    <Paragraph text="vpoe.chapter-lead.5-3.2" />
+    <Paragraph text="vpoe.chapter-lead.5-3.2" bold />
+    <Paragraph text="vpoe.chapter-lead.5-3.3" bold nospace />
     <Separater />
     <div class="blog__h">
       <h3>
-        5-4.Chapter Lead
+        5-4.Chapter LeadとSpotify Model
       </h3>
     </div>
+    <InternalImage
+      url="expectation.png"
+      desc="WealthParkが考えるChapter Leadへの期待値"
+    />
     <Paragraph text="vpoe.chapter-lead.5-4.1" />
+    <Paragraph text="vpoe.chapter-lead.5-4.2" />
+    <ExternalLink
+      link="http://www.agileadventures.net/index.php/2015/10/01/team-lead-versus-chapter-lead-same-but-different/"
+      text="Team Lead versus Chapter Lead: the 5 biggest differences"
+    />
+    <ExternalLink
+      link="https://www.linkedin.com/pulse/agile-career-paths-day-life-chapter-lead-kelly-paulino/"
+      text="Agile career paths — day in the life of a Chapter Lead"
+    />
+    <ExternalLink
+      link="https://medium.com/@achardypm/agile-team-organisation-squads-chapters-tribes-and-guilds-80932ace0fdc"
+      text="Agile Team Organisation: Squads, Chapters, Tribes and Guilds"
+    />
+    <ExternalLink
+      link="https://medium.com/the-ready/how-to-build-your-own-spotify-model-dce98025d32f"
+      text="How to Build Your Own “Spotify Model”"
+    />
+    <ExternalLink
+      link="https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf"
+      text="Scaling Agile @ Spotify(2012)"
+    />
+    <Paragraph text="vpoe.chapter-lead.5-4.3" />
     <Separater />
     <div class="blog__h">
       <h2>
@@ -233,11 +298,11 @@
     />
     <Paragraph text="vpoe.responsibility.3" />
     <Paragraph text="vpoe.responsibility.4" />
+    <Quote message="vpoe.responsibility.5" />
     <ExternalLink
       link="http://www.techventurebusiness.com/archives/116"
       text="tech venture business 役職の謎：CTO vs. VP of Engineering"
     />
-    <Quote message="vpoe.responsibility.5" />
     <Paragraph text="vpoe.responsibility.6" />
     <Separater />
     <div class="blog__h">
@@ -283,16 +348,16 @@ export default {
   data() {
     return {
       meta: {
-        title: '直感と論理をつなぐ思考法 VISION DRIVEN を読んで考えていること',
-        description:
-          '直感と論理をつなぐ思考法 VISION DRIVEN を読んで考えていること by takahiro fujii',
+        title: 'VPoEになって、まず取り組んでいること',
+        description: 'VPoEになって、まず取り組んでいること',
         type: 'article',
-        url: 'https://takahirofujii.dev/articles/vision-driven'
+        url: 'https://takahirofujii.dev/articles/vpoe'
       },
       note: ['vpoe.pro2.note.1', 'vpoe.pro2.note.2', 'vpoe.pro2.note.3'],
       points: [
         'vpoe.vidualize-others.2-1.points.1',
-        'vpoe.vidualize-others.2-1.points.2'
+        'vpoe.vidualize-others.2-1.points.2',
+        'vpoe.vidualize-others.2-1.points.3'
       ],
       improvements: [
         'vpoe.process.improvements.1',
