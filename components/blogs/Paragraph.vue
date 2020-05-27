@@ -1,9 +1,13 @@
 <template>
   <div>
-    <div v-if="nospace" class="paragraph__nospace">
+    <div
+      v-if="nospace"
+      class="paragraph__nospace"
+      v-bind:class="{ bold: bold }"
+    >
       {{ $t(text) }}
     </div>
-    <div v-else class="paragraph">
+    <div v-else class="paragraph" v-bind:class="{ bold: bold }">
       {{ $t(text) }}
     </div>
   </div>
@@ -17,6 +21,10 @@ export default {
       required: true
     },
     nospace: {
+      type: Boolean,
+      default: false
+    },
+    bold: {
       type: Boolean,
       default: false
     }
@@ -37,6 +45,11 @@ export default {
   line-height: 1.58;
   text-align: left;
 }
+
+.bold {
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .paragraph {
     font-size: 18px;

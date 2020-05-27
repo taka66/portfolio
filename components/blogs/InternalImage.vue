@@ -52,7 +52,9 @@ export default {
   img {
     margin: 10px auto;
     width: 100%;
-    max-width: 960px;
+    max-width: 1024px;
+    box-shadow: 0px 4px 14px rgba(40, 55, 57, 0.3);
+    border-radius: 10px;
   }
   span {
     text-align: center;
@@ -63,6 +65,7 @@ export default {
 @media (max-width: 768px) {
   .internal__image {
     width: 100%;
+    max-width: 600px;
   }
 }
 </style>

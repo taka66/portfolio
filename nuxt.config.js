@@ -94,6 +94,7 @@ export default {
     ['vue-scrollto/nuxt', { duration: 300 }],
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
+    'nuxt-webfontloader',
     [
       '@nuxtjs/google-gtag',
       {
@@ -101,6 +102,12 @@ export default {
       }
     ]
   ],
+
+  webfontloader: {
+    google: {
+      families: ['PT Sans:400,700i']
+    }
+  },
 
   /*
    ** https://github.com/nuxt-community/sitemap-module

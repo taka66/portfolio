@@ -5,7 +5,7 @@
       <div class="flex">
         <Card
           year="2020"
-          name="blogs.10mins"
+          name="blogs.20mins"
           link="articles/vpoe"
           title="blogs.titles.vpoe"
           thumbnail="/articles/vpoe.png"
