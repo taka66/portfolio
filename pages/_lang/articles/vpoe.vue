@@ -352,7 +352,7 @@ export default {
         description: 'VPoEになって、まず取り組んでいること',
         type: 'article',
         url: 'https://takahirofujii.dev/articles/vpoe',
-        image: 'https://takahirofujii.dev/articles/ogp-vpoe.png'
+        image: 'https://takahirofujii.dev/ogp/ogp-vpoe.png'
       },
       note: ['vpoe.pro2.note.1', 'vpoe.pro2.note.2', 'vpoe.pro2.note.3'],
       points: [
