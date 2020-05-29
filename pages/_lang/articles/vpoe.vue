@@ -7,7 +7,7 @@
       <NameCard date="27/Mar" min="20" />
       <Share
         url="http://takahirofujii.dev/articles/vpoe"
-        text="VPoEになって、まず取り組んでいること | UI/UX Engineer Takahiro Fujii's portfolio"
+        text="VPoEになって、まず取り組んでいること UI/UX Engineer Takahiro Fujii's portfolio"
       />
     </div>
     <BlogTitleImage
@@ -314,7 +314,7 @@
     <Separater />
     <Share
       url="http://takahirofujii.dev/articles/vpoe"
-      text="VPoEになって、まず取り組んでいること | UI/UX Engineer Takahiro Fujii's portfolio"
+      text="VPoEになって、まず取り組んでいること UI/UX Engineer Takahiro Fujii's portfolio"
     />
   </div>
 </template>
