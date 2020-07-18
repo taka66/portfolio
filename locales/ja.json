@@ -56,6 +56,7 @@
   "design": {
     "title": "Design Works(一部)",
     "name": {
+      "koikifm": "小粋.fm",
       "nabnab": "Lineスタンプ",
       "tokyoflower": "Logo",
       "webhack": "Speaker Card",
@@ -64,6 +65,7 @@
       "superpoints": "Basketball Uniform"
     },
     "titles": {
+      "koikifm": "小粋.fm ロゴデザイン",
       "nabnab": "Line Sticker for Web Engineer",
       "tokyoflower": "東京笑花 ロゴデザイン",
       "webhack": "Speaker Card Design",
