@@ -4,6 +4,14 @@
       <h3>{{ $t('design.title') }}</h3>
       <div class="design-flex">
         <Card
+          year="2020"
+          name="design.name.koikifm"
+          link="https://anchor.fm/koiki.fm"
+          title="design.titles.koikifm"
+          thumbnail="/design/koikifm.png"
+          outsidelink
+        />
+        <Card
           year="2019"
           name="design.name.nabnab"
           link="https://store.line.me/stickershop/product/6828126"

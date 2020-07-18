@@ -13,6 +13,13 @@
         <h3>{{ $t('index.activity') }}</h3>
         <div class="flex">
           <Card
+            name="Podcast for Engineering Manager"
+            link="https://anchor.fm/koiki.fm"
+            title="KOIKI.fm"
+            thumbnail="/design/koikifm.png"
+            outsidelink
+          />
+          <Card
             name="Intoroduce my favorite Tokyo places"
             link="https://takahirofujii.com/tokyo-as-a-local/"
             title="Tokyo as a local(Tokyo as hometown)"
