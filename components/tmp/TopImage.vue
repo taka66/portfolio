@@ -1,7 +1,7 @@
 <template>
   <div class="top-image">
-    <p class="top-image-title">Takahiro Fujii</p>
-    <p class="top-image-sub">UI/UX Engineer / Engineering Manager</p>
+    <!-- <p class="top-image-title">Takahiro Fujii</p>
+    <p class="top-image-sub">UI/UX Engineer / Engineering Manager</p> -->
   </div>
 </template>
 
