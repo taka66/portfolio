@@ -5,6 +5,13 @@
       <div class="flex">
         <Card
           year="2020"
+          name="blogs.5mins"
+          link="articles/koikifm"
+          title="blogs.titles.koikifm"
+          thumbnail="/articles/koikifm.png"
+        />
+        <Card
+          year="2020"
           name="blogs.20mins"
           link="articles/vpoe"
           title="blogs.titles.vpoe"
