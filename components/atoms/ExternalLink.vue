@@ -1,6 +1,9 @@
 <template>
   <div class="external__link">
-    <a :href="link" target="__blank">
+    <a v-if="i18n" :href="link" target="__blank">
+      <span>{{ $t(text) }}</span>
+    </a>
+    <a v-else :href="link" target="__blank">
       <span>{{ text }}</span>
     </a>
   </div>
@@ -16,6 +19,11 @@ export default {
     link: {
       type: String,
       required: true
+    },
+    i18n: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   }
 }
