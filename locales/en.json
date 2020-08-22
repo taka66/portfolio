@@ -571,7 +571,7 @@
         "title": "Horizontal",
         "1": "I mentioned earlier that WealthPark's organization is on the matrix base, but it is horizontal on the organization chart. In other words, we divide our teams according to their specialties, such as FrontEnd, BackEnd, etc.",
         "2": "It's a bit of a contradiction, but on the other hand, we also welcome a full-stack approach to working as an individual. Some members contribute to product development across teams. On the other hand, there are some members who are more dedicated to their specialty. We are flexible and consider the career path of each member. For example, our QA ChapterLead, Swarna, is also working on improving the development process as ScrumMaster.",
-        "3": "Each team has a Chapter Lead who supports the members in their daily development, reviews the guidelines for each technical layer, and sets goals. On the other hand, a Chapter Lead is an engineer who belongs to a project or a Squad (to be described later) and works the same way as the other members (although his or her time is used differently), but he or she also works on development."
+        "3": "Each team has a Chapter Lead who supports the members in their daily development, reviews the guidelines for each technical layer, and sets goals. On the other hand, a Chapter Lead is an engineer who belongs to a project or a Squad (to be described later) and works the same way as the other members (although his or her time is used differently), but he or she also works on development. WealthPark defines expectations for Chapter Lead as follows."
       },
       "vertical": {
         "title": "Vertical",
@@ -610,11 +610,12 @@
       },
       "1": "When I joined the company, I was surprised at how many different technologies are mixed together, including the details.WealthPark itself is not such a young product, and some of the oldest products are more than 5 years old.",
       "2": "As for the web, we have legacy products in the form of PHP monolithic apps, and as for FrontEnd, we are basically using React to develop new ones. As for BackEnd, we are currently discussing how to use React depending on the product. For Mobile, we are developing iOS and Android apps with Swift and Java, but we also use ReactNative in some cases.",
-      "3": "As for the future direction, FrontEnd will be unified with React from now on. We plan to replace the existing products as well, and the BackEnd will have some directionality depending on the future discussions. We think we'll be moving towards Go to some extent. Also, we may use FaaS, depending on the application. Mobile is looking at adopting modern technology while continuing to return debt."
+      "3": "As for the future direction, FrontEnd will be unified with React from now on. We plan to replace the existing products as well, and the BackEnd will have some directionality depending on the future discussions. We think we'll be moving towards Go to some extent. Also, we may use FaaS, depending on the application. Mobile is looking at adopting modern technology while continuing to return debt.",
+      "4": "I've written a little bit about architectural changes and my thoughts on technical debt on the recruitment page. If you are interested, please see this page as well."
     },
     "wrap": {
       "title": "Summary",
-      "1": "For the first time, this is a clear introduction to the organization of the company, so it is somewhat comprehensive. If you have any questions that you would like to ask in more depth, please feel free to ask me.",
+      "1": "For the first time, this is an introduction to the organization of the WealthPark, so it is somewhat comprehensive. If you have any questions that you would like to ask in more depth, please feel free to ask me.",
       "2": "Also, if you are interested in joining our engineering organization, we are available for casual interviews and would be happy to hear from you.",
       "3": "We're improving in many ways every day. I'll do my best to give you an article that will make you feel like you're getting so much better the next time you're introduced to the organization and the tech stack!"
     }

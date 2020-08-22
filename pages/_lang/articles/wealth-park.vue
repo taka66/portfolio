@@ -110,11 +110,7 @@
     <Paragraph text="wealth-park.organization.vertical.3" />
     <Separater />
     <Paragraph text="wealth-park.organization.vertical.summary.1" />
-    <ExternalImage
-      url="https://blog.crisp.se/wp-content/uploads/2012/11/ScalingAgileAtSpotify-Cover-1.png"
-      link="https://blog.crisp.se/2012/11/14/henrikkniberg/scaling-agile-at-spotify"
-      desc="Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds"
-    />
+    <InternalImage url="matrix.png" desc="Matrix Organization" />
     <Separater />
 
     <div class="blog__h">
@@ -138,6 +134,7 @@
     <Paragraph text="wealth-park.development.development.2" />
     <Paragraph text="wealth-park.development.development.3" nospace />
     <Paragraph text="wealth-park.development.development.4" />
+    <InternalImage url="kanbanvsscrum.png" desc="Kanban vs Scrum" />
     <ExternalLink
       link="https://www.atlassian.com/ja/agile/kanban/kanban-vs-scrum"
       text="Kanban vs Scrum"
@@ -155,6 +152,11 @@
     <Paragraph text="wealth-park.techstacks.1" />
     <Paragraph text="wealth-park.techstacks.2" />
     <Paragraph text="wealth-park.techstacks.3" />
+    <Paragraph text="wealth-park.techstacks.4" />
+    <ExternalLink
+      link="https://wealth-park.com/ja/careers/backend-engineer/"
+      text="[Engineering Dept.] Backend Engineer (PHP or Ruby + Go)"
+    />
     <Separater />
     <div class="blog__h">
       <h2>{{ $t('wealth-park.wrap.title') }}</h2>
@@ -203,13 +205,12 @@ export default {
   data() {
     return {
       meta: {
-        title: 'VPoEになって、まず取り組んでいること',
-        description: 'VPoEになって、まず取り組んでいること',
+        title: 'Introduce WealthPark Engineering',
+        description: 'Introduce WealthPark Engineering',
         type: 'article',
-        url: 'https://takahirofujii.dev/articles/vpoe',
-        image: 'https://takahirofujii.dev/ogp/ogp-vpoe.png'
+        url: 'https://takahirofujii.dev/articles/wealth-park',
+        image: 'https://takahirofujii.dev/ogp/ogp-wealth-park.png'
       },
-      note: ['vpoe.pro2.note.1', 'vpoe.pro2.note.2', 'vpoe.pro2.note.3'],
       techstacks: [
         'wealth-park.techstacks.list.1',
         'wealth-park.techstacks.list.2',
@@ -218,24 +219,6 @@ export default {
         'wealth-park.techstacks.list.5',
         'wealth-park.techstacks.list.6',
         'wealth-park.techstacks.list.7'
-      ],
-      improvements: [
-        'vpoe.process.improvements.1',
-        'vpoe.process.improvements.2',
-        'vpoe.process.improvements.3',
-        'vpoe.process.improvements.4'
-      ],
-      board: ['vpoe.process.project', 'vpoe.process.maintenance'],
-      patterns: [
-        'vpoe.chapter-lead.5-2.patterns.1',
-        'vpoe.chapter-lead.5-2.patterns.2',
-        'vpoe.chapter-lead.5-2.patterns.3'
-      ],
-      approaches: [
-        'vpoe.technical-debt.approaches.1',
-        'vpoe.technical-debt.approaches.2',
-        'vpoe.technical-debt.approaches.3',
-        'vpoe.technical-debt.approaches.4'
       ]
     }
   },

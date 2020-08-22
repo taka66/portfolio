@@ -39,7 +39,7 @@ export default {
   img {
     margin: 10px auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     box-shadow: 0px 4px 14px rgba(40, 55, 57, 0.3);
     border-radius: 10px;
   }
