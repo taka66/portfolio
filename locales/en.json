@@ -32,7 +32,8 @@
       "one-month": "One month has passed, since I changed job.(Only Japanese)",
       "tutorial-document": "5tips when you make onboard document for internship(Software Engineer).(Only Japanese)",
       "vpoe": "First effort as VPoE",
-      "koikifm": "Started potcast for engineeing manager"
+      "koikifm": "Started potcast for engineeing manager",
+      "wealth-park": "Introducing WealthPark's engineering organization and technology stack."
     }
   },
   "presentations": {
@@ -585,19 +586,19 @@
     "development": {
       "title": "WealthPark's Development Methodology",
       "discovery": {
-        "1": "いわゆる、プロジェクト初期のDiscoveryフェーズでは、様々な取組を行っています。WealthParkでは、ビジネスと開発の距離が近いので、ビジネスの課題やIssueをエンジニアのmtgに同席してシェアして頂いたり、一緒にDesign SprintやPlanningに取り組んだりします。",
-        "2": "プロジェクトキックオフ時は、プロダクトマネージャーを中心として、現状のIssueや、ビジネスとして期待したいことの共有や、それをどのように解決するか、プロジェクトをどのように進めていくか議論しています。",
-        "3": "Design Sprintも、最近のリモート環境に合わせて、Miro上で行うことが増えました。Miro上でスケッチや、コメントを書き込んだりすると、後でグルーピングができたり、コメントを再確認できるのでおすすめです。Design Sprintはアイデアを出し合うことも重要ですが、このフローを取り入れることにより、より早いフェーズからエンジニアがプロダクト開発に携わることができるようになり、より1人1人のオーナーシップをEngageすることができていて、特にこの点が素晴らしいと感じています。一方で、元来のDesign Sprintが定義する5日間ほどの期間はとることがなかなか難しいということもあり、弊社にとってより良いスタイルを模索しています。"
+        "1": "At WealthPark, the business and development are very close to each other, so we ask our engineers to sit down with us and share our issues and ideas, and also to work together with us on Design Sprint and We work on planning and so on.",
+        "2": "At the project kick-off, the product manager and the rest of the team share the current Issue and what they would like to see as a business, and discuss how to resolve it and how to move the project forward.",
+        "3": "Design Sprint is increasingly being done on Miro, in line with today's remote environment. Sketching and commenting on Miro is recommended for grouping and reviewing comments later on, and Design Sprint is a great way to bounce ideas off each other It's important to have a good flow, but this flow also allows engineers to get involved in product development from an earlier phase and engages each person's ownership, which I think is especially great. On the other hand, we are looking for a better style for our company, as it is difficult to take the 5 days or so that the original Design Sprint defined, and we are looking for a better style for our company."
       },
       "development": {
-        "1": "WealthParkでは、基本的にAgileで開発を進めています。Squadや、Product、Projecによって、カスタマイズされている部分がありますが、大まかには、",
-        "2": "Maintenance Work - Kanbanを利用した継続的なフロー",
-        "3": "Squad - Scrumで2週間Sprintで開発",
-        "4": "となります。実は、比較的スプリント開発を全社的に明確に始めたのは最近です。または、スプリント開発をしていても、プランニングやデモ、振り返りに時間を使えていないといった課題がありました。現在はそういった点を見直しながら、改めてSprintに挑戦しています。"
+        "1": "At WealthPark, we're essentially an Agile developer, with some customization depending on Squad, Product and Project. Roughly,",
+        "2": "Maintenance Work - Continuous Flow with Kanban",
+        "3": "Squad - Scrum for 2 weeks at Sprint",
+        "4": "In fact, we only recently started sprint development company-wide. Alternatively, we have had issues with Sprint development, but we haven't been able to spend time planning, demonstrating and reflecting on it. We're currently reviewing those aspects of Sprint, and are taking on the challenge of Sprint again."
       }
     },
     "techstacks": {
-      "title": "WealthParkの技術スタック",
+      "title": "WealthPark's Technology Stack",
       "list": {
         "1": "Code : github, gitlab",
         "2": "FrontEnd : JavaScript(React, TypeScript), PHP",
@@ -607,15 +608,15 @@
         "6": "Infrastructure: AWS, GCP, k8s ",
         "7": "Other: AWS Lambda, Cloud Function, GraphQL, gRPC etc.."
       },
-      "1": "弊社に入社してから自分も驚いたのですが、細かい所も含めると、非常に様々な技術が混在しています。WealthPark自体はそこまで歴史が浅いプロダクトではなく、最も古いものだと5年以上前に作られたプロダクトも存在しています。",
-      "2": "Webに関しては、レガシーなプロダクトがPHPなMonolithなアプリとして存在していて、FrontEndに関しては新しいものに関しては基本的にReactで開発を行っています。BackEndに関しては、プロダクトに応じて現在は議論している段階です。比較的新しいものは、Goであったり、BFFとしてのNode(GraphQL)のものなどがあります。Mobileは、基本はSwiftとJavaでiOSとAndroidを開発していますが、一部ReactNativeも利用しています。",
-      "3": "今後の方向性としては、FrontEndは、今後はReactに統一していきます。既存のプロダクトに関しても、置き換えていく予定です。BackEndは、今後の議論によっては、ある程度方向性をもたせていくことになります。ある程度Goに寄せていくことになると考えています。また、用途によって、FaaSを使うこともあります。現状、そもそもAPIとしても足りていない機能が多々あるので、API群の拡充も図っている最中です。Mobileは、継続して負債を返却しつつ、モダンな技術の採用を検討しています。"
+      "1": "When I joined the company, I was surprised at how many different technologies are mixed together, including the details.WealthPark itself is not such a young product, and some of the oldest products are more than 5 years old.",
+      "2": "As for the web, we have legacy products in the form of PHP monolithic apps, and as for FrontEnd, we are basically using React to develop new ones. As for BackEnd, we are currently discussing how to use React depending on the product. For Mobile, we are developing iOS and Android apps with Swift and Java, but we also use ReactNative in some cases.",
+      "3": "As for the future direction, FrontEnd will be unified with React from now on. We plan to replace the existing products as well, and the BackEnd will have some directionality depending on the future discussions. We think we'll be moving towards Go to some extent. Also, we may use FaaS, depending on the application. Mobile is looking at adopting modern technology while continuing to return debt."
     },
     "wrap": {
-      "title": "まとめ",
-      "1": "はじめて、明確に会社の組織の紹介ということで、やや網羅的な文章となりました。より深掘りして聞きたい部分などありましたら、気軽にご質問ください。",
-      "2": "また、もしも弊社のエンジニア組織に興味がある方がいらっしゃいましたら、カジュアル面談なども可能ですので、お声がけ頂けますと幸いです。",
-      "3": "日々、いろんな点で改善を重ねています。次に組織や技術スタックを紹介する時は、めちゃくちゃよくなってるなーって思われるような記事があげられるように頑張ります！"
+      "title": "Summary",
+      "1": "For the first time, this is a clear introduction to the organization of the company, so it is somewhat comprehensive. If you have any questions that you would like to ask in more depth, please feel free to ask me.",
+      "2": "Also, if you are interested in joining our engineering organization, we are available for casual interviews and would be happy to hear from you.",
+      "3": "We're improving in many ways every day. I'll do my best to give you an article that will make you feel like you're getting so much better the next time you're introduced to the organization and the tech stack!"
     }
   }
 }
