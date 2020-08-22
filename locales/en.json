@@ -32,7 +32,8 @@
       "one-month": "One month has passed, since I changed job.(Only Japanese)",
       "tutorial-document": "5tips when you make onboard document for internship(Software Engineer).(Only Japanese)",
       "vpoe": "First effort as VPoE",
-      "koikifm": "Started potcast for engineeing manager"
+      "koikifm": "Started potcast for engineeing manager",
+      "wealth-park": "Introducing WealthPark's engineering organization and technology stack."
     }
   },
   "presentations": {
@@ -525,6 +526,98 @@
       "1": "とはいえ、まだまだ始まったばかりのポッドキャストで、今後どうなっていくか、僕ら自身も分かりません。ある程度慣れてきたら、ゲストとか呼んで話できたら良いなーって漠然と思っています。でも、まずは僕ら自身のレベルアップが必要です。",
       "2": "暖かい目で聴いて欲しい所がある一方で、僕らが今まで培ってきたことや、経験してきたことで、参考になることは多少なりともあると考えています。",
       "3": "ということで、軽い気持ちで聴いて頂けると嬉しいです！もしも話をしてほしい議題や、フィードバックなどありましたら、@taka_ftまでDMとか頂けると嬉しいです！"
+    }
+  },
+  "wealth-park": {
+    "pro": {
+      "title": "Introduction",
+      "1": "In this article, as a VPoE for WealthPark, I'm going to introduce you to the WealthPark development organization. In the future, when we start our own blog, I may transfer some articles to it!",
+      "2": "WealthPark is not that young a service, but we haven't done a lot of dissemination of information to the outside world, especially related to engineering, until now. (I don't think you can find any information at all if you search for it on Google, etc. 😅)",
+      "3": "In this context, we want to communicate to engineers and those who are interested in WealthPark what kind of organization WealthPark's engineers are, what they think, and how they develop and improve their products on a daily basis.",
+      "4": "WealthPark's engineering, product and design organization is international. Our engineering organization is very international and consists of about 20 people from more than 10 different countries. That's why most of our normal work is done in English. (To be honest, I'm not the best at English, I think.)",
+      "5": "Because of this, we are planning to have a separate English version of our blog (this time it will be my personal blog, written in both English and Japanese). There are only two Japanese in our engineering organization, including me, and the rest are all engineers from overseas. So, I think this kind of articles will be written in English more and more in the future. However, as I mentioned before, I am writing these articles not only for engineers, but also for people who are interested in WealthPark, so I am writing them in Japanese as well."
+    },
+    "business": {
+      "title": "Business Description",
+      "1": "WealthPark is a start-up IT venture that provides asset management and administration platform applications to individual investors and property management companies. We are currently trying to firstly \"visualize\" illiquid assets in the real estate industry, which is one of the alternative assets.",
+      "2": "We are also hiring for an engineering position.",
+      "cooperate": {
+        "name": "Corporate Site"
+      },
+      "recruit": {
+        "name": "Recruiting"
+      }
+    },
+    "diversity": {
+      "title": "Diversity",
+      "1": "WealthPark's engineering organization is very international. (Our product organization as well.) We have people from a variety of backgrounds. This is similar to my previous job at Rakuten, too.",
+      "2": "However, WealthPark's engineering organization originally started with zero Japanese and has maintained that status for a relatively long time. This makes it more natural and natural for the company to be a diverse and international organization.",
+      "3": "As I shared earlier, daily communication is in English.",
+      "4": "Our diversity is explained by Shoumei, Head of Mobile (ChapterLead) of our mobile team, in the following article with an interesting story.(Japanese)",
+      "shoumei": "【WealthPark 社員インタビュー vol. 1】バイリンガルエンジニアが魅力に思う、WealthParkの多様性",
+      "5": "The engineering organization at WealthPark is very communicative. One of my very favorite habits is that, usually around 3 p.m., I get a message on the Slack engineering channel that says, \"Going for coffee?\" goes on the Slack engineering channel. We all take a walk to the nearest Family Mart, buy a cup of coffee and talk as we leave. Not everyone is absolutely going, but those who want to go and those who can go are encouraged to do so.",
+      "6": "Personally, this habit gave me a chance to talk with all the engineers right after I joined the company, and it was very helpful from an onboarding point of view. (I haven't been able to do this since I'm basically working remotely now. We occasionally video chat over a cup of coffee.) ",
+      "7": "We also value communication and discussion in our work.We have a culture of open discussion and feedback, which I believe is very important.",
+      "diversity": "However, we have not only a friendly and harmonious atmosphere, but also a good balance of the seriousness of making good products and achieving our goals, which makes us a really fun team to work for. It's a very fun team to work for. All of us are able to balance \"fun\" and \"seriousness\" in our work. In a uni-cultural team with only members who have the same values and ideas, they tend to be biased to one side, but with a team like the one we have now, I feel we have a good balance.(translated)"
+    },
+    "organization": {
+      "title": "Diversity / International Organization",
+      "1": "Let me introduce our organizational structure. Our development and product organization is based on a matrix organization.",
+      "PDE": {
+        "title": "Product / Design / Engineering",
+        "1": "We have a product, design, and engineering organization under our COO and CPO. Our engineering organization is divided into five teams (FrontEnd, BackEnd, Mobile, QA and DevOps). Each team has a Chapter Lead (Head of X) and a member in a lead position (more on that later). We are working on product development and improvement through close communication and discussion with business members, and working together with Product, Design, and Engineering."
+      },
+      "horizontal": {
+        "title": "Horizontal",
+        "1": "I mentioned earlier that WealthPark's organization is on the matrix base, but it is horizontal on the organization chart. In other words, we divide our teams according to their specialties, such as FrontEnd, BackEnd, etc.",
+        "2": "It's a bit of a contradiction, but on the other hand, we also welcome a full-stack approach to working as an individual. Some members contribute to product development across teams. On the other hand, there are some members who are more dedicated to their specialty. We are flexible and consider the career path of each member. For example, our QA ChapterLead, Swarna, is also working on improving the development process as ScrumMaster.",
+        "3": "Each team has a Chapter Lead who supports the members in their daily development, reviews the guidelines for each technical layer, and sets goals. On the other hand, a Chapter Lead is an engineer who belongs to a project or a Squad (to be described later) and works the same way as the other members (although his or her time is used differently), but he or she also works on development. WealthPark defines expectations for Chapter Lead as follows."
+      },
+      "vertical": {
+        "title": "Vertical",
+        "1": "On the other hand, although not represented in the organization chart, we often work together in a product-based team called Squad, and I won't go into that much detail about Squad in this article. I'll discuss Squad in a separate post.",
+        "2": "WealthPark has a product called WealthPark Business that we provide for management companies. Wealthpark has one Squad in that product, where the business side members, Product Manager, FrontEnd/BackEnd/Mobile/QA/DevOps Engineer, belong to it. It's a vertical organization. Each Squad works together to achieve the goal of the product.",
+        "3": "However, code reviews and problem solving are sometimes done between Chapters.",
+        "summary": {
+          "1": "At WealthPark, we use a matrix organizational system in which both horizontal (Chapters) and vertical (Squads) types of organizations exist. In this way, we aim to create a situation where each person has a high level of expertise, while at the same time, there are no barriers between people in other departments."
+        }
+      }
+    },
+    "development": {
+      "title": "WealthPark's Development Methodology",
+      "discovery": {
+        "1": "At WealthPark, the business and development are very close to each other, so we ask our engineers to sit down with us and share our issues and ideas, and also to work together with us on Design Sprint and We work on planning and so on.",
+        "2": "At the project kick-off, the product manager and the rest of the team share the current Issue and what they would like to see as a business, and discuss how to resolve it and how to move the project forward.",
+        "3": "Design Sprint is increasingly being done on Miro, in line with today's remote environment. Sketching and commenting on Miro is recommended for grouping and reviewing comments later on, and Design Sprint is a great way to bounce ideas off each other It's important to have a good flow, but this flow also allows engineers to get involved in product development from an earlier phase and engages each person's ownership, which I think is especially great. On the other hand, we are looking for a better style for our company, as it is difficult to take the 5 days or so that the original Design Sprint defined, and we are looking for a better style for our company."
+      },
+      "development": {
+        "1": "At WealthPark, we're essentially an Agile developer, with some customization depending on Squad, Product and Project. Roughly,",
+        "2": "Maintenance Work - Continuous Flow with Kanban",
+        "3": "Squad - Scrum for 2 weeks at Sprint",
+        "4": "In fact, we only recently started sprint development company-wide. Alternatively, we have had issues with Sprint development, but we haven't been able to spend time planning, demonstrating and reflecting on it. We're currently reviewing those aspects of Sprint, and are taking on the challenge of Sprint again."
+      }
+    },
+    "techstacks": {
+      "title": "WealthPark's Technology Stack",
+      "list": {
+        "1": "Code : github, gitlab",
+        "2": "FrontEnd : JavaScript(React, TypeScript), PHP",
+        "3": "BackEnd : golang, Node, Python, Ruby, PHP",
+        "4": "Mobile: Swift, Java, React Native",
+        "5": "CI/CD : Jenkins, GitLab CI",
+        "6": "Infrastructure: AWS, GCP, k8s ",
+        "7": "Other: AWS Lambda, Cloud Function, GraphQL, gRPC etc.."
+      },
+      "1": "When I joined the company, I was surprised at how many different technologies are mixed together, including the details.WealthPark itself is not such a young product, and some of the oldest products are more than 5 years old.",
+      "2": "As for the web, we have legacy products in the form of PHP monolithic apps, and as for FrontEnd, we are basically using React to develop new ones. As for BackEnd, we are currently discussing how to use React depending on the product. For Mobile, we are developing iOS and Android apps with Swift and Java, but we also use ReactNative in some cases.",
+      "3": "As for the future direction, FrontEnd will be unified with React from now on. We plan to replace the existing products as well, and the BackEnd will have some directionality depending on the future discussions. We think we'll be moving towards Go to some extent. Also, we may use FaaS, depending on the application. Mobile is looking at adopting modern technology while continuing to return debt.",
+      "4": "I've written a little bit about architectural changes and my thoughts on technical debt on the recruitment page. If you are interested, please see this page as well."
+    },
+    "wrap": {
+      "title": "Summary",
+      "1": "For the first time, this is an introduction to the organization of the WealthPark, so it is somewhat comprehensive. If you have any questions that you would like to ask in more depth, please feel free to ask me.",
+      "2": "Also, if you are interested in joining our engineering organization, we are available for casual interviews and would be happy to hear from you.",
+      "3": "We're improving in many ways every day. I'll do my best to give you an article that will make you feel like you're getting so much better the next time you're introduced to the organization and the tech stack!"
     }
   }
 }

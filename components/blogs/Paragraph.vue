@@ -2,12 +2,12 @@
   <div>
     <div
       v-if="nospace"
-      class="paragraph__nospace"
       v-bind:class="{ bold: bold }"
+      class="paragraph__nospace"
     >
       {{ $t(text) }}
     </div>
-    <div v-else class="paragraph" v-bind:class="{ bold: bold }">
+    <div v-else v-bind:class="{ bold: bold }" class="paragraph">
       {{ $t(text) }}
     </div>
   </div>
