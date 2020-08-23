@@ -23,9 +23,9 @@
     <Paragraph text="wealth-park.pro.3" />
     <Paragraph text="wealth-park.pro.4" />
     <ExternalImage
-      url="https://d2v9k5u4v94ulw.cloudfront.net/small_light(dw=1440,da=l,ds=s,cc=FFFFFF,of=webp)/assets/images/4953194/original/b691ab35-aaba-4789-a6b3-42e179086372?1588056383"
-      link="https://www.wantedly.com/companies/wealth-park"
-      desc="WealthPark Team Member(From Wantedly)"
+      url="https://www.green-japan.com/photo/346097"
+      link="https://www.green-japan.com/company/4370"
+      desc="WealthPark Team Member(From Green)"
     />
     <Paragraph text="wealth-park.pro.5" />
     <Separater />
