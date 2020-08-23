@@ -24,7 +24,7 @@
     <Paragraph text="wealth-park.pro.4" />
     <ExternalImage
       url="https://www.green-japan.com/photo/346097"
-      link="https://www.wantedly.com/companies/wealth-park"
+      link="https://www.green-japan.com/company/4370"
       desc="WealthPark Team Member(From Green)"
     />
     <Paragraph text="wealth-park.pro.5" />
