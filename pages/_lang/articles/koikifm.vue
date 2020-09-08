@@ -28,10 +28,10 @@
     </div>
     <InternalImage url="spotify.png" desc="3回配信しました！" />
     <Paragraph text="koikifm.pro.1" />
-    <ExternalLink link="https://anchor.fm/koiki.fm" text="Koki.fm(Anchor)" />
+    <ExternalLink link="https://anchor.fm/koiki.fm" text="Koiki.fm(Anchor)" />
     <ExternalLink
       link="https://open.spotify.com/show/6eKFTnS5scjybo6VHnyFgI?si=MWa5aUN8QmCUpCZUk13NXA"
-      text="Koki.fm(Spotify)"
+      text="Koiki.fm(Spotify)"
     />
     <Paragraph text="koikifm.pro.2" />
     <InternalImage url="whykoikifm.png" desc="誘ってもらった時" />
