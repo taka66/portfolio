@@ -1,6 +1,7 @@
 <template>
   <div class="share">
-    <Twitter :text="text" :url="url" class="share__margin" />
+    <Twitter v-if="i18n" :text="$t(text)" :url="url" class="share__margin" />
+    <Twitter v-else :text="text" :url="url" class="share__margin" />
     <Facebook :url="url" />
   </div>
 </template>
@@ -21,6 +22,11 @@ export default {
     url: {
       type: String,
       default: 'https://takahirofujii.dev'
+    },
+    i18n: {
+      type: Boolean,
+      required: false,
+      default: false
     }
   }
 }

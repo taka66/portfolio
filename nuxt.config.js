@@ -83,7 +83,7 @@ export default {
    */
   plugins: [
     '~/plugins/i18n.js',
-    // '~/plugins/vue-scrollto.js',
+    '~/plugins/vue-scrollto.js',
     '~/plugins/v-lazy-image.js'
   ],
 
