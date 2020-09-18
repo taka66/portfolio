@@ -66,6 +66,7 @@ export default {
   .internal__image {
     width: 100%;
     max-width: 600px;
+    margin: 0 auto;
   }
 }
 </style>
