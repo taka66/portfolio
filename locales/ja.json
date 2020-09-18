@@ -10,6 +10,9 @@
     "blog": "Blog 📄",
     "articles": "ブログ"
   },
+  "links": {
+    "spotify-model": "https://takahirofujii.dev/ja/articles/spotify-model"
+  },
   "name": "フジイ タカヒロ",
   "about": {
     "techstack": "Teck Stack",

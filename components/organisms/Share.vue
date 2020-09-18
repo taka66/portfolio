@@ -1,8 +1,14 @@
 <template>
   <div class="share">
-    <Twitter v-if="i18n" :text="$t(text)" :url="url" class="share__margin" />
+    <Twitter
+      v-if="i18n"
+      :text="$t(text)"
+      :url="$t(url)"
+      class="share__margin"
+    />
     <Twitter v-else :text="text" :url="url" class="share__margin" />
-    <Facebook :url="url" />
+    <Facebook v-if="i18n" :url="$t(url)" />
+    <Facebook v-else :url="url" />
   </div>
 </template>
 

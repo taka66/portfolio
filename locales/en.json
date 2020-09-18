@@ -10,6 +10,9 @@
     "blog": "Blog 📄",
     "articles": "Articles"
   },
+  "links": {
+    "spotify-model": "https://takahirofujii.dev/articles/spotify-model"
+  },
   "name": "Takahiro Fujii",
   "about": {
     "techstack": "Teck Stack",
@@ -34,7 +37,7 @@
       "vpoe": "First effort as VPoE",
       "koikifm": "Started potcast for engineeing manager",
       "wealth-park": "Introducing WealthPark's engineering organization and technology stack.",
-      "spotify-model": "Real and imaginary in the spotify model"
+      "spotify-model": "Real and Falsehood in the spotify model"
     }
   },
   "presentations": {
@@ -623,141 +626,141 @@
   },
   "spotify-model": {
     "pro": {
-      "title": "まえがき",
-      "1": "弊社ではいわゆるSpotify Modelをアレンジした開発手法・組織体系を導入しています。僕の過去の記事でも、部分的にこの点に対して言及していますが、明確にSpotify Modelに焦点をあてた記事を書いていなかった為、今回書いてみることにしました。",
-      "2": "まず、この組織モデルに対して、賛否両論ある点は理解しています。また、Spotidy Modelの一部を取り入れ、実際に運用する中で、いい所も、課題感も感じることができました。この記事が、Spotify Modelに対するCase Studyと、組織改善、そして自治と調和について考えるきっかけになれば幸いです。"
+      "title": "Prologue",
+      "1": "WealthPark has introduced a development methodology and organizational system that is an adaptation of the Spotify Model. I've mentioned this in part in my past articles, but I hadn't written anything explicitly focusing on the Spotify Model in the past, so I decided to write about it this time.",
+      "2": "First of all, I understand that there are pros and cons to this organizational model. Also, I've taken parts of the Spotidy Model and in actually operating it, I've been able to see both the good points and a sense of the challenges. I hope this article will lead you to think about Case Study on Spotify Model, organizational improvement, and autonomy and alignment."
     },
     "spotify-model": {
-      "1": "Spotify Modelとして知らているこの組織体系、開発手法は、2012年に発表された、\"Scaling Agile @ Spotify\"という文章が起源です。日本語での翻訳記事もあります。",
-      "2": "Spotify Modelは、ラージスケールアジャイルを目指す一つの手法ですが、独自の用語も多く、それもあって、\"Spotify Model\"という独自のモデルとして言及されることが多いです。Spotify Modelは成長する組織において、自治と調律のバランスをどのように維持するか、という課題に対して、SquadやChapterといった組織構造を用いて、両者を追求し続けることを目指します。",
-      "3": "以降の章で、より具体的な部分に触れていきます。"
+      "1": "This organizational structure and development methodology, known as the Spotify Model, originated in a 2012 article titled \"Scaling Agile@ Spotify\".",
+      "2": "The Spotify Model is one way to go about becoming large scale agile, but it also has its own terms(e.g Squad, Chapter), which is why it's often referred to as a proprietary model called the \"Spotify Model\". The Spotify Model addresses the challenge of how to maintain a balance between autonomy and discipline in a growing organization.",
+      "3": "Let's get into the specifics."
     },
     "goal": {
-      "title": "Spotify Modelの目的",
-      "1": "Spotifyではその開発、組織手法がもたらす最大のメリットとして、'Autonomy(自治)'を上げています。Squad + Chapterという組織構造で、より一人一人のOwnership、責任と自由を強化していくことが、この開発手法を取り入れる一つの大きな目的と捉えています。SquadとChapterについては、この後のセクションで説明していきます。"
+      "title": "Purpose of the Spotify Model.",
+      "1": "One of the biggest benefits of the Spotify Model is 'Autonomy'. One of the main goals of the Squad + Chapter organizational structure is to give each person more ownership, responsibility and freedom. I will explain more about Squad and Chapter in the following sections."
     },
     "squad": {
       "title": "Squad",
-      "1": "Spotify Modelの一つの特徴は、開発チームの単位として明確にSquadというものを定義していることです。Squadは、垂直型の組織で、あるプロダクトや機能に対して働く、職責混合の1チームのことを指します。Squadのように明確に名前がなくとも、プロジェクト、あるいはプロダクトチームという形で、様々な役割のメンバー(PDM, FrontEnd, BackEnd, QA, etc..)が一緒に仕事することがあると思います。Spotify Modelはそのような集合を、明確にSquadという組織として定義しています。",
-      "2": "その為、1Squadは例えば1つのプロダクトや1つの機能について責任を持ちます。あるいは、皆で1つの新しい機能やプロダクトを開発します。ある責任範囲について、Squadだけでリリースまで遂行できるような組織が望ましいとされています。(実際は他のSquadと協力する部分は少なからず発生します。)",
-      "3": "そのような形でSquadを結成することにより、Squadは自治権を得ます。高い自治権を持い、さながら1つのスタートアップ、会社のように働きます。",
-      "4": "Squad毎に責任が移譲されることは、属しているメンバーの1人1人が大きな責任をもつということです。その為、あるSquadにおいて、あるChaper(FrontEnd, BackEnd)の責任はEngineering Managerではなく、Chapterのメンバー1人1人にあります。(必要に応じてEngineering Manager(Chapter Lead)は支援を惜しみません)",
-      "5": "Squadを用いた自己組織の究極の目的、目標としては、1Squadがほぼ独立した会社の用に、プロダクトやビジネスのKPIの達成のために邁進できることです。"
+      "1": "One feature of the Spotify Model is that it clearly defines a Squad as a unit of the team. A Squad is a vertical organization, one team with a mix of job responsibilities working on a product or function. Even if it doesn't have a clear name like Squad, there are many different roles (PDM, FrontEnd, BackEnd, QA, etc...) working together in the form of projects or product teams.) work together in the form of a project or product team, even if it's not explicitly named like the Squad. The Spotify Model explicitly defines such a set as an organization called Squad.",
+      "2": "So, 1Squad is responsible for one product or one feature, for example. Or we all work together to develop one new feature or product. It is desirable for an organization to be able to carry out a certain area of responsibility all the way to release with just one Squad. (In practice, there will be an amount of collaboration with other Squad members.)",
+      "3": "By forming a Squad in such a way, the Squad gains autonomy. It works like a start-up, a company.",
+      "4": "The delegation of responsibility for each Squad means that each member has a high level of responsibility. Therefore, in a Squad, the responsibility for a Chapter rests not with the Engineering Manager, but with each member of the Chapter.(The Engineering Manager(Chapter Lead) is willing to assist chapter member.)",
+      "5": "Squad's ultimate goal is for Squad to be able to push forward as a nearly independent company to achieve its product and business KPIs."
     },
     "chapter": {
       "title": "Chapter",
-      "1": "一方、Chapterは職能・役割別の水平型の組織です。例えば、FrontEnd Chapterだったり、Backend Chapter, Product Manager Chapter, QA Chapterがあります。Chapterを会社の1部署、チームとして定義する組織も比較的多いでしょう。",
-      "2": "Squadに対して、Chapterは同じようなスキルセットを持った人で構成される為、技術的な課題についての議論や、FrontEnd(BackEnd)のアークテクチャの議論などは、各Chapterで行われることが多いです。組織の規模にもよるかもしれませんが、コードレビューなども、Chapter間で行われることがあります。",
-      "3": "この説明を見て、Chapterは至って普通のチームのように感じられるかもしれません。しかし、実態は異なります。その点を次に説明します。"
+      "1": "Chapters, on the other hand, are horizontal organizations by function and role. For example, there is a FrontEnd Chapter, a Backend Chapter, a Product Manager Chapter, and a QA Chapter. There are relatively many organizations that define a Chapter as a department or team in the company.",
+      "2": "Chapters are made up of people with similar skill sets. Therefore, discussions of technical issues and discussions of FrontEnd (BackEnd) architecture often take place in each Chapter. Depending on the size of the organization, code reviews may also take place in Chapters.",
+      "3": "This description may make the Chapter feel like a perfectly normal team. However, the reality is different. That's what we'll explain next."
     },
     "squad-plus-chapter": {
-      "title": "SquadとChapterの関係",
-      "1": "SquadとChapterそれぞれは、非常に普遍的なことに見えます。但し、それら2つを明確に定義することで、Squadの自治・Chapterの調和の両者を目指すメッセージ性があります。",
-      "2": "これは筆者の主観も含みますが、多くの場合、組織の拡大に伴いChapter型の組織が肥大化し、調和にかける時間が増えます。(規模の大きいChapterが必ずしも悪いということではないです。あくまでこのような現象が起きやすくなる、という観点です。)",
-      "3": "そこで、Squadという組織が明確に定義し、自律性やアウトプットを維持する、加速することを目指します。",
-      "4": "私が実際にSpotify Modelを取り入れていて感じていることは、Spotify Modelでは、Chapterより前にSquadがきます。確実に自治重視の組織構成です。Squadがある程度独立して動けることが前提にあります。",
-      "5": "Spotify Modelは理想としては両者を取りに行く手法ですが、どちらを重視しているか、と聞かれれば、明確に自治です。最初から自治を重んじる組織に利用するケースもあれば、Chapter型の組織が成熟していく中で、再び自治を高めるアプローチとして部分的に取り入れていく、というケースが考えられると思います。両者を目指す為にこのアプローチをとることもあるでしょう。",
-      "6": "すると何が起きるか。Chapter内で議論や共有はされど、各Squadの動きは止まりません。時に、Squadを超えてマネジメント、調整をしたい場合、その難易度は水平型のみの組織より格段に高いと言えます。次に、その自治を重んじる組織において、調和の鍵を握る、Chapter Leadという役割について説明します。"
+      "title": "Squad and Chapter Relationship",
+      "1": "Squad and Chapter each appear to be very universal. However, by clearly defining the two, the message is aimed at both Squad's autonomy and Chapter's alignment.",
+      "2": "It's the author's subjective view, but in many cases, as organizations grow, Chapter-type organizations grow in size and have more time to align. (This is not to say that larger Chapters are necessarily bad. It's just that this phenomenon is more likely to occur.)",
+      "3": "This is where Squad, an organization clearly defined, aims to maintain and accelerate autonomy and output.",
+      "4": "What I've found in actually adopting the Spotify Model is that in the Spotify Model, the Squad comes before the Chapter. It's definitely an autonomy-oriented organizational structure, and it assumes that the Squad can operate with some degree of independence.",
+      "5": "Ideally, the Spotify Model is a way to get both, but if you ask me which one Spotify Model is more focused on, it's clearly autonomy. There are cases where it can be used by organizations that value autonomy from the start, and there are also cases where it can be used partially as an approach to increase autonomy again as a Chapter-type organization matures.",
+      "6": "In the Spotify Model, each Squad never stops moving, even though there is discussion and sharing within Chapters. Sometimes, when you want to manage and coordinate across squads, the degree of difficulty is much higher than in a horizontal organization. Next, let me explain the role of Chapter Lead, which holds the key to align in an organization that values autonomy."
     },
     "chapter-lead": {
       "title": "Chapter Lead",
       "leadership": {
-        "title": "リーダーシップ(マネジメント)",
-        "1": "改めてですが、Spotify Modelでは、縦割りはSquad(Product, Project毎), 横割りはChapter(FrontEnd, Backend等)と定義してマトリックス型の組織体系で構成されています。Chapter Leadは、横割りのChapterを支援するLeadポジションです。",
-        "2": "Chapter Leadは、Engineering Manager要素がやや強いですが、Technicalな期待値も持ち合わせています。マネジメントと、IC(個人の貢献)の両者が明確に記載されている点が特徴です。",
-        "3": "まず、リーダーシップの点についてですが、Scaling Agileでは、次のように書かれています。",
-        "4": "ChapterLeadは、Chapterのメンバーのためのラインマネージャーであり、人の育成、給与の設定などの伝統的なすべての責任を負います。",
-        "5": "Chapter leadはいわゆるEngineering Managerの側面を持ち合わせていて、Chapter間での技術スタック、知識、ツールの共有などをファシリテートします。また、メンバーの開発のサポートや、目標設定なども行います。"
+        "title": "Leadership and Management",
+        "1": "Once again, the Spotify Model consists of a matrixed organizational structure with vertical divisions of Squad (for each Product and Project) and horizontal divisions of Chapter (for FrontEnd, Backend, etc.) Chapter Lead is defined as This is a Lead position to support the Chapter.",
+        "2": "Chapter Lead has a slightly stronger Engineering Manager element, but it also has technical expectations. It is unique in that both management and IC (individual contribution) are clearly described.",
+        "3": "First, on the leadership point, Scaling Agile says",
+        "4": "The chapter lead is line manager for his chapter members, with all the traditional responsibilities such as developing people, setting salaries, etc",
+        "5": "The chapter lead has the aspect of an Engineering Manager and facilitates the sharing of technology stacks, knowledge and tools between Chapters. They are also responsible for supporting members' development and setting goals."
       },
       "hands-on": {
-        "title": "ハンズオン",
-        "1": "次にハンズオンについてです。Scaling Agileには次のように書かれています。",
-        "2": "Chapter LeadもChapterの一員として日々の業務に携わっているため、現場との距離を縮めることができます。",
-        "3": "この\"現場との距離を縮める\"の部分が非常に大切です。一見、このChapter Leadはプレイングマネージャのように見えますが、必ずしもそうではないと考えています。",
-        "4": "この現場という言葉は、色々な読み取り方が出来ます。1エンジニアとしての技術力、エッジなTechnologyに対する理解、プロダクトに対する知識、プロダクトの課題、技術的な負債など。",
-        "5": "僕は、'プロダクトに対するリアルな課題感の把握' を '現場' として捉えています。",
-        "6": "例えば、組織としてリファクタリング、リアーキテクトを進めたいが、思ったより進んでない。というIssueがあったとき、どうやって具体的な課題、原因を特定していくことになるのでしょうか。どの粒度で課題を見るのが良いでしょうか。それは、プロダクトがMonolithだからなのか、レガシーすぎるからなのか、コードが複雑(らしい)からなのか、コードのドメインが綺麗に分かれていないからなのか。ある複雑な関数のテストコードがなく、リファクタリング後のテストコードがかけないからなのか、メンテナンスタスクに追われて、リファクタリングに時間が避けないからなのか。どれもが正しい可能性がある一方、どこに現場の人が一番課題を感じているのか、あるいはそれが'実際どれくらい大変なのか'という肌感は、現場にいる人とそうでない人には違いがあることが多いと考えています。"
+        "title": "Hands-on",
+        "1": "Next, let's talk about hands-on: Scaling Agile says the following",
+        "2": "However, the chapter lead is also part of a squad and is involved in the day-to-day work, which helps him stay in touch with reality.",
+        "3": "This \"Touch with the reality\" part is very important. At first glance, a Chapter Lead may look like a playing manager, but I don't think that is necessarily true.",
+        "4": "\"Touch with the reality\" can be read in many ways: one's technical skills as an engineer, understanding of edgy Technology, knowledge of the product, product challenges, technical debt, etc.",
+        "5": "I think \"understanding the real issues of the product\" as \"Touch with the reality\".",
+        "6": "For example, if an organization wants to refactor and improve its architecture, but it is not making as much progress as expected, how do we identify specific issues and causes? Is it because the product is Monolith, is it because it's too legacy, is it because the code is too complex (apparently), or is it because the domain of the code is not neatly separated? Is it because there is no test code for a certain complex function and you can't run the test code after refactoring, or because you're too busy with maintenance tasks? While all of these could be right, I believe that there is often a difference between those who are in the field and those who are not, in terms of where people in the field feel most challenged or have a firsthand sense of 'how hard it really is'."
       },
       "summary": {
-        "title": "リーダーシップとハンズオン",
-        "1": "Chapter Leadが実装にかけられる時間は他のメンバーよりも少ないですが、それでも1Chapterのメンバーとして手を動かすことで、Realな現場感を持つことができると考えています。とはいえ、Leadership, Managementをどちらも頑張ることで、Chapterのメンバーと同等以上のアウトプットを出してほしいというわけではありません。リーダーシップとハンズオンにかける比重については、柔軟に考えています。パターンを考えると、",
+        "title": "Leadership and Hands-on",
+        "1": "A Chapter Lead can spend less time on implementation than other members. Even so, we believe that they can have a real onsite experience by working as a Chapter member. However, we don't expect you to produce the same or better output as a Chapter member by working hard in both Leadership and Management. We are flexible in terms of the weight we give to Leadership and Hands-on work. Given the pattern.",
         "case": {
-          "1": "一定の割合を維持する",
-          "2": "どちらかに多めの比重をかける(それはもしかしたら、EMっぽいChapter LeadとTechleadっぽいChapter Leadなのかもしれない)",
-          "3": "状況に応じてMenagementに専念している時もあれば、開発に専念しているときもある"
+          "1": "Keep a certain percentage.",
+          "2": "More weight is given to one or the other (maybe it's an Engineering Manager-like Chapter Lead and a Tech Lead-like Chapter Lead).",
+          "3": "Sometimes chapter lead focus on management, sometimes chapter lead focus on development, depending on the situation."
         },
-        "2": "などがあります。どれも一番良いアプローチになりうると考えています。大切なのは",
-        "3": "リーダシップとハンズオンの2つの側面で、組織の生産性を最大化すること",
-        "4": "に貢献できているかどうかです。"
+        "2": "and so on. We believe that all of them could be the best approach. The important thing is",
+        "3": "“Maximize chapter productivity, output by using both leadership and hands-on”",
+        "4": "whether you are contributing to this or not."
       }
     },
     "other": {
-      "title": "その他",
+      "title": "Others",
       "tribe": {
         "title": "Tribe",
-        "1": "Squadの中でも関連が強いSquadなどをグルーピングすることがあります。複数のSquadをさらにグルーピングしたものをTribeといいます。ちなみに、Scaling Agileには次の記述があります。",
-        "2": "Tribeのサイズは「ダンバー数」という概念に基づいて決められています。これは、ほとんどの人が100人以上の人とは社会的関係を維持できないというものです（実際には、生存圧力が強いグループほどこの数は大きくなりますが、Spotifyではそうではありません。グループが大きくなりすぎると、制限的なルール、官僚主義、政治、余分な管理層、その他の無駄が増えてきます。だから、Tribeは100人以下になるように設計されています。",
-        "3": "その為、Tribeとはそれなりに成長した組織で発生するイメージがあります。(例えば、弊社ではこの概念はありません)"
+        "1": "Sometimes you can group squads that are strongly related to each other. A further grouping of squads is called a Tribe. By the way, Scaling Agile describes the following",
+        "2": "Tribes are sized based on the concept of the “Dunbar number”, which says that most people cannot maintain a social relationship with more than 100 people or so (the number is actually larger for groups that are under intense survival pressure, which isn’t really the case at Spotify, believe it or not...). When groups get too big, we start seeing more things like restrictive rules, bureaucracy, politics, extra layers of management, and other waste.",
+        "3": "Therefore, Tribe occurs in organizations that have grown in their own right.(For example, our company doesn't have this concept.)"
       },
       "guild": {
-        "title": "ギルド",
-        "1": "ギルドは、より有機的で広範囲な「関心のあるコミュニティ」であり、知識、ツール、コード、実践を共有したい人たちのグループです。Chapterは常にTribeのローカルなものですが、ギルドは通常、組織全体を横断するものです。例としては、ウェブ技術ギルド、テスターギルド、アジャイルコーチギルドなどがあります。",
-        "2": "Guildは特定の興味について、Chapterを超えて議論を進めるコミュニティです。例えば、パフォーマンスの改善や、全体的なアークテクチャの指針、監視ツール・プロセスの選定などは、1Chapterで完結しない議論になることがあります。",
-        "3": "そういった場合は、Chapterを横断して、Communityとして議論やプロジェクトを進めることがあります。こちらも、実際に現場では比較的実際に起きているものだと思います。例えば、何とか委員会とか、そういうやつです。"
+        "title": "Guild",
+        "1": "A Guild is a more organic and wide-reaching “community of interest”, a group of people that want to share knowledge, tools, code, and practices. Chapters are always local to a Tribe, while a guild usually cuts across the whole organization. Some examples are: the web technology guild, the tester guild, the agile coach guild, etc.。",
+        "2": "Guild is a community that promotes discussions about specific interests across Chapters. For example, performance improvement, overall arc-technique guidance, and selection of monitoring tools and processes may be discussions that are not completed in one Chapter.",
+        "3": "In those cases, we may have discussions and projects across Chapters as a Community. I think this one is also a relatively real thing that's actually happening in the field. For example, a X committee."
       }
     },
     "another": {
-      "title": "その他の要素",
-      "1": "Scaling Agileに記載されていて、本記事では触れていないものもあります。それは、Squadの依存関係の管理や、Squadのステータス分析などです。もしも興味がありましたら、原文を読んでみることをお勧めします。"
+      "title": "Other factors",
+      "1": "There are some things listed in Scaling Agile that are not mentioned in this article. These include Squad dependency management and Squad status analysis. If you are interested, I recommend you read the original article."
     },
     "pros": {
-      "title": "Spotify Modelのメリット",
-      "1": "・組織の自治、自己組織化の推進",
-      "2": "明確にSquadの自律・自己組織化を推進できる。そしてトレードオフに目を瞑れば、比較的その効果はすぐに出始める。",
-      "3": "・個々の責任感の醸成",
-      "4": "Squadの自律性に伴い、メンバーは高い期待値・責任が与えられていることを多くの場合実感する。大きな組織でも、スタートアップのような責任をここのメンバーに与えることができる。",
-      "5": "・Squadとして、小規模な独立した組織で高い生産性を発揮する(できないこともある)",
-      "6": "Squadが一度ワークすると、そのSquadは非常に高い生産性、アウトプットを出しうる。但し、全てのSquadがこの状態になることは非常に難しい。"
+      "title": "Good point",
+      "1": "Promote organizational autonomy and self-organization",
+      "2": "Clearly, you can promote Squad autonomy and self-organization. And if you accept the trade-offs, the effects begin to be seen relatively quickly.",
+      "3": "Fostering a sense of individual responsibility",
+      "4": "By Squad, members often feel that they are given high expectations and responsibilities. Even a large organization can give members here the same responsibility as a startup.",
+      "5": "As a Squad, we are a small, independent organization that is highly productive (and sometimes not).",
+      "6": "Once a Squad is working, its Squad can produce very high productivity and output. However, it is very difficult for all squads to reach this state."
     },
     "cons": {
-      "title": "Spotify Modelのデメリット・考慮点",
-      "1": "・Chapter Leadの組織マネジメントの難しさ",
-      "2": "いわゆるEMをやってきた人はこのChapter Leadという責任範囲の特殊さに悩むだろう。コードも書きつつ、マネジメントもする。おまけにSquad毎に独立してどんどん進んでいくから、Chapter全体をサポート、マネジメントするのも難しい。その人の今までのキャリア次第だが、TechLeadでもEM一辺倒でもないこの役割の難しさは高い。",
-      "3": "・Alignmentのバランス",
-      "4": "基本的には、どこまでいってもAlignmentはSquadが無い状態よりも劣る。その中で、Alingmentのレベルを組織としてどこまで求めるか、というバランス感が非常に難しい",
-      "5": "・高いAgileに対しての理解",
-      "6": "各Squadに、少なくともAgileに対するある程度の理解が求められる。Agileに対する理解がない状態では、Squadは上手く機能しないことが多い。会社組織で考えた時に、AgileのExpertは少なからずいるとは思うが、1Squadに1人いるかとなると、難しいケースもある。",
-      "7": "・間違った自律を制御できない可能性",
-      "8": "高い自律性は組織を次のレベルに引き上げる為に必要ですが、自立している各Squadが正しい道を歩んでいるのかに常に気を配る必要があります。例え高い自律性があったとしても、方向性が合っていなければ、最終的に失敗してしまう可能性があります。"
+      "title": "Difficulity",
+      "1": "Chapter Lead's Organizational Management Difficulties",
+      "2": "Those who have been engineering managers will be troubled by the peculiarity of this Chapter Lead responsibility. You have to write code and manage member at the same time. On top of that, each Squad is independent and progresses rapidly, so it is difficult to support and manage the  Chapter. It depends on the person's career to date, but this role, which is neither TechLead nor EM, is very difficult.",
+      "3": "Alignment Balance",
+      "4": "Alignment is difficult. It is very difficult to find a balance between the level of Alignment and the level of Alignment as an organization.",
+      "5": "High level understanding of Agile",
+      "6": "Each Squad must have an understanding of Agile, and without an understanding of Agile, Squads often don't work well. If you think about it in a company organization, there are not a few Agile experts, but in some cases it is difficult to have one person per Squad.",
+      "7": "The possibility of not being able to control the wrong autonomy.",
+      "8": "A high degree of autonomy is necessary to take your organization to the next level, but you must always be concerned about whether each Squad that is independent is on the right path. Even if you have a high degree of autonomy, if the direction is not right, it will fail."
     },
     "consideration": {
-      "0": "Scaling Agileには次の情報が書かれています。",
-      "title": "Spotify Modelが書かれた次点でのSpotifyの規模感",
-      "1": "Spotifyは非常に急成長しています - 3年間で30人から250人の技術職に成長しました。",
-      "2": "これを書いている時点で、250人規模の開発組織です。最初にも書いていますが、Spotify Modelは比較的大規模な組織においてAgileを実現しようとしている方法です。例えば、僕らの組織は20人強です。20人今日でこのエッセンスを取り入れていることと、250人でこれをやるのでは、似て非なる部分が沢山あります。もしも、Spotify Modelを検討される場合は、この前提を理解しておいた方がよいでしょう。"
+      "0": "Scaling Agile has the following information",
+      "title": "The size of Spotify at the time the Spotify Model was written",
+      "1": "Spotify has grown very fast - over 3 years we have grown from 30 to 250 people in tech.",
+      "2": "At the time of writing this, Spotify is a 250-person development organization. As I mentioned at the beginning, the Spotify Model is a way of trying to achieve Agile in a large organization.For example, our organization is just over 20 people. There are a lot of similarities and differences between 20 and 250 people. If you're considering the Spotify Model, you should understand this premise."
     },
     "doubt": {
-      "title": "Spotify Modelという虚像",
-      "1": "ここまで読んで頂いた方に、この内容をここで出すのは、性格が悪いと思われるかもしれません笑。Spotify Modelについて比較的最近調べた人なら、下記の記事にたどり着いている可能性が高いと思います。ここまでの文章を読んで、もしもSpotify Modelをやってみようと思った人にこそ、これを読んで欲しいです。",
-      "2": "これらの記事から一部を抜粋すると、",
+      "title": "The Falsehood of the Spotify Model",
+      "1": "Maybe the reason I'm writing this content at the end is because I'm not in the right personality, lol. If you've been researching the Spotify Model lately, you've probably stumbled upon the following article, and if you've decided to give the Spotify Model a try, this is exactly what you need to read!",
+      "2": "In these articles you will find the following",
       "list": {
-        "1": "Spotifyでは、Spotify Modelが会社全体の仕組みとして定着し、適用されることはありませんでした。",
-        "2": "特に、自律に対するコントロールが制御できずに管理に苦しんだ。",
-        "3": "Squad, Chapter間の協力が出来なかった。",
-        "4": "ProductManagerのAlignmentコストが肥大化する。"
+        "1": "At Spotify, the Spotify Model has become a company-wide mechanism that has never been applied.",
+        "2": "In particular, the autonomy suffered from a lack of control.",
+        "3": "Squad, the cooperation between chapters was not possible.",
+        "4": "ProductManager's Alignment costs are bloated."
       },
-      "3": "などが書いてあります。この全ては、実際に起こりうる問題です。また、要求されるスキルセットが高く、機能不全に陥るSquadが比較的発生しやすいのかなという印象もあります。",
-      "4": "ここに書かれているCase Studyはどれも具体的なものです。もしもSpotify Modelの考えを適用する、一部取り込む場合は、こちらに書かれている失敗のケースについても学んでおくことをおすすめします。",
-      "5": "但し、これはSpotify Modelの全てを否定するものではありません。規模が拡大していく中で、AgileやAutonomyを維持する為に検討できる項目やヒントはSpotify Modelの中にいくつもあります。ただ、悪い目に目を向けること、そして様々なブログでも言及されているますが、Spotify Modelを再現することを目的としないことが大切です。",
-      "6": "Spotify ModelをそのままSpotifyが利用しなかった、あるいはそれによって組織を成功に導くことが出来なかったのであれば、Spotify Modelは確かに虚像かもしれません。しかし、その1要素毎には、自治と調和を追い求める思考や施策を感じるとることができるはずです。また、その1部や、それに影響を受ける形で何かしらの実践もされていたでしょう。そこには、実像を垣間見ることができます。もしも、あなたがSpotify Modelに興味を持ったのであれば、組織をよくする為のヒントをSpotify Modelの様々な要素の中から見つけて、自分の組織に落とし込むべきです。"
+      "3": "and so on. All of this is a real and possible problem. Also, the required skill set is high and dysfunctional squads are more likely to occur.",
+      "4": "All of the Case Studies described here are specific. If you want to apply or incorporate some of the ideas of the Spotify Model, I recommend learning about the cases of failure described here.",
+      "5": "However, this does not negate everything in the Spotify Model. There are a number of items and tips in the Spotify Model that you can consider to maintain Agile and Autonomy as you scale. However, it's important to look at the bad, and as has been mentioned in various blogs, don't aim to replicate the Spotify Model!",
+      "6": "If Spotify didn't use the Spotify Model as it is, or if it didn't lead the organization to success, then the Spotify Model may indeed be a Falsehood. But in each element, you will find thoughts and measures that pursue autonomy and alignment. It would have been practiced, at least in part. That's where you can get a sense of the real. If you're interested in the Spotify Model, you should find tips for improving your organization in the various elements of the Spotify Model and put them into your own organization."
     },
     "last": {
-      "title": "さいごに",
-      "1": "Spotify Modelに焦点をしぼり、説明させていただきました。最後に考えされられる文章をのせてしまいましたが、これがあるお陰で、Spotify Modelそのものをみるのではなく、その1つ1つに目を向けることが出来ると思います。",
-      "2": "Spotify Modelを参考にしようがしまいが、この記事が組織改善の糸口を考える助けになれば幸いです。"
+      "title": "Afterwards",
+      "1": "I've focused on the Spotify Model to explain it. I've added some annoying details at the end. But I think it allows you to look at each element of the Spotify Model instead of looking at the Spotify Model itself.",
+      "2": "Whether you refer to the Spotify Model or not, I hope this article will help you think about how to improve your organization."
     },
     "reference": {
-      "title": "リファレンス"
+      "title": "Reference"
     }
   }
 }

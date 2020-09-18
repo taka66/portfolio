@@ -5,10 +5,7 @@
     </div>
     <div class="blog__header">
       <NameCard date="19/Sep" min="20" />
-      <Share
-        url="https://takahirofujii.dev/articles/spotify-model"
-        text="Spotify Model"
-      />
+      <Share url="links.spotify-model" text="blogs.titles.spotify-model" i18n />
     </div>
     <BlogTitleImage
       class="job_change__blog__title__image"
@@ -224,10 +221,7 @@
       text="Agile career paths — day in the life of a Chapter Lead"
     />
     <Separater />
-    <Share
-      url="http://takahirofujii.dev/articles/spotify-model"
-      text="Spotify Model"
-    />
+    <Share url="links.spotify-model" text="blogs.titles.spotify-model" i18n />
   </div>
 </template>
 
@@ -260,8 +254,8 @@ export default {
   data() {
     return {
       meta: {
-        title: 'Real and imaginary in the spotify model',
-        description: 'Real and imaginary in the spotify model',
+        title: 'Real and Falsehood in the spotify model',
+        description: 'Real and Falsehood in the spotify model',
         type: 'article',
         url: 'https://takahirofujii.dev/articles/spotify-model',
         image: 'https://takahirofujii.dev/ogp/ogp-spotify-model.png'
