@@ -170,7 +170,7 @@
     <Paragraph text="wealth-park.wrap.3" />
     <Separater />
     <Share
-      url="http://takahirofujii.dev/articles/wealth-park"
+      url="https://takahirofujii.dev/articles/wealth-park"
       text="Introducing WealthPark's engineering organization and technology stack."
     />
   </div>

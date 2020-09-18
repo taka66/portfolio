@@ -10,6 +10,9 @@
     "blog": "Blog 📄",
     "articles": "Articles"
   },
+  "links": {
+    "spotify-model": "https://takahirofujii.dev/articles/spotify-model"
+  },
   "name": "Takahiro Fujii",
   "about": {
     "techstack": "Teck Stack",
@@ -33,7 +36,8 @@
       "tutorial-document": "5tips when you make onboard document for internship(Software Engineer).(Only Japanese)",
       "vpoe": "First effort as VPoE",
       "koikifm": "Started potcast for engineeing manager",
-      "wealth-park": "Introducing WealthPark's engineering organization and technology stack."
+      "wealth-park": "Introducing WealthPark's engineering organization and technology stack.",
+      "spotify-model": "Real and Falsehood in the spotify model"
     }
   },
   "presentations": {
@@ -618,6 +622,145 @@
       "1": "For the first time, this is an introduction to the organization of the WealthPark, so it is somewhat comprehensive. If you have any questions that you would like to ask in more depth, please feel free to ask me.",
       "2": "Also, if you are interested in joining our engineering organization, we are available for casual interviews and would be happy to hear from you.",
       "3": "We're improving in many ways every day. I'll do my best to give you an article that will make you feel like you're getting so much better the next time you're introduced to the organization and the tech stack!"
+    }
+  },
+  "spotify-model": {
+    "pro": {
+      "title": "Prologue",
+      "1": "WealthPark has introduced a development methodology and organizational system that is an adaptation of the Spotify Model. I've mentioned this in part in my past articles, but I hadn't written anything explicitly focusing on the Spotify Model in the past, so I decided to write about it this time.",
+      "2": "First of all, I understand that there are pros and cons to this organizational model. Also, I've taken parts of the Spotidy Model and in actually operating it, I've been able to see both the good points and a sense of the challenges. I hope this article will lead you to think about Case Study on Spotify Model, organizational improvement, and autonomy and alignment."
+    },
+    "spotify-model": {
+      "1": "This organizational structure and development methodology, known as the Spotify Model, originated in a 2012 article titled \"Scaling Agile@ Spotify\".",
+      "2": "The Spotify Model is one way to go about becoming large scale agile, but it also has its own terms(e.g Squad, Chapter), which is why it's often referred to as a proprietary model called the \"Spotify Model\". The Spotify Model addresses the challenge of how to maintain a balance between autonomy and discipline in a growing organization.",
+      "3": "Let's get into the specifics."
+    },
+    "goal": {
+      "title": "Purpose of the Spotify Model.",
+      "1": "One of the biggest benefits of the Spotify Model is 'Autonomy'. One of the main goals of the Squad + Chapter organizational structure is to give each person more ownership, responsibility and freedom. I will explain more about Squad and Chapter in the following sections."
+    },
+    "squad": {
+      "title": "Squad",
+      "1": "One feature of the Spotify Model is that it clearly defines a Squad as a unit of the team. A Squad is a vertical organization, one team with a mix of job responsibilities working on a product or function. Even if it doesn't have a clear name like Squad, there are many different roles (PDM, FrontEnd, BackEnd, QA, etc...) working together in the form of projects or product teams.) work together in the form of a project or product team, even if it's not explicitly named like the Squad. The Spotify Model explicitly defines such a set as an organization called Squad.",
+      "2": "So, 1Squad is responsible for one product or one feature, for example. Or we all work together to develop one new feature or product. It is desirable for an organization to be able to carry out a certain area of responsibility all the way to release with just one Squad. (In practice, there will be an amount of collaboration with other Squad members.)",
+      "3": "By forming a Squad in such a way, the Squad gains autonomy. It works like a start-up, a company.",
+      "4": "The delegation of responsibility for each Squad means that each member has a high level of responsibility. Therefore, in a Squad, the responsibility for a Chapter rests not with the Engineering Manager, but with each member of the Chapter.(The Engineering Manager(Chapter Lead) is willing to assist chapter member.)",
+      "5": "Squad's ultimate goal is for Squad to be able to push forward as a nearly independent company to achieve its product and business KPIs."
+    },
+    "chapter": {
+      "title": "Chapter",
+      "1": "Chapters, on the other hand, are horizontal organizations by function and role. For example, there is a FrontEnd Chapter, a Backend Chapter, a Product Manager Chapter, and a QA Chapter. There are relatively many organizations that define a Chapter as a department or team in the company.",
+      "2": "Chapters are made up of people with similar skill sets. Therefore, discussions of technical issues and discussions of FrontEnd (BackEnd) architecture often take place in each Chapter. Depending on the size of the organization, code reviews may also take place in Chapters.",
+      "3": "This description may make the Chapter feel like a perfectly normal team. However, the reality is different. That's what we'll explain next."
+    },
+    "squad-plus-chapter": {
+      "title": "Squad and Chapter Relationship",
+      "1": "Squad and Chapter each appear to be very universal. However, by clearly defining the two, the message is aimed at both Squad's autonomy and Chapter's alignment.",
+      "2": "It's the author's subjective view, but in many cases, as organizations grow, Chapter-type organizations grow in size and have more time to align. (This is not to say that larger Chapters are necessarily bad. It's just that this phenomenon is more likely to occur.)",
+      "3": "This is where Squad, an organization clearly defined, aims to maintain and accelerate autonomy and output.",
+      "4": "What I've found in actually adopting the Spotify Model is that in the Spotify Model, the Squad comes before the Chapter. It's definitely an autonomy-oriented organizational structure, and it assumes that the Squad can operate with some degree of independence.",
+      "5": "Ideally, the Spotify Model is a way to get both, but if you ask me which one Spotify Model is more focused on, it's clearly autonomy. There are cases where it can be used by organizations that value autonomy from the start, and there are also cases where it can be used partially as an approach to increase autonomy again as a Chapter-type organization matures.",
+      "6": "In the Spotify Model, each Squad never stops moving, even though there is discussion and sharing within Chapters. Sometimes, when you want to manage and coordinate across squads, the degree of difficulty is much higher than in a horizontal organization. Next, let me explain the role of Chapter Lead, which holds the key to align in an organization that values autonomy."
+    },
+    "chapter-lead": {
+      "title": "Chapter Lead",
+      "leadership": {
+        "title": "Leadership and Management",
+        "1": "Once again, the Spotify Model consists of a matrixed organizational structure with vertical divisions of Squad (for each Product and Project) and horizontal divisions of Chapter (for FrontEnd, Backend, etc.) Chapter Lead is defined as This is a Lead position to support the Chapter.",
+        "2": "Chapter Lead has a slightly stronger Engineering Manager element, but it also has technical expectations. It is unique in that both management and IC (individual contribution) are clearly described.",
+        "3": "First, on the leadership point, Scaling Agile says",
+        "4": "The chapter lead is line manager for his chapter members, with all the traditional responsibilities such as developing people, setting salaries, etc",
+        "5": "The chapter lead has the aspect of an Engineering Manager and facilitates the sharing of technology stacks, knowledge and tools between Chapters. They are also responsible for supporting members' development and setting goals."
+      },
+      "hands-on": {
+        "title": "Hands-on",
+        "1": "Next, let's talk about hands-on: Scaling Agile says the following",
+        "2": "However, the chapter lead is also part of a squad and is involved in the day-to-day work, which helps him stay in touch with reality.",
+        "3": "This \"Touch with the reality\" part is very important. At first glance, a Chapter Lead may look like a playing manager, but I don't think that is necessarily true.",
+        "4": "\"Touch with the reality\" can be read in many ways: one's technical skills as an engineer, understanding of edgy Technology, knowledge of the product, product challenges, technical debt, etc.",
+        "5": "I think \"understanding the real issues of the product\" as \"Touch with the reality\".",
+        "6": "For example, if an organization wants to refactor and improve its architecture, but it is not making as much progress as expected, how do we identify specific issues and causes? Is it because the product is Monolith, is it because it's too legacy, is it because the code is too complex (apparently), or is it because the domain of the code is not neatly separated? Is it because there is no test code for a certain complex function and you can't run the test code after refactoring, or because you're too busy with maintenance tasks? While all of these could be right, I believe that there is often a difference between those who are in the field and those who are not, in terms of where people in the field feel most challenged or have a firsthand sense of 'how hard it really is'."
+      },
+      "summary": {
+        "title": "Leadership and Hands-on",
+        "1": "A Chapter Lead can spend less time on implementation than other members. Even so, we believe that they can have a real onsite experience by working as a Chapter member. However, we don't expect you to produce the same or better output as a Chapter member by working hard in both Leadership and Management. We are flexible in terms of the weight we give to Leadership and Hands-on work. Given the pattern.",
+        "case": {
+          "1": "Keep a certain percentage.",
+          "2": "More weight is given to one or the other (maybe it's an Engineering Manager-like Chapter Lead and a Tech Lead-like Chapter Lead).",
+          "3": "Sometimes chapter lead focus on management, sometimes chapter lead focus on development, depending on the situation."
+        },
+        "2": "and so on. We believe that all of them could be the best approach. The important thing is",
+        "3": "“Maximize chapter productivity, output by using both leadership and hands-on”",
+        "4": "whether you are contributing to this or not."
+      }
+    },
+    "other": {
+      "title": "Others",
+      "tribe": {
+        "title": "Tribe",
+        "1": "Sometimes you can group squads that are strongly related to each other. A further grouping of squads is called a Tribe. By the way, Scaling Agile describes the following",
+        "2": "Tribes are sized based on the concept of the “Dunbar number”, which says that most people cannot maintain a social relationship with more than 100 people or so (the number is actually larger for groups that are under intense survival pressure, which isn’t really the case at Spotify, believe it or not...). When groups get too big, we start seeing more things like restrictive rules, bureaucracy, politics, extra layers of management, and other waste.",
+        "3": "Therefore, Tribe occurs in organizations that have grown in their own right.(For example, our company doesn't have this concept.)"
+      },
+      "guild": {
+        "title": "Guild",
+        "1": "A Guild is a more organic and wide-reaching “community of interest”, a group of people that want to share knowledge, tools, code, and practices. Chapters are always local to a Tribe, while a guild usually cuts across the whole organization. Some examples are: the web technology guild, the tester guild, the agile coach guild, etc.。",
+        "2": "Guild is a community that promotes discussions about specific interests across Chapters. For example, performance improvement, overall arc-technique guidance, and selection of monitoring tools and processes may be discussions that are not completed in one Chapter.",
+        "3": "In those cases, we may have discussions and projects across Chapters as a Community. I think this one is also a relatively real thing that's actually happening in the field. For example, a X committee."
+      }
+    },
+    "another": {
+      "title": "Other factors",
+      "1": "There are some things listed in Scaling Agile that are not mentioned in this article. These include Squad dependency management and Squad status analysis. If you are interested, I recommend you read the original article."
+    },
+    "pros": {
+      "title": "Good point",
+      "1": "Promote organizational autonomy and self-organization",
+      "2": "Clearly, you can promote Squad autonomy and self-organization. And if you accept the trade-offs, the effects begin to be seen relatively quickly.",
+      "3": "Fostering a sense of individual responsibility",
+      "4": "By Squad, members often feel that they are given high expectations and responsibilities. Even a large organization can give members here the same responsibility as a startup.",
+      "5": "As a Squad, we are a small, independent organization that is highly productive (and sometimes not).",
+      "6": "Once a Squad is working, its Squad can produce very high productivity and output. However, it is very difficult for all squads to reach this state."
+    },
+    "cons": {
+      "title": "Difficulity",
+      "1": "Chapter Lead's Organizational Management Difficulties",
+      "2": "Those who have been engineering managers will be troubled by the peculiarity of this Chapter Lead responsibility. You have to write code and manage member at the same time. On top of that, each Squad is independent and progresses rapidly, so it is difficult to support and manage the  Chapter. It depends on the person's career to date, but this role, which is neither TechLead nor EM, is very difficult.",
+      "3": "Alignment Balance",
+      "4": "Alignment is difficult. It is very difficult to find a balance between the level of Alignment and the level of Alignment as an organization.",
+      "5": "High level understanding of Agile",
+      "6": "Each Squad must have an understanding of Agile, and without an understanding of Agile, Squads often don't work well. If you think about it in a company organization, there are not a few Agile experts, but in some cases it is difficult to have one person per Squad.",
+      "7": "The possibility of not being able to control the wrong autonomy.",
+      "8": "A high degree of autonomy is necessary to take your organization to the next level, but you must always be concerned about whether each Squad that is independent is on the right path. Even if you have a high degree of autonomy, if the direction is not right, it will fail."
+    },
+    "consideration": {
+      "0": "Scaling Agile has the following information",
+      "title": "The size of Spotify at the time the Spotify Model was written",
+      "1": "Spotify has grown very fast - over 3 years we have grown from 30 to 250 people in tech.",
+      "2": "At the time of writing this, Spotify is a 250-person development organization. As I mentioned at the beginning, the Spotify Model is a way of trying to achieve Agile in a large organization.For example, our organization is just over 20 people. There are a lot of similarities and differences between 20 and 250 people. If you're considering the Spotify Model, you should understand this premise."
+    },
+    "doubt": {
+      "title": "The Falsehood of the Spotify Model",
+      "1": "Maybe the reason I'm writing this content at the end is because I'm not in the right personality, lol. If you've been researching the Spotify Model lately, you've probably stumbled upon the following article, and if you've decided to give the Spotify Model a try, this is exactly what you need to read!",
+      "2": "In these articles you will find the following",
+      "list": {
+        "1": "At Spotify, the Spotify Model has become a company-wide mechanism that has never been applied.",
+        "2": "In particular, the autonomy suffered from a lack of control.",
+        "3": "Squad, the cooperation between chapters was not possible.",
+        "4": "ProductManager's Alignment costs are bloated."
+      },
+      "3": "and so on. All of this is a real and possible problem. Also, the required skill set is high and dysfunctional squads are more likely to occur.",
+      "4": "All of the Case Studies described here are specific. If you want to apply or incorporate some of the ideas of the Spotify Model, I recommend learning about the cases of failure described here.",
+      "5": "However, this does not negate everything in the Spotify Model. There are a number of items and tips in the Spotify Model that you can consider to maintain Agile and Autonomy as you scale. However, it's important to look at the bad, and as has been mentioned in various blogs, don't aim to replicate the Spotify Model!",
+      "6": "If Spotify didn't use the Spotify Model as it is, or if it didn't lead the organization to success, then the Spotify Model may indeed be a Falsehood. But in each element, you will find thoughts and measures that pursue autonomy and alignment. It would have been practiced, at least in part. That's where you can get a sense of the real. If you're interested in the Spotify Model, you should find tips for improving your organization in the various elements of the Spotify Model and put them into your own organization."
+    },
+    "last": {
+      "title": "Afterwards",
+      "1": "I've focused on the Spotify Model to explain it. I've added some annoying details at the end. But I think it allows you to look at each element of the Spotify Model instead of looking at the Spotify Model itself.",
+      "2": "Whether you refer to the Spotify Model or not, I hope this article will help you think about how to improve your organization."
+    },
+    "reference": {
+      "title": "Reference"
     }
   }
 }
