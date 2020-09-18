@@ -220,6 +220,10 @@
       link="https://www.linkedin.com/pulse/agile-career-paths-day-life-chapter-lead-kelly-paulino/"
       text="Agile career paths — day in the life of a Chapter Lead"
     />
+    <ExternalLink
+      link="https://monzo.com/blog/2018/06/27/engineering-management-at-monzo"
+      text="Organising teams and managing engineers(Monzo)"
+    />
     <Separater />
     <Share url="links.spotify-model" text="blogs.titles.spotify-model" i18n />
   </div>
