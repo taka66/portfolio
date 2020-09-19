@@ -17,9 +17,14 @@
     </div>
     <Paragraph text="spotify-model.pro.1" />
     <Paragraph text="spotify-model.pro.2" />
+    <Paragraph text="spotify-model.pro.3" />
     <ExternalLink
       link="https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf"
       text="Scaling Agile@Spotify"
+    />
+    <ExternalLink
+      link="https://lean-trenches.com/scaling-agile-at-spotify-ja/"
+      text="Scaling Agile@Spotify(Japanese)"
     />
     <Separater />
     <div class="blog__h">
@@ -44,6 +49,7 @@
     <div class="blog__h">
       <h2>{{ $t('spotify-model.chapter.title') }}</h2>
     </div>
+    <InternalImage url="chapter.png" desc="Chapter" />
     <Paragraph text="spotify-model.chapter.1" />
     <Paragraph text="spotify-model.chapter.2" />
     <Paragraph text="spotify-model.chapter.3" />
@@ -67,6 +73,7 @@
         {{ $t('spotify-model.chapter-lead.leadership.title') }}
       </h3>
     </div>
+    <InternalImage url="chapter-lead.png" desc="Chapter Lead" />
     <Paragraph text="spotify-model.chapter-lead.leadership.1" />
     <Paragraph text="spotify-model.chapter-lead.leadership.2" nospace />
     <Paragraph text="spotify-model.chapter-lead.leadership.3" nospace />
@@ -94,7 +101,7 @@
     <List :texts="patterns" />
     <InternalImage
       url="ratio.png"
-      desc="Leadershipとハンズオンにかける比重(ここではManagementとDevelopmentとなっていますが)"
+      desc="Balance of management and development"
     />
     <Paragraph text="spotify-model.chapter-lead.summary.2" />
     <Paragraph text="spotify-model.chapter-lead.summary.3" />
@@ -103,6 +110,11 @@
     <div class="blog__h">
       <h2>{{ $t('spotify-model.other.title') }}</h2>
     </div>
+    <ExternalImage
+      url="https://assets.st-note.com/production/uploads/images/18406049/rectangle_large_type_2_00a5d6011b3cd711ac32f4f09a6b5e2c.png?fit=bounds&quality=60&width=1280"
+      link="https://note.com/usop/n/n358ab8389460"
+      desc="Tribe and Guild"
+    />
     <div class="blog__h">
       <h3>
         {{ $t('spotify-model.other.tribe.title') }}
@@ -197,8 +209,18 @@
       i18n
     />
     <ExternalLink
+      link="https://www.atlassian.com/agile/agile-at-scale/spotify"
+      text="The Spotify model - Atlassian"
+      i18n
+    />
+    <ExternalLink
       link="https://www.jeremiahlee.com/posts/failed-squad-goals/"
       text="Failed#SquadGoals"
+    />
+    <ExternalLink
+      link="https://norihiko-saito-1219.hatenablog.com/entry/2020/06/18/095233"
+      text="Web系企業/事業会社への最高の反面教師: Spotify's Failed #SquadGoalsを読んで(Japanese)"
+      i18n
     />
     <ExternalLink
       link=" https://www.agility11.com/blog/2020/6/22/spotify-doesnt-use-the-spotify-model"
