@@ -281,11 +281,11 @@ export default {
     return {
       meta: {
         title:
-          $i18n.locale === 'ja'
+          this.$i18n.locale === 'ja'
             ? 'Spotify Modelの実像と虚像'
             : 'Real and Falsehood in the spotify model',
         description:
-          $i18n.locale === 'ja'
+          this.$i18n.locale === 'ja'
             ? 'Spotify Modelの実像と虚像'
             : 'Real and Falsehood in the spotify model',
         type: 'article',
