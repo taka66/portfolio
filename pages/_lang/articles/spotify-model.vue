@@ -280,8 +280,14 @@ export default {
   data() {
     return {
       meta: {
-        title: 'Real and Falsehood in the spotify model',
-        description: 'Real and Falsehood in the spotify model',
+        title:
+          $i18n.locale === 'ja'
+            ? 'Spotify Modelの実像と虚像'
+            : 'Real and Falsehood in the spotify model',
+        description:
+          $i18n.locale === 'ja'
+            ? 'Spotify Modelの実像と虚像'
+            : 'Real and Falsehood in the spotify model',
         type: 'article',
         url: 'https://takahirofujii.dev/articles/spotify-model',
         image: 'https://takahirofujii.dev/ogp/ogp-spotify-model.png'
