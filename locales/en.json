@@ -49,7 +49,8 @@
       "tus-class": "Tokyo University Of Science - Class",
       "tus-article": "Tokyo University Of Science - Article(Science Forum)",
       "travel-spring": "Spring Day 2016",
-      "jsug-spring-rest-docs": "JSUG(Japan Spring User Group)"
+      "jsug-spring-rest-docs": "JSUG(Japan Spring User Group)",
+      "wealth-park": "Wantedly"
     },
     "titles": {
       "react-tokyo-plus": "Large react product with 20+ FrontEnd Engineers in Rakuten Travel",
@@ -58,7 +59,8 @@
       "tus-class": "Career development at international/global environment",
       "tus-article": "Favorite thing is your work",
       "travel-spring": "About Rakuten Travel and Spring Framework(SlideShare)",
-      "jsug-spring-rest-docs": "Spring Rest Docs(SlideShare)"
+      "jsug-spring-rest-docs": "Spring Rest Docs(SlideShare)",
+      "wealth-park": "WealthPark’s Product VPs talk about products, technologies, and organization"
     }
   },
   "design": {

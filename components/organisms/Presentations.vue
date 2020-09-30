@@ -4,6 +4,14 @@
       <h3>{{ $t('presentations.title') }}</h3>
       <div class="flex">
         <Card
+          year="2020"
+          name="presentations.name.wealth-park"
+          link="https://www.wantedly.com/companies/wealth-park/post_articles/283428"
+          title="presentations.titles.wealth-park"
+          thumbnail="/articles/wealth-park.png"
+          outsidelink
+        />
+        <Card
           year="2019"
           name="presentations.name.react-tokyo-plus"
           link="contents/react-tokyo-plus"
