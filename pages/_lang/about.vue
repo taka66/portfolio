@@ -68,7 +68,7 @@
       <h3>{{ $t('about.biography') }}</h3>
       <div class="row">
         <div class="row-left">
-          <span class="company cell">Wealth Park</span>
+          <span class="company cell">WealthPark</span>
         </div>
         <div class="row-right">
           <span class="cell">Vice President of Engineering</span>
@@ -79,7 +79,7 @@
       </div>
       <div class="row">
         <div class="row-left">
-          <span class="company cell">Wealth Park</span>
+          <span class="company cell">WealthPark</span>
         </div>
         <div class="row-right">
           <span class="cell">Engineering Manager / FrontEnd Engineer</span>
