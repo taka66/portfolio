@@ -26,6 +26,15 @@
       link="https://lean-trenches.com/scaling-agile-at-spotify-ja/"
       text="Scaling Agile@Spotify(Japanese)"
     />
+    <ExternalLink
+      link="https://www.youtube.com/watch?v=Yvfz4HGtoPc"
+      text="Spotify Engineering Culture - Part 1(Youtube)"
+    />
+    <ExternalLink
+      link="https://www.youtube.com/watch?v=vOt4BbWLWQw"
+      text="Spotify Engineering Culture - Part 2(Youtube)"
+    />
+    <Paragraph text="spotify-model.pro.3" />
     <Separater />
     <div class="blog__h">
       <h2>{{ $t('spotify-model.goal.title') }}</h2>
@@ -207,6 +216,14 @@
       link="https://lean-trenches.com/scaling-agile-at-spotify-ja/"
       text="Scaling Agile@Spotify(Japanese)"
       i18n
+    />
+    <ExternalLink
+      link="https://www.youtube.com/watch?v=Yvfz4HGtoPc"
+      text="Spotify Engineering Culture - Part 1(Youtube)"
+    />
+    <ExternalLink
+      link="https://www.youtube.com/watch?v=vOt4BbWLWQw"
+      text="Spotify Engineering Culture - Part 2(Youtube)"
     />
     <ExternalLink
       link="https://www.atlassian.com/agile/agile-at-scale/spotify"
