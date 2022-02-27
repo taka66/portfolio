@@ -23,7 +23,8 @@
         </div>
         <div class="row-right-l">
           <span class="cell"
-            >Javasctipt, Node.js, Java, HTML, CSS(Less, Sass), SQL</span
+            >Javasctipt, Node.js, Java, Python, Scala, HTML, CSS(Less, Sass),
+            SQL</span
           >
         </div>
       </div>
@@ -32,7 +33,7 @@
           <span class="company cell">Frameworks, Liblalies</span>
         </div>
         <div class="row-right-l">
-          <span class="cell">React, Redux, Spring Boot</span>
+          <span class="cell">React, Redux, Spring Boot, Django, Lagom</span>
         </div>
       </div>
       <div class="row">

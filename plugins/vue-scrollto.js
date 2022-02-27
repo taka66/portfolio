@@ -6,5 +6,3 @@ Vue.use(VueScrollTo, {
   easing: [0, 0, 0.1, 1],
   offset: -100
 })
-
-console.log('vue-scrollTo')

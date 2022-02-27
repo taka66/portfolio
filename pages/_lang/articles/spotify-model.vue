@@ -320,7 +320,6 @@ export default {
   mounted() {
     // document.getElementById('content').scrollTop = 0
     const hash = this.$route.hash
-    console.log('hash', hash)
     if (hash && hash.match(/^#.+$/)) {
       this.$scrollTo(hash)
       // Temporary logic for scroll
